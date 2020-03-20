@@ -1,0 +1,34 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
+A level-1 auxiliary file: pretextual.aux
+A level-1 auxiliary file: cap1.aux
+A level-1 auxiliary file: cap2.aux
+A level-1 auxiliary file: cap3.aux
+A level-1 auxiliary file: cap4.aux
+A level-1 auxiliary file: cap5.aux
+A level-1 auxiliary file: cap6.aux
+A level-1 auxiliary file: consideracoesFinais.aux
+The style file: abntex2-alf.bst
+Database file #1: abntex2-options.bib
+Database file #2: references.bib
+Warning--entry type for "dextra2013prototipacao" isn't style-file defined
+--line 337 of file references.bib
+Warning--string name "junho" is undefined
+--line 340 of file references.bib
+Warning--entry type for "produttivo" isn't style-file defined
+--line 345 of file references.bib
+Warning--string name "junho" is undefined
+--line 347 of file references.bib
+Warning--entry type for "softbyte" isn't style-file defined
+--line 352 of file references.bib
+Warning--string name "junho" is undefined
+--line 354 of file references.bib
+Warning--entry type for "prodwin" isn't style-file defined
+--line 360 of file references.bib
+Warning--string name "junho" is undefined
+--line 362 of file references.bib
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+(There were 8 warnings)

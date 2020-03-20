@@ -1,0 +1,128 @@
+\chapter{Introdução ao Documento}
+
+A empresa Duas Rodas possui sua sede em Jaraguá do Sul, Santa Catarina e tem como principal ramo a indústria de alimentos \footnote{\url{ https://www.duasrodas.com/}}. Para a execução de suas tarefas diárias, seus funcionários contam com o auxílio direto de máquinas de pequeno, médio e grande porte, e sabe-se que esses equipamentos necessitam, de manutenção preditiva e corretiva  de tempos em tempos. Para tanto, se faz necessário ajustes adequados e rápidos para que não haja baixa produtividade e consequentemente uma redução em seus proventos.
+
+Esses equipamentos precisam passar por uma série de cuidados e estar em bom estado para o uso dos seus colaboradores. Portanto, é de extrema importância para empresa Duas Rodas ter um controle e um bom fluxo de manutenções desses equipamentos, de modo a não haver uma inatividade desnecessária, e quando necessário a manutenção, esta seja rápida e eficiente.
+
+% CAP 1.1
+% ---
+\section{Tema}
+% ---
+O projeto consiste no desenvolvimento de um sistema de ordem de manutenção de máquinas e equipamentos que busca minimizar os trâmites burocráticos e demorados que hoje está sendo utilizado.
+
+% CAP 1.2
+% ---
+\section{Objetivo do Projeto}
+% ---
+O objetivo do projeto é que a empresa alimentícia Duas Rodas consiga digitalizar
+o fluxo de manutenção de seus equipamentos não afetando a demanda de serviço e facilitando a execução das OMs que encontra-se em fila.
+
+% CAP 1.3
+%---
+\section{Delimitação do Problema}
+%---
+Atualmente a empresa Duas Rodas gera ordens de manutenção no SAP e imprime um formulário padrão. Esse formulário é passado para o manutentor, que realizará a manutenção e preencherá todos os campos necessários do formulário. Após a finalização da manutenção, os usuários responsáveis assinam esse formulário para comprovar que o problema foi resolvido. Após as assinaturas, o formulário é enviado a um usuário administrativo que irá aprovar e enviar ao SAP.
+% ---
+
+% CAP 1.4
+% ---
+\section{Justificativa da Escolha do Tema}
+% ---
+Este projeto surgiu por meio da deficiência encontrada nos setores de manutenção da empresa, onde os mesmos relataram os problemas e dificuldades na execução de manutenção nas máquinas e equipamentos. Desta forma, em parceria com a instituição de ensino SENAI e o Curso de Sistemas para Internet de Jaraguá do Sul, resolveu-se implementar no Projeto Integrador, o desenvolvimento de um Software baseado no gerenciamento de ordens de manutenção.
+
+% CAP 1.5
+% ---
+\section{Análise de riscos}
+A análise de riscos tem como objetivo identificar os possíveis problemas durante e após o desenvolvimento do projeto a fim de elaborar um plano de ação para solucionar rapidamente o problema de fato \cite{schmitzanalise}.
+
+
+Segundo \cite{de2003engenharia}, um grande volume de dados publicados aponta para os riscos que correm os projetos de software executados sem a utilização de processos adequados. Um levantamento publicado, a partir de
+uma base de dados de 4.000 projetos, constatou a ocorrência frequente dos seguintes
+problemas. 
+
+\begin{itemize}
+	\item 70\% dos projetos de grandes aplicativos sofre de instabilidade dos requisitos. Os requisitos
+	crescem tipicamente cerca de 1\% ao mês, atingindo níveis de mais de 25\% de inchaço ao final
+	do projeto.
+	\item Pelo menos 50\% dos projetos são executados com níveis de produtividade abaixo do normal.
+	\item Pelo menos 25\% do software de prateleira e 50\% dos produtos feitos por encomenda
+	apresentam níveis de defeitos superiores ao razoável. 
+	\item Produtos feitos sob pressão de prazos podem quadruplicar o número de defeitos.
+	\item Pelo menos 50\% dos grandes projetos de software estouram seu orçamento e seu prazo. 
+	
+\end{itemize}
+
+
+Sendo assim, foi identificado os fatores de risco, no qual o projeto em questão possa estar exposto. Nela, faz-se uma análise do impacto e probabilidade de fatores prejudiciais ao projeto .
+\newpage
+\begin{table}[]
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\rowcolor[HTML]{EFEFEF} 
+		\textbf{Riscos}                     & \textbf{Probabilidade} & \textbf{Impacto} \\ \hline
+		\rowcolor[HTML]{DD7346} 
+		Mudança de escopo                   & 90\%                   & 2                \\ \hline
+		\rowcolor[HTML]{DD7346} 
+		Entrega no prazo                    & 70\%                   & 3                \\ \hline
+		\rowcolor[HTML]{DD7346} 
+		Integração com SAP                  & 70\%                   & 2                \\ \hline
+		\rowcolor[HTML]{FFFE65} 
+		Implantação na empresa              & 60\%                   & 2                \\ \hline
+		\rowcolor[HTML]{FFFE65} 
+		Conexão com o banco de dados        & 60\%                   & 3                \\ \hline
+		\rowcolor[HTML]{FFFE65} 
+		Aceitação da usabilidade do sistema & 50\%                   & 2                \\ \hline
+		\rowcolor[HTML]{FFFE65} 
+		Usuários inexperientes              & 40\%                   & 2                \\ \hline
+		\rowcolor[HTML]{9AFF99} 
+		Mudanças na tecnologia              & 20\%                   & 3                \\ \hline
+		\rowcolor[HTML]{9AFF99} 
+		Segurança dos dados                 & 15\%                   & 2                \\ \hline
+		\rowcolor[HTML]{9AFF99} 
+		Conexão com a rede                  & 10\%                   & 2                \\ \hline
+		\rowcolor[HTML]{9AFF99} 
+		Falta de profissionais              & 5\%                    & 3                \\ \hline
+	\end{tabular}
+	\caption{\label{tebela_risco} Tabela de Riscos Agil.it}
+\end{table}
+
+Na tabela \ref{tebela_risco} estão mapeados os principais riscos identificados para o projeto Agil It. Nela, a probabilidade indica a chance do risco ocorrer e o impacto é uma escala de um a três(1-3) do quanto o risco pode afetar a conclusão e entrega do projeto.
+
+% CAP 1.6
+% ---
+\section{Método de Trabalho}
+% ---
+Para o desenvolvimento do projeto será utilizado a metodologia SCRUM no formato MVP (Produto Mínimo Viável).
+
+O Scrum, criado em 1993 por Ken Schwaber e Jeff Sutherland, tem a origem de seu nome no “jogo de rúgbi e se refere à maneira como um time trabalha junto para avançar com a bola no campo. Alinhamento cuidado, unidade de propósito, clareza de objetivo, tudo se unindo \cite{rocha2015metodologia}.
+A metodologia SCRUM consiste em quebrar o sistema em várias partes pequenas e fazer entregas a cada ciclo, que normalmente possuem de 1 a 2 semanas.
+Enquanto o formato MVP prega o desenvolvimento de algo com o menor investimento possível, a fim da validação da ideia ou conceito utilizado.
+
+% CAP 1.7
+% ---
+\section{Organização do Trabalho}
+% ---
+Este documento se dará da seguinte maneira: será feito uma descrição geral do sistema, os requisitos do sistema, a análise e design e a implementação do sistema.
+
+% CAP 1.8
+% ---
+\section{Glossário}
+SCRUM:		Metodologia ágil de desenvolvimento de projetos.
+
+MVP:		Produto com o mínimo valor possível, visado para validação da ideia do projeto.
+
+API:		Interface para comunicação entre diferentes aplicações.
+
+ORM:		Tecnologia que auxilia o gerenciamento do banco de dados através da modelagens de classes.
+
+Express:	Tecnologia que abstrai requisições web.
+
+Sequelize:	Biblioteca de ORM para bancos relacionais, incluindo SQL Server.
+
+Feedback:	Retorno a um acontecimento.
+
+Software:	Programa de computador.
+
+UC:			Unidade Curricular.
+
+% ---

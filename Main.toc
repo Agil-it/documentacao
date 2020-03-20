@@ -1,0 +1,95 @@
+\changetocdepth {3}
+\babel@toc {brazil}{}
+\contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o ao Documento}{8}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Tema}{8}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Objetivo do Projeto}{8}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Delimita\IeC {\c c}\IeC {\~a}o do Problema}{8}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Justificativa da Escolha do Tema}{8}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}An\IeC {\'a}lise de riscos}{9}{section.1.5}% 
+\contentsline {section}{\numberline {1.6}M\IeC {\'e}todo de Trabalho}{10}{section.1.6}% 
+\contentsline {section}{\numberline {1.7}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{10}{section.1.7}% 
+\contentsline {section}{\numberline {1.8}Gloss\IeC {\'a}rio}{10}{section.1.8}% 
+\contentsline {chapter}{\chapternumberline {2}Descri\IeC {\c c}\IeC {\~a}o Geral do Sistema}{12}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Descri\IeC {\c c}\IeC {\~a}o do Problema}{12}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Cen\IeC {\'a}rio Atual}{12}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Cen\IeC {\'a}rio Com Agil.It}{14}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Principais Envolvidos e suas Caracter\IeC {\'\i }sticas}{16}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Usu\IeC {\'a}rios do Sistema}{16}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Desenvolvedores do Sistema}{17}{subsection.2.4.2}% 
+\contentsline {section}{\numberline {2.5}Regras de Neg\IeC {\'o}cio}{17}{section.2.5}% 
+\contentsline {chapter}{\chapternumberline {3}Pesquisa de Anterioridade}{18}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Produttivo}{18}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}SoftByte}{18}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}ProdWin}{18}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Diferenciais Agil.It}{18}{section.3.4}% 
+\contentsline {chapter}{\chapternumberline {4}Requisitos do Sistema}{19}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Requisitos Funcionais}{19}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Cadastros}{19}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Consultas}{19}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Funcionalidades}{19}{subsection.4.1.3}% 
+\contentsline {section}{\numberline {4.2}Requisitos N\IeC {\~a}o Funcionais}{20}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Funcionalidades}{20}{subsection.4.2.1}% 
+\contentsline {section}{\numberline {4.3}Fluxos}{20}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Cronograma}{24}{section.4.4}% 
+\contentsline {chapter}{\chapternumberline {5}Prot\IeC {\'o}tipo}{25}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Aplica\IeC {\c c}\IeC {\~a}o WEB}{25}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Login}{26}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Configura\IeC {\c c}\IeC {\~o}es do Sistema}{27}{subsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.1.3}Cadastro de Usu\IeC {\'a}rio}{28}{subsection.5.1.3}% 
+\contentsline {subsection}{\numberline {5.1.4}Cadastro de Tipo de M\IeC {\'a}quina}{29}{subsection.5.1.4}% 
+\contentsline {subsection}{\numberline {5.1.5}Cadastro de Componente de M\IeC {\'a}quina}{30}{subsection.5.1.5}% 
+\contentsline {subsection}{\numberline {5.1.6}Cadastro de Setor}{31}{subsection.5.1.6}% 
+\contentsline {subsection}{\numberline {5.1.7}Cadastro de Equipamento}{32}{subsection.5.1.7}% 
+\contentsline {subsection}{\numberline {5.1.8}Cadastro de Unidade de Medida}{33}{subsection.5.1.8}% 
+\contentsline {subsection}{\numberline {5.1.9}Cadastro de Pe\IeC {\c c}a}{34}{subsection.5.1.9}% 
+\contentsline {subsection}{\numberline {5.1.10}Cadastro de Local de Estoque}{35}{subsection.5.1.10}% 
+\contentsline {subsection}{\numberline {5.1.11}Atualiza\IeC {\c c}\IeC {\~a}o de Estoque de Pe\IeC {\c c}a}{36}{subsection.5.1.11}% 
+\contentsline {subsection}{\numberline {5.1.12}Cadastro de Causa de Defeito}{37}{subsection.5.1.12}% 
+\contentsline {subsection}{\numberline {5.1.13}Cadastro de Sintoma de Defeito}{38}{subsection.5.1.13}% 
+\contentsline {subsection}{\numberline {5.1.14}Cadastro de Classifica\IeC {\c c}\IeC {\~a}o de Ordem de Manuten\IeC {\c c}\IeC {\~a}o}{39}{subsection.5.1.14}% 
+\contentsline {subsection}{\numberline {5.1.15}Cadastro de Tipo de Ordem de Manuten\IeC {\c c}\IeC {\~a}o}{40}{subsection.5.1.15}% 
+\contentsline {subsection}{\numberline {5.1.16}Cadastro de Centro de Custo}{41}{subsection.5.1.16}% 
+\contentsline {subsection}{\numberline {5.1.17}Cadastro de Ordem de Manuten\IeC {\c c}\IeC {\~a}o}{42}{subsection.5.1.17}% 
+\contentsline {subsection}{\numberline {5.1.18}Cadastro de Parametriza\IeC {\c c}\IeC {\~a}o de Status de Seguran\IeC {\c c}a}{43}{subsection.5.1.18}% 
+\contentsline {subsection}{\numberline {5.1.19}Monitor de Ordem de Manuten\IeC {\c c}\IeC {\~a}o: Cards}{44}{subsection.5.1.19}% 
+\contentsline {subsection}{\numberline {5.1.20}Monitor de Ordem de Manuten\IeC {\c c}\IeC {\~a}o: Listas}{45}{subsection.5.1.20}% 
+\contentsline {subsection}{\numberline {5.1.21}Ordem de Manuten\IeC {\c c}\IeC {\~a}o}{46}{subsection.5.1.21}% 
+\contentsline {subsection}{\numberline {5.1.22}Checklist de Seguran\IeC {\c c}a}{47}{subsection.5.1.22}% 
+\contentsline {subsection}{\numberline {5.1.23}Opera\IeC {\c c}\IeC {\~o}es da Ordem de Manuten\IeC {\c c}\IeC {\~a}o}{48}{subsection.5.1.23}% 
+\contentsline {subsection}{\numberline {5.1.24}Ordem de Manuten\IeC {\c c}\IeC {\~a}o: Lista}{49}{subsection.5.1.24}% 
+\contentsline {subsection}{\numberline {5.1.25}Equipamentos da Ordem de Manuten\IeC {\c c}\IeC {\~a}o: Lista}{50}{subsection.5.1.25}% 
+\contentsline {subsection}{\numberline {5.1.26}Ordem de Manuten\IeC {\c c}\IeC {\~a}o: Rota}{51}{subsection.5.1.26}% 
+\contentsline {subsection}{\numberline {5.1.27}Convidar ou Delegar Ordem de Manuten\IeC {\c c}\IeC {\~a}o}{52}{subsection.5.1.27}% 
+\contentsline {subsection}{\numberline {5.1.28}Apontamentos}{53}{subsection.5.1.28}% 
+\contentsline {subsection}{\numberline {5.1.29}Adicionar Apontamentos}{54}{subsection.5.1.29}% 
+\contentsline {subsection}{\numberline {5.1.30}Motivo da Exclus\IeC {\~a}o do Apontamento da Ordem de Manuten\IeC {\c c}\IeC {\~a}o}{55}{subsection.5.1.30}% 
+\contentsline {subsection}{\numberline {5.1.31}Assinatura Digital}{56}{subsection.5.1.31}% 
+\contentsline {subsection}{\numberline {5.1.32}Central de Notifica\IeC {\c c}\IeC {\~o}es}{57}{subsection.5.1.32}% 
+\contentsline {section}{\numberline {5.2}Aplica\IeC {\c c}\IeC {\~a}o Mobile}{58}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Login}{58}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Menu}{59}{subsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.2.3}Monitor}{60}{subsection.5.2.3}% 
+\contentsline {subsection}{\numberline {5.2.4}Central de Notifica\IeC {\c c}\IeC {\~o}es}{61}{subsection.5.2.4}% 
+\contentsline {subsection}{\numberline {5.2.5}Ordem de Manuten\IeC {\c c}\IeC {\~a}o}{62}{subsection.5.2.5}% 
+\contentsline {subsection}{\numberline {5.2.6}Ordem de Manuten\IeC {\c c}\IeC {\~a}o: Lista}{63}{subsection.5.2.6}% 
+\contentsline {subsection}{\numberline {5.2.7}Ordem de Manuten\IeC {\c c}\IeC {\~a}o: Rota}{64}{subsection.5.2.7}% 
+\contentsline {subsection}{\numberline {5.2.8}Checklist de Seguran\IeC {\c c}a}{65}{subsection.5.2.8}% 
+\contentsline {subsection}{\numberline {5.2.9}Problemas}{66}{subsection.5.2.9}% 
+\contentsline {subsection}{\numberline {5.2.10}Componentes}{67}{subsection.5.2.10}% 
+\contentsline {subsection}{\numberline {5.2.11}Opera\IeC {\c c}\IeC {\~o}es}{68}{subsection.5.2.11}% 
+\contentsline {subsection}{\numberline {5.2.12}Apontamentos}{69}{subsection.5.2.12}% 
+\contentsline {subsection}{\numberline {5.2.13}Assinatura Digital}{70}{subsection.5.2.13}% 
+\contentsline {chapter}{\chapternumberline {6}Implementa\IeC {\c c}\IeC {\~a}o}{71}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Tecnologias}{71}{section.6.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Aplica\IeC {\c c}\IeC {\~a}o WEB}{71}{subsection.6.1.1}% 
+\contentsline {subsection}{\numberline {6.1.2}Aplica\IeC {\c c}\IeC {\~a}o Mobile}{71}{subsection.6.1.2}% 
+\contentsline {subsection}{\numberline {6.1.3}Aplica\IeC {\c c}\IeC {\~a}o do Servidor}{71}{subsection.6.1.3}% 
+\contentsline {section}{\numberline {6.2}C\IeC {\'o}digos}{71}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.2.1}Mapeamento do Banco de Dados com TypeOrm}{72}{subsection.6.2.1}% 
+\contentsline {subsection}{\numberline {6.2.2}Valida\IeC {\c c}\IeC {\~a}o de Objetos com o Class Validator}{73}{subsection.6.2.2}% 
+\contentsline {subsection}{\numberline {6.2.3}Controller: Valida\IeC {\c c}\IeC {\~a}o do Objeto Recebido}{73}{subsection.6.2.3}% 
+\contentsline {subsection}{\numberline {6.2.4}Middleware: Valida\IeC {\c c}\IeC {\~a}o do JWT}{74}{subsection.6.2.4}% 
+\contentsline {subsection}{\numberline {6.2.5}TypeOrm: Query as Function}{75}{subsection.6.2.5}% 
+\contentsline {subsection}{\numberline {6.2.6}Estrat\IeC {\'e}gia de Exclus\IeC {\~a}o de Dados}{75}{subsection.6.2.6}% 
+\contentsline {chapter}{\chapternumberline {7}Considera\IeC {\c c}\IeC {\~o}es e Trabalhos Futuros}{76}{chapter.7}% 
+\contentsline {chapter}{REFER\^ENCIAS BIBLIOGR\'AFICAS}{77}{chapter*.64}% 

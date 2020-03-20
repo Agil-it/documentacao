@@ -1,0 +1,76 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Crerie, Bai{\~a}o e Santoro 2008]{crerie2008identificacao}
+\abntrefinfo{Crerie, Bai{\~a}o e Santoro}{CRERIE}{2008}
+{CRERIE, R.; BAI{\~A}O, F.~A.; SANTORO, F.~M. Identificacao de regras de
+  negocio utilizando mineracao de processos. In:  ACM. \textbf{Companion
+  Proceedings of the XIV Brazilian Symposium on Multimedia and the Web}.
+  [S.l.], 2008. p. 241--246.}
+
+\bibitem[Dextra 2019]{dextra2013prototipacao}
+\abntrefinfo{Dextra}{DEXTRA}{2019}
+{DEXTRA. \textbf{Prototipação e sua importância no desenvolvimento de
+  software}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://dextra.com.br/pt/prototipacao-e-sua-importancia-no-desenvolvimento-de-software/}.}
+
+\bibitem[Filho 2003]{de2003engenharia}
+\abntrefinfo{Filho}{FILHO}{2003}
+{FILHO, W. de P.~P. \textbf{Engenharia de software}. [S.l.]: LTC, 2003. v.~2.}
+
+\bibitem[Kilov e Simmonds 1998]{1997kilovSimmonds}
+\abntrefinfo{Kilov e Simmonds}{KILOV; SIMMONDS}{1998}
+{KILOV, H.; SIMMONDS, I. Business rules: from business specification to design.
+  In:  BOSCH, J.; MITCHELL, S. (Ed.). \textbf{Object-Oriented Technologys}.
+  Berlin, Heidelberg: Springer Berlin Heidelberg, 1998. p. 188--194.
+ISBN 978-3-540-69687-2.}
+
+\bibitem[P{\'a}dua 2001]{2001SilviaInes}
+\abntrefinfo{P{\'a}dua}{P{\'A}DUA}{2001}
+{P{\'A}DUA, S. I.~D. de. Investiga{\c{c}}{\~a}o do processo de desenvolvimento
+  de software a partir da modelagem organizacional, enfatizando regras do
+  negócio.
+2001.}
+
+\bibitem[Produttivo 2019]{produttivo}
+\abntrefinfo{Produttivo}{PRODUTTIVO}{2019}
+{PRODUTTIVO. 2019.
+Dispon{\'\i}vel em: \url{https://produttivo.com.br}.}
+
+\bibitem[ProdWin 2019]{prodwin}
+\abntrefinfo{ProdWin}{PRODWIN}{2019}
+{PRODWIN. 2019.
+Dispon{\'\i}vel em: \url{https://prodwin.com.br}.}
+
+\bibitem[Rocha, Sabino e Acipreste 2015]{rocha2015metodologia}
+\abntrefinfo{Rocha, Sabino e Acipreste}{ROCHA}{2015}
+{ROCHA, F.~G.; SABINO, R.~F.; ACIPRESTE, R. H.~L. A metodologia scrum como
+  mobilizadora da pr{\'a}tica pedag{\'o}gica: um olhar sobre a engenharia de
+  software.
+\textbf{FEES 2015}, p.~13, 2015.}
+
+\bibitem[Schmitz e Alencar 2012]{schmitzanalise}
+\abntrefinfo{Schmitz e Alencar}{SCHMITZ; ALENCAR}{2012}
+{SCHMITZ, E.; ALENCAR, A. \textbf{An{\'a}lise de Risco em Ger{\^e}ncia de
+  Projetos - 3{\textordfeminine} Edi{\c{c}}{\~a}o}. BRASPORT, 2012.
+ISBN 9788574525426. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=ubZ7YHtWZ08C}.}
+
+\bibitem[SoftByte 2019]{softbyte}
+\abntrefinfo{SoftByte}{SOFTBYTE}{2019}
+{SOFTBYTE. 2019.
+Dispon{\'\i}vel em: \url{http://softbyte.com.br}.}
+
+\bibitem[Vazquez e Sim{\~o}es 2016]{vazquez2016}
+\abntrefinfo{Vazquez e Sim{\~o}es}{VAZQUEZ; SIM{\~O}ES}{2016}
+{VAZQUEZ, C.; SIM{\~O}ES, G. \textbf{Engenharia de Requisitos: software
+  orientado ao neg{\'o}cio}. BRASPORT, 2016.
+ISBN 9788574527901. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=gA7kDAAAQBAJ}.}
+
+\end{thebibliography}

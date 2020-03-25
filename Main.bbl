@@ -23,6 +23,21 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Filho}{FILHO}{2003}
 {FILHO, W. de P.~P. \textbf{Engenharia de software}. [S.l.]: LTC, 2003. v.~2.}
 
+\bibitem[Institute 2018]{PMI2018}
+\abntrefinfo{Institute}{INSTITUTE}{2018}
+{INSTITUTE, P. \textbf{A Guide to the Project Management Body of Knowledge
+  (PMBOK(R) Guide-Sixth Edition / Agile Practice Guide Bundle (BRAZILIAN
+  PORTUGUESE)}. Project Management Institute, 2018.
+ISBN 9781628255270. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=fOlfDwAAQBAJ}.}
+
+\bibitem[Kerzner 2017]{kerzner2017}
+\abntrefinfo{Kerzner}{KERZNER}{2017}
+{KERZNER, H. \textbf{Project Management: A Systems Approach to Planning,
+  Scheduling, and Controlling}. Wiley, 2017.
+ISBN 9781119165378. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=VNExDgAAQBAJ}.}
+
 \bibitem[Kilov e Simmonds 1998]{1997kilovSimmonds}
 \abntrefinfo{Kilov e Simmonds}{KILOV; SIMMONDS}{1998}
 {KILOV, H.; SIMMONDS, I. Business rules: from business specification to design.

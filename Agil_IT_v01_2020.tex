@@ -1,0 +1,154 @@
+% Arquivo principal para trabalhos acadêmicos Senai Jaraguá do SUL
+
+% abnTeX2: Modelo de Trabalho Academico em conformidade com 
+% ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
+% Apresentacao
+
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+\documentclass[
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em verso e anverso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	]{./Data/udesc}
+
+\usepackage{./Data/udescsty}
+\usepackage{color,graphicx}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{lscape}
+
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Agil It - Sistema Gerenciador de Ordens de Manutenção de
+	Equipamento}
+\autor{Julio Thomazelli Júnior, Lucas Matheus da Silva Gonçalves, Márcio Henrique Meier}
+\local{Jaraguá do Sul}
+\data{2019}
+\fulldata{09 de Junho de 2019}
+\orientador{Prof. Tathiana Duarte do Amarante}
+\instituicao{Serviço Nacional de Aprendizagem Industrial - SENAI}
+\tipodoc{Dissertação}
+\curso{Sistemas para Internet}
+\area{Gerenciamento de Ordens de Manutenção}
+\preambulo{Projeto Integrador de Desenvolvimento de Software para a empresa DUAS RODAS}
+% ---
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+\include{pretextual}
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+\begin{siglas}
+  \item[MVP]      Minimum Viable Product
+  \item[API]      Application Programming Interface
+  \item[ORM]      Object-Relational Mapping
+  \item[OM]		  Ordem de Manutenção
+  \item[ERP]      Software de gerenciamento de empresas
+  \item[SAP]	  ERP alemão conhecido mundialmente
+  \item[WEB]	  Internet
+  \item[UC]		  Unidade Curricular
+\end{siglas}
+% ---
+
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+\textual
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\include{cap1}
+\include{cap2}
+\include{cap3}
+\include{cap4}
+\include{cap5}
+\include{cap6}
+
+
+\include{consideracoesFinais}
+
+% ---
+% Finaliza a parte no bookmark do PDF, para que se inicie o bookmark na raiz
+% ---
+\bookmarksetup{startatroot}% 
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+
+% ----------------------------------------------------------
+ %Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{references}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+%\begin{apendicesenv}
+
+% Imprime uma página indicando o início dos apêndices
+%\partapendices
+
+%\include{apeA}
+
+%\end{apendicesenv}
+
+% ----------------------------------------------------------
+% Anexos
+
+% ----------------------------------------------------------
+%\begin{anexosenv}
+
+% Imprime uma página indicando o início dos anexos
+%\partanexos
+
+%\include{anexo}
+
+%\end{anexosenv}
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+
+%\printindex
+
+\end{document}
+% FIM

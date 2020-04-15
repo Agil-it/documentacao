@@ -3,6 +3,9 @@ Os requisitos são capacidades que devem ser atendidas ou possuídas por um sist
 
 \section{Requisitos Funcionais}
 
+{ Conforme \cite{essi2005}, requisitos funcionais são as necessidades descritas pelo cliente, onde a equipe do projeto analisa e
+especifica as funções, desempenho, interfaces e restrições, conforme as fases das metodologias aplicadas. Sua finalidade é disntringuir as dependências do sistema para que o mesmo funcione de acordo com os requisitos informados pelo cliente. }
+
 \subsection{Cadastros}
 
 
@@ -35,6 +38,7 @@ Os requisitos são capacidades que devem ser atendidas ou possuídas por um sist
 
 \section{Requisitos Não Funcionais}
 
+{\cite{IIBA2005} relata que o propósito dos requisitos não funcionais é descrever as qualidades requeridas para um sistema, como sua usabilidade e seu desempenho. Em sistemas alguns destes requisitos podem determinar tecnologias ou algoritmos específicos a serem utilizados, garantindo compatibilidade com sistemas existentes \cite{cordeiro2007}
 
 \subsection{Funcionalidades}
 \begin{subalineas}
@@ -43,7 +47,9 @@ Os requisitos são capacidades que devem ser atendidas ou possuídas por um sist
 	\item {Usuários devem ter acesso à computadores e/ou dispositivos móveis}.
 \end{subalineas}
 
-\section{Fluxos}
+\section{Fluxograma do Sistema Desenvolvido}
+
+{Segundo \cite{pejeronimo2002} fluxograma é uma representação gráfica das tarefas de um determinado processo, sendo de forma sequencial a execução delas. \cite{roberthurt} relata que um fluxograma fornece um panorama de alto nível sobre um sistema de informação.
 
 \newpage
 \begin{figure}[htb]
@@ -57,6 +63,11 @@ Os requisitos são capacidades que devem ser atendidas ou possuídas por um sist
 Na Figura \ref{flux_sys} é possível verificar todo o fluxo do sistema onde começa e termina com a integração do SAP.
 O sistema irá receber a OM do SAP e notificar o técnico. Após o técnico realizar a manutenção os usuários realizam as assinaturas e o usuário administrador analisa e libera a OM para a integração.
 
+
+\section{Diagrama de Caso de Uso do Sistema }
+
+{Diagramas dos casos de uso são técnicas utilizadas para captar os requisitos funcionais de um sistema, descrevem as interações entre usuários de um sistema e o próprio sistema, fornecendo uma narrativa sobre como ele é utilizado \cite{umlessencial2005}. Para \cite{carniello2003} seu objetivo principal consiste em definir o comportamento de um sistema, sem revelar sua estrutura interna.}
+
 \newpage
 \begin{figure}[htb]
 	\caption{\label{caso_uso}Caso de Uso do AGIL.IT}
@@ -68,6 +79,13 @@ O sistema irá receber a OM do SAP e notificar o técnico. Após o técnico real
 
 Na Figura \ref{caso_uso} é possível verificar quais ações cada ator desempenhará no sistema.
 Os operadores de máquinas e os líderes de manutenção verificam a manutenção feita e assinam a OM. O técnico realizará a manutenção e verificará as peças necessárias para realizar a assistência ao equipamento e se as mesmas possuem estoque disponível. E o administrador realizará cadastros e encerará as ordens de manutenção.
+
+
+\section{Entidade de Relacionamento do Banco de Dados}
+
+{Planejar todas as etapas, dedicando a atenção especialmente ao projeto de estruturação do banco de dados. Com a estrutura pronta, a facilidade para dar manutenção no sistema fica muito mais fácil.
+Tem como objetivo, obter uma descrição de forma abstrata dos dados que serão armazenados no banco de dados \cite{2010_erbd}. }
+
 
 \newpage
 \begin{figure}[htb]
@@ -82,10 +100,12 @@ A Figura \ref{entidade_relacionamento} mostra toda a entidade de relacionamento 
 
 
 \newpage
-\section{Cronograma}
+\section{Cronograma do Projeto}
+
+
 Todo bom projeto deve ter um cronograma e um planejamento de ação, baseado nisso, foi elaborado dois cronogramas: um apresentando todo o conteúdo aprendido no semestre e outro montando plano de ação para implementação do projeto.
 
-As figuras a seguir, são cronogramas que demonstram a trajetória do desenvolvimento do projeto. Divididos por semestre, os cronogramas listam as atividades aprendidas nas UCs, com todas as partes teóricas e práticas onde o objetivo principal é implementar todo conhecimento adquirido em prol de um projeto único: A unificação de todas as UCs do curso de Sistemas Para Internet.
+As figuras a seguir, são cronogramas que demonstram a trajetória do desenvolvimento do projeto. Divididos por semestre, os cronogramas listam as atividades aprendidas nas UCs, com todas as partes teóricas e práticas onde o objetivo principal é implementar todo conhecimento adquirido em prol de um projeto único: A unificação de todas as UCs do curso de Sistemas para Internet.
 
 \begin{figure}[htb]
 	\caption{\label{cron-3-semestre}Cronograma de Aprendizagem: Terceiro Semestre}
@@ -99,5 +119,13 @@ As figuras a seguir, são cronogramas que demonstram a trajetória do desenvolvi
 	\caption{\label{cron-4-semestre}Cronograma de Aprendizagem: Quarto Semestre}
 	\begin{center}
 		\includegraphics[scale=0.90]{./Figuras/cronograma-4-semestre.png}
+	\end{center}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\caption{\label{cron-4-semestre}Cronograma de Aprendizagem: Quinto Semestre}
+	\begin{center}
+		\includegraphics[scale=0.70]{./Figuras/cronograma-5-semestre.png}
 	\end{center}
 \end{figure}

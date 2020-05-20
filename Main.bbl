@@ -5,6 +5,18 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Carniello 2003]{carniello2003}
+\abntrefinfo{Carniello}{CARNIELLO}{2003}
+{CARNIELLO, A. \textbf{Teste Basead na estrutura de casos de uso}. [S.l.:
+  s.n.], 2003.}
+
+\bibitem[Coyette, Faulkner, Kolp, Limbourg e Vanderdonckt
+  2004]{coyette2004sketchixml}
+\abntrefinfo{Coyette, Faulkner, Kolp, Limbourg e Vanderdonckt}{COYETTE}{2004}
+{COYETTE, A. et al. Sketchixml: towards a multi-agent design tool for sketching
+  user interfaces based on usixml. In:  \textbf{Proceedings of the 3rd annual
+  conference on Task models and diagrams}. [S.l.: s.n.], 2004. p. 75--82.}
+
 \bibitem[Crerie, Bai{\~a}o e Santoro 2008]{crerie2008identificacao}
 \abntrefinfo{Crerie, Bai{\~a}o e Santoro}{CRERIE}{2008}
 {CRERIE, R.; BAI{\~A}O, F.~A.; SANTORO, F.~M. Identificacao de regras de
@@ -22,6 +34,19 @@ Dispon{\'\i}vel em:
 \bibitem[Filho 2003]{de2003engenharia}
 \abntrefinfo{Filho}{FILHO}{2003}
 {FILHO, W. de P.~P. \textbf{Engenharia de software}. [S.l.]: LTC, 2003. v.~2.}
+
+\bibitem[Fowler 2005]{umlessencial2005}
+\abntrefinfo{Fowler}{FOWLER}{2005}
+{FOWLER, M. \textbf{UML Essencial}. [S.l.: s.n.], 2005. 104--105~p.}
+
+\bibitem[Gasques 2002]{pejeronimo2002}
+\abntrefinfo{Gasques}{GASQUES}{2002}
+{GASQUES, J. \textbf{O desafio do dízimo}. [S.l.: s.n.], 2002.}
+
+\bibitem[Hurt 2014]{roberthurt}
+\abntrefinfo{Hurt}{HURT}{2014}
+{HURT, R.~L. \textbf{Sistemas de informações contábeis}. [S.l.]: AMGH
+  Editora Ltda, 2014.}
 
 \bibitem[Institute 2018]{PMI2018}
 \abntrefinfo{Institute}{INSTITUTE}{2018}
@@ -45,6 +70,11 @@ ISBN 9781119165378. Dispon{\'\i}vel em:
   Berlin, Heidelberg: Springer Berlin Heidelberg, 1998. p. 188--194.
 ISBN 978-3-540-69687-2.}
 
+\bibitem[Martins 2007]{cordeiro2007}
+\abntrefinfo{Martins}{MARTINS}{2007}
+{MARTINS, J. C.~C. \textbf{Técnicas para gerenciamento de projetos de
+  software}. [S.l.]: Brasport Livros e Multimidia Ltda, 2007.}
+
 \bibitem[P{\'a}dua 2001]{2001SilviaInes}
 \abntrefinfo{P{\'a}dua}{P{\'A}DUA}{2001}
 {P{\'A}DUA, S. I.~D. de. Investiga{\c{c}}{\~a}o do processo de desenvolvimento
@@ -62,12 +92,30 @@ Dispon{\'\i}vel em: \url{https://produttivo.com.br}.}
 {PRODWIN. 2019.
 Dispon{\'\i}vel em: \url{https://prodwin.com.br}.}
 
+\bibitem[Rezende 2005]{essi2005}
+\abntrefinfo{Rezende}{REZENDE}{2005}
+{REZENDE, D.~A. \textbf{Engenharia de Software e Sistemas de Informação}.
+  [S.l.: s.n.], 2005. v.~3.}
+
 \bibitem[Rocha, Sabino e Acipreste 2015]{rocha2015metodologia}
 \abntrefinfo{Rocha, Sabino e Acipreste}{ROCHA}{2015}
 {ROCHA, F.~G.; SABINO, R.~F.; ACIPRESTE, R. H.~L. A metodologia scrum como
   mobilizadora da pr{\'a}tica pedag{\'o}gica: um olhar sobre a engenharia de
   software.
 \textbf{FEES 2015}, p.~13, 2015.}
+
+\bibitem[Rocha e Terra 2010]{2010_erbd}
+\abntrefinfo{Rocha e Terra}{ROCHA; TERRA}{2010}
+{ROCHA, H.; TERRA, R. {TerraER}: Uma ferramenta voltada ao ensino do modelo de
+  entidade-relacionamento. In:  \textbf{VI Escola Regional de Banco de Dados
+  (ERBD)}. [S.l.: s.n.], 2010. p.~1--4.}
+
+\bibitem[Rosemberg, Schilling, Bastos e Araripe
+  2008]{rosemberg2008prototipaccao}
+\abntrefinfo{Rosemberg, Schilling, Bastos e Araripe}{ROSEMBERG}{2008}
+{ROSEMBERG, C. et al. Prototipa{\c{c}}{\~a}o de software e design
+  participativo: uma experi{\^e}ncia do atl{\^a}ntico.
+\textbf{IHC}, v.~8, p. 312--315, 2008.}
 
 \bibitem[Schmitz e Alencar 2012]{schmitzanalise}
 \abntrefinfo{Schmitz e Alencar}{SCHMITZ; ALENCAR}{2012}
@@ -80,6 +128,16 @@ ISBN 9788574525426. Dispon{\'\i}vel em:
 \abntrefinfo{SoftByte}{SOFTBYTE}{2019}
 {SOFTBYTE. 2019.
 Dispon{\'\i}vel em: \url{http://softbyte.com.br}.}
+
+\bibitem[Toronto 2005]{IIBA2005}
+\abntrefinfo{Toronto}{TORONTO}{2005}
+{TORONTO, I.~I. de~Análise de Negócios~de. \textbf{O guia para o corpo de
+  conhecimento de análise de negócios}. [S.l.: s.n.], 2005.}
+
+\bibitem[Vargas 2018]{PMG2018}
+\abntrefinfo{Vargas}{VARGAS}{2018}
+{VARGAS, R.~V. \textbf{Manual Prático do Plano de Projeto, Utilizando o PMBOK
+  Guide}. [S.l.: s.n.], 2018.}
 
 \bibitem[Vazquez e Sim{\~o}es 2016]{vazquez2016}
 \abntrefinfo{Vazquez e Sim{\~o}es}{VAZQUEZ; SIM{\~O}ES}{2016}

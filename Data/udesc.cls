@@ -890,18 +890,23 @@
   	\begin{tabular}{c}
   	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirinstituicao} \\
   	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimircampus} \\
-  	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirtipotrabalho \, em \imprimircurso}
+  	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirtipotrabalho \, \imprimircurso}
   	\end{tabular}
-  	       
-    \vspace*{\fill}
-    {\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirautor}}
-
+  	   
     \vspace*{\fill}
     \begin{Spacing}{1.0}
     \ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirtitulo}
     \end{Spacing}
     \vspace*{6.78cm}
-    
+        
+    {\imprimirautor}
+
+	{\large \textbf{Professor Orientador:} 
+    \par
+    \imprimirorientador\par
+	}
+	
+    \vspace*{\fill}
     {\bfseries\large\MakeUppercase{\imprimirlocal}}
     \par
     {\bfseries\large\imprimirdata}
@@ -924,16 +929,9 @@
 \makeatletter
 \newcommand{\folhaderostocontent}{
   \begin{center}
-    %\vspace*{1cm}
-      	\begin{tabular}{c}
-      	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirinstituicao} \\
-      	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimircampus} \\
-      	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirtipotrabalho \, em \imprimircurso}
-      	\end{tabular}
-    
-    \vspace*{\fill}
-    {\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirautor}}
-    
+
+    {\ABNTEXchapterfont\bfseries\large{\imprimirautor}}
+	
     \vspace*{\fill}
     {\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirtitulo}}
         
@@ -944,8 +942,9 @@
       	\SingleSpacing
          \imprimirpreambulo
          \par
-         \par
-         {\large \textbf{Orientador:} 
+		 \hspace{.45\textwidth}
+		 \par
+         {Professor Orientador:
          \par
          \imprimirorientador\par}
          \par
@@ -958,9 +957,9 @@
        \vspace*{\fill}
     }%
 
-    {\bfseries\large\MakeUppercase{\imprimirlocal}}
+    {\large\MakeUppercase{\imprimirlocal}}
     \par
-    {\bfseries\large\imprimirdata}
+    {\large\imprimirdata}
     
   \end{center}
 }

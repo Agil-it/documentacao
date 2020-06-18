@@ -5,6 +5,13 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Boff 2017]{boff2017sustentabilidade}
+\abntrefinfo{Boff}{BOFF}{2017}
+{BOFF, L. \textbf{Sustentabilidade: o que {\'e} - o que n{\~a}o {\'e}}. Editora
+  Vozes, 2017.
+ISBN 9788532656100. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=px46DwAAQBAJ}.}
+
 \bibitem[Carniello 2003]{carniello2003}
 \abntrefinfo{Carniello}{CARNIELLO}{2003}
 {CARNIELLO, A. \textbf{Teste Basead na estrutura de casos de uso}. [S.l.:
@@ -75,6 +82,10 @@ ISBN 978-3-540-69687-2.}
 {MARTINS, J. C.~C. \textbf{Técnicas para gerenciamento de projetos de
   software}. [S.l.]: Brasport Livros e Multimidia Ltda, 2007.}
 
+\bibitem[MATTIOLI 2020]{MATTIOLI2020}
+\abntrefinfo{MATTIOLI}{MATTIOLI}{2020}
+{MATTIOLI, A. \textbf{Sistemas computacionais.} [S.l.]: Editora Pearson, 2020.}
+
 \bibitem[P{\'a}dua 2001]{2001SilviaInes}
 \abntrefinfo{P{\'a}dua}{P{\'A}DUA}{2001}
 {P{\'A}DUA, S. I.~D. de. Investiga{\c{c}}{\~a}o do processo de desenvolvimento
@@ -117,6 +128,12 @@ Dispon{\'\i}vel em: \url{https://prodwin.com.br}.}
   participativo: uma experi{\^e}ncia do atl{\^a}ntico.
 \textbf{IHC}, v.~8, p. 312--315, 2008.}
 
+\bibitem[ROSSINI 2006]{ROSSINI2006}
+\abntrefinfo{ROSSINI}{ROSSINI}{2006}
+{ROSSINI, A.~M. Administra{\c{c}}{\~a}o de sistemas de informa{\c{c}}{\~a}o e a
+  gest{\~a}o do conhecimento.
+2006.}
+
 \bibitem[Schmitz e Alencar 2012]{schmitzanalise}
 \abntrefinfo{Schmitz e Alencar}{SCHMITZ; ALENCAR}{2012}
 {SCHMITZ, E.; ALENCAR, A. \textbf{An{\'a}lise de Risco em Ger{\^e}ncia de
@@ -128,6 +145,21 @@ ISBN 9788574525426. Dispon{\'\i}vel em:
 \abntrefinfo{SoftByte}{SOFTBYTE}{2019}
 {SOFTBYTE. 2019.
 Dispon{\'\i}vel em: \url{http://softbyte.com.br}.}
+
+\bibitem[Somasundaram, Shrivastava e Services
+  2009]{somasundaram2009armazenamento}
+\abntrefinfo{Somasundaram, Shrivastava e Services}{SOMASUNDARAM}{2009}
+{SOMASUNDARAM, G.; SHRIVASTAVA, A.; SERVICES, E. \textbf{Armazenamento e
+  Gerenciamento de Informa{\c{c}}{\~o}es: Como armazenar, gerenciar e proteger
+  informa{\c{c}}{\~o}es digitais}. Bookman, 2009.
+ISBN 9788577807642. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=d8uCfC46hwsC}.}
+
+\bibitem[STAIR 2008]{STAIR2008}
+\abntrefinfo{STAIR}{STAIR}{2008}
+{STAIR, R.~M. Princ{\'i}pios de sistemas de informa{\c{c}}{\~a}o: uma abordagem
+  gerencial.
+2008.}
 
 \bibitem[Toronto 2005]{IIBA2005}
 \abntrefinfo{Toronto}{TORONTO}{2005}

@@ -899,7 +899,7 @@
     \end{Spacing}
     \vspace*{6.78cm}
         
-    {\imprimirautor}
+    \MakeUppercase{\imprimirautor}
 
 	{\large \textbf{Professor Orientador:} 
     \par
@@ -930,7 +930,7 @@
 \newcommand{\folhaderostocontent}{
   \begin{center}
 
-    {\ABNTEXchapterfont\bfseries\large{\imprimirautor}}
+    {\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirautor}}
 	
     \vspace*{\fill}
     {\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirtitulo}}

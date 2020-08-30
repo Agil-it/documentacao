@@ -888,23 +888,18 @@
   	\thispagestyle{empty}
   	\centering
   	\begin{tabular}{c}
-  	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirinstituicao} \\
+  	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirinstituicao}
   	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimircampus} \\
   	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirtipotrabalho \, \imprimircurso}
   	\end{tabular}
   	   
     \vspace*{\fill}
     \begin{Spacing}{1.0}
-    \ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirtitulo}
+    \ABNTEXchapterfont\large\MakeUppercase{\imprimirtitulo}
     \end{Spacing}
     \vspace*{6.78cm}
         
     \MakeUppercase{\imprimirautor}
-
-	{\large \textbf{Professor Orientador:} 
-    \par
-    \imprimirorientador\par
-	}
 	
     \vspace*{\fill}
     {\bfseries\large\MakeUppercase{\imprimirlocal}}
@@ -933,7 +928,7 @@
     {\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirautor}}
 	
     \vspace*{\fill}
-    {\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirtitulo}}
+    {\ABNTEXchapterfont\large\MakeUppercase{\imprimirtitulo}}
         
     \vspace*{\fill}
     \abntex@ifnotempty{\imprimirpreambulo}{%

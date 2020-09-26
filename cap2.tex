@@ -18,77 +18,10 @@ Outra preocupação que objetiva a automatização das ordens de manutenção é
 %---
 % CAP 2.2
 
-
-{\section{Análise de riscos}
-A análise de riscos tem como objetivo identificar os possíveis problemas durante e após o desenvolvimento do projeto a fim de elaborar um plano de ação para solucionar rapidamente o problema de fato \cite{schmitzanalise}.
-
-
-Segundo \cite{de2003engenharia}, um grande volume de dados publicados aponta para os riscos que correm os projetos de software executados sem a utilização de processos adequados. Um levantamento publicado, a partir de
-uma base de dados de 4.000 projetos, constatou a ocorrência frequente dos seguintes
-problemas. 
-
-\begin{itemize}
-	\item 70\% dos projetos de grandes aplicativos sofre de instabilidade dos requisitos. Os requisitos
-	crescem tipicamente cerca de 1\% ao mês, atingindo níveis de mais de 25\% de inchaço ao final
-	do projeto.
-	\item Pelo menos 50\% dos projetos são executados com níveis de produtividade abaixo do normal.
-	\item Pelo menos 25\% do software de prateleira e 50\% dos produtos feitos por encomenda
-	apresentam níveis de defeitos superiores ao razoável. 
-	\item Produtos feitos sob pressão de prazos podem quadruplicar o número de defeitos.
-	\item Pelo menos 50\% dos grandes projetos de software estouram seu orçamento e seu prazo. 
-	
-\end{itemize}
-
-
-Sendo assim, foi identificado os fatores de risco, no qual o projeto em questão possa estar exposto. Nela, faz-se uma análise do impacto e probabilidade de fatores prejudiciais ao projeto, conforme tabela \ref{tebela_risco} abaixo.
-\newpage
-\begin{table}[]
-	\caption{\label{tebela_risco} Tabela de Riscos Agil.it}
-	\begin{tabular}{l|l|l}
-		\hline
-		\rowcolor[HTML]{EFEFEF} 
-		\textbf{Riscos}                     & \textbf{Probabilidade} & \textbf{Impacto} \\ \hline
-		\rowcolor[HTML]{DD7346} 
-		Mudança de escopo                   & 90\%                   & 2                \\ \hline
-		\rowcolor[HTML]{DD7346} 
-		Entrega no prazo                    & 70\%                   & 3                \\ \hline
-		\rowcolor[HTML]{DD7346} 
-		Integração com SAP                  & 70\%                   & 2                \\ \hline
-		\rowcolor[HTML]{FFFE65} 
-		Implantação na empresa              & 60\%                   & 2                \\ \hline
-		\rowcolor[HTML]{FFFE65} 
-		Conexão com o banco de dados        & 60\%                   & 3                \\ \hline
-		\rowcolor[HTML]{FFFE65} 
-		Aceitação da usabilidade do sistema & 50\%                   & 2                \\ \hline
-		\rowcolor[HTML]{FFFE65} 
-		Usuários inexperientes              & 40\%                   & 2                \\ \hline
-		\rowcolor[HTML]{9AFF99} 
-		Mudanças na tecnologia              & 20\%                   & 3                \\ \hline
-		\rowcolor[HTML]{9AFF99} 
-		Segurança dos dados                 & 15\%                   & 2                \\ \hline
-		\rowcolor[HTML]{9AFF99} 
-		Conexão com a rede                  & 10\%                   & 2                \\ \hline
-		\rowcolor[HTML]{9AFF99} 
-		Falta de profissionais              & 5\%                    & 3                \\ \hline
-	\end{tabular}
-	\caption{Fonte: os autores (2020)}
-\end{table}
-
-Na tabela \ref{tebela_risco} estão mapeados os principais riscos identificados para o projeto Agil.It. Nela, a probabilidade indica a chance do risco ocorrer e o impacto é uma escala de um a três (1-3) do quanto o risco pode afetar a conclusão e entrega do projeto. A seguir será abordado o diagrama de causa e efeito.
-
-{\subsection{Diagrama de Causa e Efeito}
-\begin{figure}[htb]
-	\caption{\label{causaeefeito1}Diagrama de Causa e Efeito}
-	\begin{center}
-		\includegraphics[scale=0.55]{./Figuras/Diagrama causa e efeito.jpeg}
-	\end{center}
-	\legend{Fonte: os autores (2020)}
-\end{figure}
-}
-
-\section{Cenário Atual}
+\subsection{Cenário Atual}
 No processo de manutenção de equipamentos, a empresa Duas Rodas emite uma ordem de manutenção pelo SAP. Após a emissão, é impresso um formulário e entregue ao técnico elencado para a realização da manutenção. O técnico então preenche os campos básicos do formulário e depois preenche os campos que detalham as operações realizadas, bem como os componentes utilizados. Ao finalizar a manutenção, são colhidas 3 assinaturas, a do operador da máquina, a do técnico da manutenção e a do líder de manutenção, sendo que cada uma das partes pode negar a assinatura e solicitar alterações na manutenção realizada. Com todas as assinaturas rubricadas, o formulário é enviado a um funcionário administrativo que digitaliza as informações preenchidas no SAP. Além de gerar um retrabalho imenso, há um problema com a caligrafia dos manutentores, o que dificulta a digitalização dos dados. Com o volume atual de manutenções, é inviável manter o fluxo dessa forma. Com isso, entra o projeto Agil It. Atuando como meio digitalizador, faz a ponte entre a manutenção na fábrica e o sistema SAP, fazendo com que não haja mais retrabalho e eliminando totalmente os papeis utilizados nos formulários.
-\newpage
+
+
 \begin{figure}[htb]
 	\caption{\label{cenario_atual1}Cenário Atual}
 	\begin{center}
@@ -96,18 +29,17 @@ No processo de manutenção de equipamentos, a empresa Duas Rodas emite uma orde
 	\end{center}
 	\legend{Fonte: Os Autores(2020)}
 \end{figure}
-%---
-% CAP 2.3
-% ---
-\section{Cenário Com Agil.It}
+
+
+\subsection{Cenário Com Agil.It}
 No processo de manutenção de equipamentos com a Agil.It, a ordem de manutenção será gerada no SAP e os dados serão integrados ao sistema Agil.It. Ao ser integrado, o técnico de manutenção receberá uma notificação informando que tem uma nova OM e ele poderá visualizá-la em seu monitor no aplicativo mobile ou na aplicação WEB. Ele poderá então iniciar a manutenção e fazer os apontamentos das operações e componentes. Após finalizar a manutenção, o técnico assinará a ordem de manutenção. Após isso, o operador do equipamento será notificado e a OM ficará disponível para sua avaliação, podendo este aceitar ou recusar de acordo com as realizações do trabalho. Caso recuse, o operador deve informar o motivo da rejeição ao sistema que então, irá reabrir a OM e solicitar ao técnico para verificar. Caso o operador aceite a execução do trabalho de manutenção, o mesmo deverá assinar a OM e com isto, o sistema notificará o líder técnico, sendo o trabalho deste, averiguar a execução da tarefa, o mesmo também poderá rejeitar e solicitar alterações. Após concluído, ele deve assinar a OM. Com as 3 assinaturas colhidas, o sistema irá notificar o usuário administrador e ele poderá liberar a OM para integração com o SAP.
-\newpage
+
 \begin{figure}[htb]
 	\caption{\textbf{\label{figure:cenario_agilit1}Cenário Agil.It}}
 	\begin{center}
 		\includegraphics[scale=0.52]{./Figuras/cenario-agilit1.png}
 	\end{center}
-\legend{Fonte: os autores (2020)}
+	\legend{Fonte: os autores (2020)}
 \end{figure}
 %---
 % CAP 2.4
@@ -122,14 +54,14 @@ O Sistema contemplará 4 tipos de usuários, o administrador, o manutentor, o ch
 
 \begin{itemize}
 	
-\item O usuário administrador será responsável pelos cadastros gerais, poderá consultar e finalizar ordens de manutenção.
-
-\item O manutentor terá a visão de ordens de manutenção pendentes para ele, podendo iniciar ou pausar alguma a qualquer momento. Depois de finalizada, poderá realizar a assinatura da ordem.
-
-\item O chefe de manutenção receberá requisições de ordens de manutenção feitas por operadores e irá cadastra-las. Poderá distribuir as ordens aos manutentores, realizar consultas gerais e assinar as ordens.
-
-\item O operador, que poderá requisitar uma ordem de manutenção ao administrador, acompanhar as ordens solicitadas por ele e assinar a ordem após a conclusão.
-
+	\item O usuário administrador será responsável pelos cadastros gerais, poderá consultar e finalizar ordens de manutenção.
+	
+	\item O manutentor terá a visão de ordens de manutenção pendentes para ele, podendo iniciar ou pausar alguma a qualquer momento. Depois de finalizada, poderá realizar a assinatura da ordem.
+	
+	\item O chefe de manutenção receberá requisições de ordens de manutenção feitas por operadores e irá cadastra-las. Poderá distribuir as ordens aos manutentores, realizar consultas gerais e assinar as ordens.
+	
+	\item O operador, que poderá requisitar uma ordem de manutenção ao administrador, acompanhar as ordens solicitadas por ele e assinar a ordem após a conclusão.
+	
 \end{itemize}
 % CAP 2.4.2
 % ---
@@ -144,13 +76,15 @@ O Sistema contemplará 4 tipos de usuários, o administrador, o manutentor, o ch
 		Márcio                 & Back End / Integração \\ \hline
 	\end{tabular}
 \end{table}
-% ---
 
-% CAP 2.5
+
+
 \section{Regras de Negócio}
 % ---
 No contexto da Engenharia de Software as Regras de Negócios são tratadas como alguns Requisitos de Software, pois sem elas, o software não existiria. Regras de negócio são premissas e restrições aplicadas a uma operação comercial de uma empresa, que precisam ser atendidas para que o negócio funcione da maneira esperada \cite{crerie2008identificacao}.
+
 Segundo \cite{2001SilviaInes} Regras de negócios são mais do que declarações sobre campos de dados ou implementação do sistema, elas definem tarefas dos atores da organização, os serviços que a organização dispõem e os recursos necessários para apoiar os processos do negócio.
+
 Já \cite{1997kilovSimmonds} são mais enfáticos, para eles uma regra de negócio deve ser objetiva e definida em termos de notações matemáticas de proposições, mostrando que precisão é essencial quando formula-se as regras de negócio. Uma proposição é um fato ou estado observável de negócio envolvendo uma ou mais entidades pelo qual é possível afirmar ou negar a vericidade dessas entidades.
 
 Desta forma as regras de Negocio da empresa de Alimentos Duas Rodas seriam:
@@ -169,83 +103,8 @@ Desta forma as regras de Negocio da empresa de Alimentos Duas Rodas seriam:
 	\item {Operadores podem solicitar uma abertura de ordem de manutenção ao líder de manutenção};
 	\item {Operadores não  tem acesso a consultas}.
 \end{subalineas}
-% ---
-
-\section{PMBOK}
-
-{É uma metodologia de gerenciamento de projeto internacionalmente reconhecida, essas práticas podem auxiliar na resolução dos recursos humanos, capitais, tecnológicos e técnicos. Além disso, utilizando PMBOK é possível gerir melhor o andamento do projeto e de forma mais coordenada. Segundo \cite{PMG2018} o PMBOK tem conhecimentos já comprovados que são amplamente utilizados, assim como o conhecimento de práticas mais inovadoras e avançadas}
-
-\subsection{Estrutura Analítica do Projeto}
-% ---
 
 
-{A Estrutura Analítica do Projeto (EAP) é a divisão estruturada de trabalho do projeto dividido em faixas gerenciadas cujo a sua totalidade significa em um entregável ao projeto final.
-Segundo \cite{PMI2018} o detalhamento da EAP deve chegar até o nível do pacote de trabalho, nível mais baixo na EAP, que é o ponto no qual o custo e o cronograma do trabalho podem ser estimados de forma confiável. Porém o nível de detalhamento desse pacote varia de acordo com a complexidade de cada projeto. \cite{kerzner2017} defende que a EAP deve ser composta por até três níveis pois se for detalhado com demaseio o custo com o gerenciamento serão também excessivos.}
-
-Para o projeto Agil-it foi decidido utilizar 6 faixas de entregáveis:
-
-\begin{subalineas}
-	\item {Planejamento};
-	\item {Análise};
-	\item {Implementação Web};
-	\item {Implementação Mobile};
-	\item {Testes};
-	\item {Implantação}.
-\end{subalineas}
-
-\newpage
-\begin{landscape}
-\begin{figure}[htb]
-	\caption{\label{EAP}EAP AGIL.IT}
-	\begin{center}
-		\includegraphics[scale=0.38]{./Figuras/EAP.png}
-	\end{center}
-	\legend{Fonte: os autores (2020)}
-\end{figure}
-\end{landscape}
-
-A figura \ref{EAP} mostra a estrutura e o desenvolvimento que cada faixa requer no projeto. Ela não segue uma ordem cronológica, portanto não é necessário finalizar uma faixa para começar outra, muitas vezes elas são desenvolvidas em conjunto para uma melhor utilização do tempo de projeto.
-% ---
-
-% CAP 2.7
-\subsection{Fluxo de Processos}
-% ---
-
-{O fluxo de processo é subdividido em cinco fases principais sobre o fluxo do projeto, iniciação sendo a primeira seguindo de planejamento, execução, monitoramento, controle e finalização. Para \cite{PMG2018} um projeto é desenvolvido a partir de uma idéia, em seguida parte para um plano e após isso é executado e concluído.}
-
-Para a definição dos processos, foi utilizado os seguintes recursos:
-
-\begin{subalineas}
-	\item {Partes Interessadas};
-	\item {Escopo};
-	\item {Tempo};
-	\item {Recursos Humanos};
-	\item {Aquisições};
-	\item {Qualidade};
-	\item {Comunicações};
-	\item {Riscos}.
-\end{subalineas}
-
-A figura abaixo contém todos os fluxos desenhados para o projeto.
-
-\newpage
-\begin{figure}[htb]
-	\caption{\label{Fluxo-Processos}Fluxo e Processos AGIL.IT}
-	\begin{center}
-		\includegraphics[scale=0.24]{./Figuras/fluxo-processos.png}
-	\end{center}
-	\legend{Fonte: os autores (2020)}
-\end{figure}
-
-
-
-{\textbf{Iniciação} - Esta é a fase inicial do projeto, nela é determinado a necessidade do projeto, com seus objetivos e justificativas, então é realizado os documentos iniciais onde as melhores estratégias são identificadas e selecionadas.}
-
-{\textbf{Planejamento} - Fase onde deve ser detalhado minuciosamente tudo aquilo que será realizado no projeto, desde cronogramas, interdependências entre atividades, alocação dos recursos envolvidos, análise de custos etc. Esta parte é muito importante pois a execução do projeto será em cima destas atividades para que sejam executadas sem dificuldades e imprevistos.}
-
-{\textbf{Execução} - Nesta fase tudo é onde tudo que foi planejado anteriormente se torne realidade, tendo que ser executado e realizado conforme planejado, qualquer erro cometidas nas fases anteriores fica evidente durante essa fase. }
-
-{\textbf{Monitoramento e Controle} - Esta fase acontece paralelamente às demais fases do projeto, acompanhando e controlando aquilo que está sendo realizado no projeto como um todo, podendo propor ações corretivas e preventivas no menor espaço de tempo possível após a detecção de erros.}
 
 
 % ---

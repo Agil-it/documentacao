@@ -17,6 +17,14 @@ ISBN 9788532656100. Dispon{\'\i}vel em:
 {CARNIELLO, A. \textbf{Teste Basead na estrutura de casos de uso}. [S.l.:
   s.n.], 2003.}
 
+\bibitem[Couto 2018]{Julia_Mara_2018}
+\abntrefinfo{Couto}{COUTO}{2018}
+{COUTO, J. M.~C.
+\textbf{T{\'e}cnicas de visualiza{\c{c}}{\~a}o de dados em gerenciamento de
+  projetos de desenvolvimento de software: proposta de extens{\~a}o do PMBOK}.
+108~p. Monografia (P{\'o}s Gradua{\c{c}}{\~a}o) --- Pontifícia Universidade
+  Católica do Rio Grande do Sul, Rio Grande do Sul, 2018.}
+
 \bibitem[Coyette, Faulkner, Kolp, Limbourg e Vanderdonckt
   2004]{coyette2004sketchixml}
 \abntrefinfo{Coyette, Faulkner, Kolp, Limbourg e Vanderdonckt}{COYETTE}{2004}
@@ -49,6 +57,13 @@ Dispon{\'\i}vel em:
 \bibitem[Gasques 2002]{pejeronimo2002}
 \abntrefinfo{Gasques}{GASQUES}{2002}
 {GASQUES, J. \textbf{O desafio do dízimo}. [S.l.: s.n.], 2002.}
+
+\bibitem[Haufe 2001]{Maria_Isabel_2001}
+\abntrefinfo{Haufe}{HAUFE}{2001}
+{HAUFE, M.~I.
+\textbf{Estimativa da produtividade no desenvolvimento de software}.
+108~p. Monografia (Mestrado) --- Universidade Federal do Rio Grande do Sul, Rio
+  Grande do Sul, 2001.}
 
 \bibitem[Hurt 2014]{roberthurt}
 \abntrefinfo{Hurt}{HURT}{2014}
@@ -86,12 +101,32 @@ ISBN 978-3-540-69687-2.}
 \abntrefinfo{MATTIOLI}{MATTIOLI}{2020}
 {MATTIOLI, A. \textbf{Sistemas computacionais.} [S.l.]: Editora Pearson, 2020.}
 
+\bibitem[Moura 2018]{Ralf_Teresa_Erica2018}
+\abntrefinfo{Moura}{MOURA}{2018}
+{MOURA, T. C. e. E.~F. R. Condicionantes de sucesso em projetos de software e
+  sua influ{\^e}ncia nos resultados.
+\textbf{Revista Gest{~a}o e Tecnologia}, v.~18, n.~1, p. 61--87, 2018.}
+
+\bibitem[Moura 2017]{TallesMoura2017}
+\abntrefinfo{Moura}{MOURA}{2017}
+{MOURA, T.~M.
+\textbf{An{\'a}lise da Implementa{\c{c}}{\~a}o de Pr{\'a}ticas de TI Verde em
+  um Instituto Federal de Educa{\c{c}}{\~a}o, Ci{\^e}ncia e Tecnologia}.
+85~p. Monografia (Mestrado) --- Universidade Federal de Pernambuco, Pernanbuco,
+  2017.}
+
 \bibitem[P{\'a}dua 2001]{2001SilviaInes}
 \abntrefinfo{P{\'a}dua}{P{\'A}DUA}{2001}
 {P{\'A}DUA, S. I.~D. de. Investiga{\c{c}}{\~a}o do processo de desenvolvimento
   de software a partir da modelagem organizacional, enfatizando regras do
   negócio.
 2001.}
+
+\bibitem[Prado 1999]{Prado1999}
+\abntrefinfo{Prado}{PRADO}{1999}
+{PRADO, D. \textbf{Ger{\^e}ncia de Projetos em Tecnologia da
+  Informa{\c{c}}{\~a}o}. [S.l.]: Editora INDG, 1999.
+ISBN 9788586948176.}
 
 \bibitem[Produttivo 2019]{produttivo}
 \abntrefinfo{Produttivo}{PRODUTTIVO}{2019}
@@ -102,6 +137,15 @@ Dispon{\'\i}vel em: \url{https://produttivo.com.br}.}
 \abntrefinfo{ProdWin}{PRODWIN}{2019}
 {PRODWIN. 2019.
 Dispon{\'\i}vel em: \url{https://prodwin.com.br}.}
+
+\bibitem[Queir{\'o}s, M{\'e}xas e Drumond 2020]{CQP_MMD_2020}
+\abntrefinfo{Queir{\'o}s, M{\'e}xas e Drumond}{QUEIR{\'O}S}{2020}
+{QUEIR{\'O}S, R.~C. C.; M{\'E}XAS, M. P.; DRUMOND, G. M. Tecnologia da
+  informa{\c{c}}{\~a}o verde nas organiza{\c{c}}{\~o}es: uma vis{\~a}o
+  estrat{\'e}gica.
+\textbf{Sistemas e Gest{\~a}o}, v.~15, n.~2, p. 103--112, ago. 2020.
+Dispon{\'\i}vel em:
+  \url{https://revistasg.emnuvens.com.br/sg/article/view/1629}.}
 
 \bibitem[Rezende 2005]{essi2005}
 \abntrefinfo{Rezende}{REZENDE}{2005}

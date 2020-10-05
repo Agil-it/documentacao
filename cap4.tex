@@ -1,118 +1,20 @@
-\chapter{Requisitos do Sistema}
+\chapter{Pesquisa de Anterioridade}
+Durante a análise de requisitos, foram procurados outros sistemas que fazem esse processo de gerenciamento de ordem de manutenção para nos ajudar e entender quais são os problemas mais comuns desse ramo e quais as principais funcionalidades que o mercado oferece.
 
-{\color{red} Parei aqui 30/08  as 19:58}
+\section{Produttivo}
 
-
-Os requisitos são capacidades que devem ser atendidas ou possuídas por um sistema para resolver um problema ou atingir um objetivo. O conjunto de todos os requisitos que formam a base para o desenvolvimento subsequente de um software \cite{vazquez2016}. Neles são definidos como serão os comportamentos do sistema e seus fluxos. Eles foram  abordados em dois segmentos: Os Requisitos funcionais que são fluxos do sistema e os requisitos não funcionais que são necessários para a utilização do sistema.
-
-\section{Requisitos Funcionais}
-
-{ Conforme \cite{essi2005}, requisitos funcionais são as necessidades descritas pelo cliente, onde a equipe do projeto analisa e
-especifica as funções, desempenho, interfaces e restrições, conforme as fases das metodologias aplicadas. Sua finalidade é distinguir as dependências do sistema para que o mesmo funcione de acordo com os requisitos informados pelo cliente. }
-
-{\color{red} Add mais referencias}
-
-\subsection{Cadastros}
+\textit{Produttivo} é um sistema que tem vários módulos e diferentes aplicações. Um deles é o de Ordem de Serviço de Manutenção.
+Utilizando o Produttivo, um supervisor planeja e acompanha as atividades de manutenção utilizando o sistema web. Os manutentores, através de um smartphone ou tablet, alimenta dados ao programa de acordo com os defeitos identificados, bem como a solução abordada. Na finalização da ordem de serviço de manutenção, o responsável realiza a assinatura digital. \cite{produttivo}
 
 
-\begin{subalineas}
-	\item {Usuários};
-	\item {Setores};
-	\item {Máquinas};
-	\item {Unidades de medida};
-	\item {Peças};
-	\item {Tipos de estoques};
-	\item {Estoque de peças};
-	\item {Ordem de manutenção}.
-\end{subalineas}
-
-\subsection{Consultas}
-\begin{subalineas}
-	\item {Máquinas};
-	\item {Estoque de peças};
-	\item {Ordem de manutenção};
-	\item {Login};
-	\item {Logoff}.
-\end{subalineas}
-
-\subsection{Funcionalidades}
-\begin{subalineas}
-	\item {Monitor de ordens em aberto};
-	\item {Solicitação de abertura de ordem de manutenção};
-	\item {Central de notificação}.
-\end{subalineas}
-
-\section{Requisitos Não Funcionais}
-
-{\cite{IIBA2005} relata que o propósito dos requisitos não funcionais é descrever as qualidades requeridas para um sistema, como sua usabilidade e seu desempenho. Em sistemas alguns destes requisitos podem determinar tecnologias ou algoritmos específicos a serem utilizados, garantindo compatibilidade com sistemas existentes \cite{cordeiro2007}
-	
-{\color{red} Add mais uma referencia de RNF}
-
-\subsection{Funcionalidades}
-\begin{subalineas}
-	\item {Sistema desenvolvido para web};
-	\item {Utilizar o banco MS Sql Server};
-	\item {Usuários devem ter acesso à computadores e/ou dispositivos móveis}.
-\end{subalineas}
+\section{SoftByte}
+\textit{Visual Machine}, da empresa SoftByte tem um fluxo bem mais simples quando comparado à Produttivo. Porém, possui algumas ferramentas interessantes, como o agendamento de manutenções preventivas e preditivas e possui um sistema de controle de investimentos em manutenção em cada um dos equipamentos. \cite{softbyte}
 
 
+\section{ProdWin}
+\textit{ProdWin Pw-1} em seu módulo de manutenção prove controle do tempo gasto e dos materiais utilizados nas manutenções. Também dispõe de agendamento das manutenções, podendo relacioná-las a um técnico e ser acompanhadas em tempo real. O seu sistema de manutenção preditiva adiciona automaticamente a máquina na tela de alerta de manutenções, quando aproxima-se de seu limite operacional, conforme as informações previamente cadastradas. \cite{prodwin}
 
+\section{Diferenciais Agil.It}
+Analisando os softwares encontrados, será implementado para o Agil.It o diferencial de ter integração entre sistemas, uma central de notificação e ser modelado a partir das necessidades da empresa Duas Rodas.
 
-\section{Fluxograma do Sistema Desenvolvido}
-
-{Segundo \cite{pejeronimo2002} fluxograma é uma representação gráfica das tarefas de um determinado processo, sendo de forma sequencial a execução delas. \cite{roberthurt} relata que um fluxograma fornece um panorama de alto nível sobre um sistema de informação.
-
-{\color{red} Add mais referencias}
-
-\newpage
-\begin{figure}[htb]
-	\caption{\label{flux_sys}Fluxo do AGIL.IT}
-	\begin{center}
-		\includegraphics[scale=0.55]{./Figuras/fluxo-sistema.png}
-	\end{center}
-	\legend{Fonte: os autores (2020)}
-\end{figure}
-
-Na Figura \ref{flux_sys} é possível verificar todo o fluxo do sistema onde começa e termina com a integração do SAP.
-O sistema irá receber a OM do SAP e notificar o técnico responsável pela execução do serviço. Após o técnico realizar a manutenção, os usuários (técnico, e lider do setor) realizam as assinaturas e o usuário administrador analisa e libera a OM para a integração.
-
-
-\section{Diagrama de Caso de Uso do Sistema }
-
-{Diagramas dos casos de uso são técnicas utilizadas para captar os requisitos funcionais de um sistema, descrevem as interações entre usuários de um sistema e o próprio sistema, fornecendo uma narrativa sobre como ele é utilizado \cite{umlessencial2005}.
-	
- Para \cite{carniello2003} seu objetivo principal consiste em definir o comportamento de um sistema, sem revelar sua estrutura interna.}
-
-{\color{red} Colocar mais uma referencia com definição de aplicação}
-
-\begin{figure}[htb]
-	\caption{\label{caso_uso}Caso de Uso do AGIL.IT}
-	\begin{center}
-		\includegraphics[scale=0.50]{./Figuras/caso-uso.png}
-	\end{center}
-	\legend{Fonte: os autores (2020)}
-\end{figure}
-
-Na Figura \ref{caso_uso} é possível verificar quais ações cada ator desempenhará no sistema. Os operadores de máquinas e os líderes de manutenção verificam a manutenção feita e assinam a OM. O técnico realizará a manutenção e verificará as peças necessárias para realizar a assistência ao equipamento e se as mesmas possuem estoque disponível. E o administrador realizará cadastros e encerará as ordens de manutenção.
-
-
-\section{Entidade de Relacionamento do Banco de Dados}
-
-{Planejar todas as etapas, dedicando a atenção especialmente ao projeto de estruturação do banco de dados. Com a estrutura pronta, a facilidade para dar manutenção no sistema fica muito mais fácil.
-Utilizar a entidade de relacionamento, tem como objetivo, obter uma descrição de forma abstrata dos dados que serão armazenados no banco de dados \cite{2010_erbd}. }
-
-{\color{red} Add mais referencias aqui também.}
-
-
-\newpage
-\begin{figure}[htb]
-	\caption{\label{entidade_relacionamento}Entidade de Relacionamento}
-	\begin{center}
-		\includegraphics[scale=0.70]{./Figuras/er3.png}
-	\end{center}
-	\legend{Fonte: os autores (2020)}
-\end{figure}
-
-A Figura \ref{entidade_relacionamento} mostra toda a entidade de relacionamento do banco de dados, onde cada tabela representa uma estrutura de dados no banco de dados e as ligações entre elas demonstram relacionamentos que essas tabelas possuem entre si.
-
-%------------------------------------------------------------------------
+{\color{red}demostrar essas características em uma tabela comparativa}

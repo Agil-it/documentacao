@@ -2,54 +2,55 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Planejamento de Projeto\relax }}{13}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Exemplo de modelo conceitual especificado em UML\relax }}{14}{figure.caption.7}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Cenário Atual\relax }}{15}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textbf {Cenário Agil.It}\relax }}{16}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Cenário Atual\relax }}{16}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textbf {Cenário Agil.It}\relax }}{17}{figure.caption.9}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Fluxo do AGIL.IT\relax }}{22}{figure.caption.10}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Caso de Uso do AGIL.IT\relax }}{23}{figure.caption.11}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Entidade de Relacionamento\relax }}{24}{figure.caption.12}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Fluxo do AGIL.IT\relax }}{23}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Caso de Uso do AGIL.IT\relax }}{24}{figure.caption.12}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Entidade de Relacionamento\relax }}{25}{figure.caption.13}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Cronograma de Aprendizagem: Terceiro Semestre\relax }}{25}{figure.caption.13}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Cronograma de Aprendizagem: Quarto Semestre\relax }}{25}{figure.caption.14}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Cronograma de Aprendizagem: Quinto Semestre\relax }}{26}{figure.caption.15}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagrama de Causa e Efeito\relax }}{28}{figure.caption.17}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces EAP AGIL.IT\relax }}{29}{figure.caption.18}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Fluxo e Processos AGIL.IT\relax }}{58}{figure.caption.19}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Tela de Login do Agil.It\relax }}{59}{figure.caption.20}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Cadastro de Ordem de Manutenção\relax }}{60}{figure.caption.21}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Monitor de Ordem de Manutenção: Cards\relax }}{61}{figure.caption.22}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Monitor de Ordem de Manutenção: Listas\relax }}{61}{figure.caption.23}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Ordem de Manutenção\relax }}{62}{figure.caption.24}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Checklist de Segurança\relax }}{62}{figure.caption.25}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Operações da Ordem de Manutenção\relax }}{63}{figure.caption.26}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Ordem de Manutenção: Lista\relax }}{63}{figure.caption.27}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Equipamentos da Ordem de Manutenção: Lista\relax }}{64}{figure.caption.28}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Ordem de Manutenção: Rota\relax }}{64}{figure.caption.29}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Convidar ou Delegar Ordem de Manutenção\relax }}{65}{figure.caption.30}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Apontamentos da Ordem de Manutenção\relax }}{65}{figure.caption.31}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Adicionar Apontamentos na Ordem de Manutenção\relax }}{66}{figure.caption.32}%
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Motivo da Exclusão do Apontamento da Ordem de Manutenção\relax }}{66}{figure.caption.33}%
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Assinatura Digital\relax }}{67}{figure.caption.34}%
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Login\relax }}{68}{figure.caption.35}%
-\contentsline {figure}{\numberline {6.23}{\ignorespaces Menu\relax }}{69}{figure.caption.36}%
-\contentsline {figure}{\numberline {6.24}{\ignorespaces Monitor\relax }}{70}{figure.caption.37}%
-\contentsline {figure}{\numberline {6.25}{\ignorespaces Notificações\relax }}{71}{figure.caption.38}%
-\contentsline {figure}{\numberline {6.26}{\ignorespaces Ordem de Manutenção\relax }}{72}{figure.caption.39}%
-\contentsline {figure}{\numberline {6.27}{\ignorespaces Ordem de Manutenção: Lista\relax }}{73}{figure.caption.40}%
-\contentsline {figure}{\numberline {6.28}{\ignorespaces Ordem de Manutenção: Rota\relax }}{74}{figure.caption.41}%
-\contentsline {figure}{\numberline {6.29}{\ignorespaces Checklist de Segurança\relax }}{75}{figure.caption.42}%
-\contentsline {figure}{\numberline {6.30}{\ignorespaces Problemas\relax }}{76}{figure.caption.43}%
-\contentsline {figure}{\numberline {6.31}{\ignorespaces Componentes da Ordem de Manutenção\relax }}{77}{figure.caption.44}%
-\contentsline {figure}{\numberline {6.32}{\ignorespaces Operações da Ordem de Manutenção\relax }}{78}{figure.caption.45}%
-\contentsline {figure}{\numberline {6.33}{\ignorespaces Apontamentos da Ordem de Manutenção\relax }}{79}{figure.caption.46}%
-\contentsline {figure}{\numberline {6.34}{\ignorespaces Assinatura Digital\relax }}{80}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Cronograma de Aprendizagem: Terceiro Semestre\relax }}{26}{figure.caption.14}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Cronograma de Aprendizagem: Quarto Semestre\relax }}{26}{figure.caption.15}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Cronograma de Aprendizagem: Quinto Semestre\relax }}{27}{figure.caption.16}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagrama de Causa e Efeito\relax }}{29}{figure.caption.18}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces EAP AGIL.IT\relax }}{30}{figure.caption.19}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Fluxo e Processos AGIL.IT\relax }}{59}{figure.caption.20}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Tela de Login do Agil.It\relax }}{60}{figure.caption.21}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Cadastro de Ordem de Manutenção\relax }}{61}{figure.caption.22}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Monitor de Ordem de Manutenção: Cards\relax }}{62}{figure.caption.23}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Monitor de Ordem de Manutenção: Listas\relax }}{62}{figure.caption.24}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Ordem de Manutenção\relax }}{63}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Checklist de Segurança\relax }}{63}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Operações da Ordem de Manutenção\relax }}{64}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Ordem de Manutenção: Lista\relax }}{64}{figure.caption.28}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Equipamentos da Ordem de Manutenção: Lista\relax }}{65}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Ordem de Manutenção: Rota\relax }}{65}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Convidar ou Delegar Ordem de Manutenção\relax }}{66}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Apontamentos da Ordem de Manutenção\relax }}{66}{figure.caption.32}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Adicionar Apontamentos na Ordem de Manutenção\relax }}{67}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Motivo da Exclusão do Apontamento da Ordem de Manutenção\relax }}{67}{figure.caption.34}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Assinatura Digital\relax }}{68}{figure.caption.35}%
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Login\relax }}{69}{figure.caption.36}%
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Menu\relax }}{70}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Monitor\relax }}{71}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Notificações\relax }}{72}{figure.caption.39}%
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Ordem de Manutenção\relax }}{73}{figure.caption.40}%
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Ordem de Manutenção: Lista\relax }}{74}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.28}{\ignorespaces Ordem de Manutenção: Rota\relax }}{75}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.29}{\ignorespaces Checklist de Segurança\relax }}{76}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.30}{\ignorespaces Problemas\relax }}{77}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.31}{\ignorespaces Componentes da Ordem de Manutenção\relax }}{78}{figure.caption.45}%
+\contentsline {figure}{\numberline {6.32}{\ignorespaces Operações da Ordem de Manutenção\relax }}{79}{figure.caption.46}%
+\contentsline {figure}{\numberline {6.33}{\ignorespaces Apontamentos da Ordem de Manutenção\relax }}{80}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.34}{\ignorespaces Assinatura Digital\relax }}{81}{figure.caption.48}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Mapeamento do Banco de Dados com TypeOrm\relax }}{83}{figure.caption.48}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Validação de Objetos com o Class Validator\relax }}{83}{figure.caption.49}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Controller: Validação do Objeto Recebido\relax }}{84}{figure.caption.50}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Middleware: Validação do JWT\relax }}{85}{figure.caption.51}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces TypeOrm: Query as Function\relax }}{85}{figure.caption.52}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Estratégia de Exclusão de Dados\relax }}{86}{figure.caption.53}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Mapeamento do Banco de Dados com TypeOrm\relax }}{84}{figure.caption.49}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Validação de Objetos com o Class Validator\relax }}{84}{figure.caption.50}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Controller: Validação do Objeto Recebido\relax }}{85}{figure.caption.51}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Middleware: Validação do JWT\relax }}{86}{figure.caption.52}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces TypeOrm: Query as Function\relax }}{86}{figure.caption.53}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Estratégia de Exclusão de Dados\relax }}{87}{figure.caption.54}%
 \addvspace {10pt}

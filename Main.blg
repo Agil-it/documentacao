@@ -1,12 +1,12 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
 A level-1 auxiliary file: pretextual.aux
 A level-1 auxiliary file: cap1.aux
-A level-1 auxiliary file: sistema.aux
 A level-1 auxiliary file: cap2.aux
 A level-1 auxiliary file: cap3.aux
 A level-1 auxiliary file: cap4.aux
 A level-1 auxiliary file: cap5.aux
 A level-1 auxiliary file: cap6.aux
+A level-1 auxiliary file: cap7.aux
 A level-1 auxiliary file: consideracoesFinais.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
@@ -27,9 +27,16 @@ Warning--entry type for "prodwin" isn't style-file defined
 --line 360 of file references.bib
 Warning--string name "junho" is undefined
 --line 362 of file references.bib
+Warning--entry type for "monica_diagrama" isn't style-file defined
+--line 630 of file references.bib
+I was expecting a `,' or a `}'---line 634 of file references.bib
+ :  
+ :  url={https://treinamentowaei.wordpress.com/diagrama-de-classe-de-projeto/}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-(There were 8 warnings)
+(There was 1 error message)

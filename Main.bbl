@@ -54,6 +54,13 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Fowler}{FOWLER}{2005}
 {FOWLER, M. \textbf{UML Essencial}. [S.l.: s.n.], 2005. 104--105~p.}
 
+\bibitem[Gasparini 2018]{gasparini2018driv}
+\abntrefinfo{Gasparini}{GASPARINI}{2018}
+{GASPARINI, B.~C. et al. Driv-uml: visualiza{\c{c}}{\~a}o de
+  n{\~a}o-conformidades arquiteturais em uml no contexto da
+  moderniza{\c{c}}{\~a}o dirigida a arquitetura.
+Universidade Federal de S{\~a}o Carlos, 2018.}
+
 \bibitem[Gasques 2002]{pejeronimo2002}
 \abntrefinfo{Gasques}{GASQUES}{2002}
 {GASQUES, J. \textbf{O desafio do dízimo}. [S.l.: s.n.], 2002.}
@@ -128,6 +135,10 @@ ISBN 978-3-540-69687-2.}
   Informa{\c{c}}{\~a}o}. [S.l.]: Editora INDG, 1999.
 ISBN 9788586948176.}
 
+\bibitem[Primo 2014]{monica_diagrama}
+\abntrefinfo{Primo}{PRIMO}{2014}
+{PRIMO, M.~O. \textbf{Diagrama de Classe de Projeto}. 2014.}
+
 \bibitem[Produttivo 2019]{produttivo}
 \abntrefinfo{Produttivo}{PRODUTTIVO}{2019}
 {PRODUTTIVO. 2019.
@@ -184,6 +195,12 @@ Dispon{\'\i}vel em:
   Projetos - 3{\textordfeminine} Edi{\c{c}}{\~a}o}. BRASPORT, 2012.
 ISBN 9788574525426. Dispon{\'\i}vel em:
   \url{https://books.google.com.br/books?id=ubZ7YHtWZ08C}.}
+
+\bibitem[Silva 2018]{silva2018sasml}
+\abntrefinfo{Silva}{SILVA}{2018}
+{SILVA, J. P. S.~d. Sasml: a uml based domain specific modeling language for
+  self adaptive systems conceptual modeling.
+2018.}
 
 \bibitem[SoftByte 2019]{softbyte}
 \abntrefinfo{SoftByte}{SOFTBYTE}{2019}

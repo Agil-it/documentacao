@@ -25,7 +25,7 @@ No processo de manutenção de equipamentos, a empresa Duas Rodas emite uma orde
 \begin{figure}[htb]
 	\caption{\label{cenario_atual1}Cenário Atual}
 	\begin{center}
-		\includegraphics[scale=0.55]{./Figuras/cenario-atual1.png}
+		\includegraphics[scale=0.75]{./Figuras/cenario-atual1.png}
 	\end{center}
 	\legend{Fonte: Os Autores(2020)}
 \end{figure}
@@ -35,9 +35,9 @@ No processo de manutenção de equipamentos, a empresa Duas Rodas emite uma orde
 No processo de manutenção de equipamentos com a Agil.It, a ordem de manutenção será gerada no SAP e os dados serão integrados ao sistema Agil.It. Ao ser integrado, o técnico de manutenção receberá uma notificação informando que tem uma nova OM e ele poderá visualizá-la em seu monitor no aplicativo mobile ou na aplicação WEB. Ele poderá então iniciar a manutenção e fazer os apontamentos das operações e componentes. Após finalizar a manutenção, o técnico assinará a ordem de manutenção. Após isso, o operador do equipamento será notificado e a OM ficará disponível para sua avaliação, podendo este aceitar ou recusar de acordo com as realizações do trabalho. Caso recuse, o operador deve informar o motivo da rejeição ao sistema que então, irá reabrir a OM e solicitar ao técnico para verificar. Caso o operador aceite a execução do trabalho de manutenção, o mesmo deverá assinar a OM e com isto, o sistema notificará o líder técnico, sendo o trabalho deste, averiguar a execução da tarefa, o mesmo também poderá rejeitar e solicitar alterações. Após concluído, ele deve assinar a OM. Com as 3 assinaturas colhidas, o sistema irá notificar o usuário administrador e ele poderá liberar a OM para integração com o SAP.
 
 \begin{figure}[htb]
-	\caption{\textbf{\label{figure:cenario_agilit1}Cenário Agil.It}}
+	\caption{\label{figure:cenario_agilit1}Cenário Agil.It}
 	\begin{center}
-		\includegraphics[scale=0.52]{./Figuras/cenario-agilit1.png}
+		\includegraphics[scale=0.70]{./Figuras/cenario-agilit1.png}
 	\end{center}
 	\legend{Fonte: os autores (2020)}
 \end{figure}
@@ -90,18 +90,17 @@ Já \cite{1997kilovSimmonds} são mais enfáticos, para eles uma regra de negóc
 Desta forma as regras de Negocio da empresa de Alimentos Duas Rodas seriam:
 
 \begin{subalineas}
-	\item {Apenas o chefe de manutenção poderá criar ordens de manutenção};
-	\item {Apenas o administrador poderá finalizar ordens de manutenção e realizar os cadastros gerais do sistema};
+	\item {Os administradores, líderes de manutenção e líderes de setor poderão criar ordens de manutenção};
+	\item {Apenas o administrador poderá finalizar ordens de manutenção};
 	\item {Os cadastros só serão possíveis na versão web};
-	\item {Administradores e chefes de manutenção terão acesso à consultas};
-	\item {Cada ordem de manutenção deve conter uma assinatura do manutentor, uma do operador e uma do chefe de manutenção};
+	\item {Cada ordem de manutenção deve conter uma assinatura do manutentor, uma do operador ou líder de setor e uma do administrador};
 	\item {Cada ordem de manutenção só pode ser finalizada após ter as 3 assinaturas};
+	\item {Somente administradores terão acesso a tela de pendência de assinaturas};
 	\item {Cada manutentor só pode ter uma ordem iniciada por vez};
 	\item {Manutentores podem pausar ordens de manutenção};
 	\item {Manutentores podem ter várias ordens pausadas ao mesmo tempo};
-	\item {Pode haver apenas um manutentor por ordem de manutenção};
-	\item {Operadores podem solicitar uma abertura de ordem de manutenção ao líder de manutenção};
-	\item {Operadores não  tem acesso a consultas}.
+	\item {Pode haver mais de um manutentor por ordem de manutenção};
+	\item {Uma ordem deve ter um manutentor principal};
 \end{subalineas}
 
 

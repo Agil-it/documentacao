@@ -939,7 +939,7 @@
          \par
 		 \hspace{.45\textwidth}
 		 \par
-         {Professor Orientador:
+         {Professora Orientadora:
          \par
          \imprimirorientador\par}
          \par

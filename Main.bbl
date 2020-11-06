@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Bastien e Scapin 1993]{bastien1993ergonomic}
+\abntrefinfo{Bastien e Scapin}{BASTIEN; SCAPIN}{1993}
+{BASTIEN, J.~C.; SCAPIN, D.~L. Ergonomic criteria for the evaluation of
+  human-computer interfaces.
+1993.}
+
 \bibitem[Boff 2017]{boff2017sustentabilidade}
 \abntrefinfo{Boff}{BOFF}{2017}
 {BOFF, L. \textbf{Sustentabilidade: o que {\'e} - o que n{\~a}o {\'e}}. Editora
@@ -38,6 +44,11 @@ ISBN 9788532656100. Dispon{\'\i}vel em:
   negocio utilizando mineracao de processos. In:  ACM. \textbf{Companion
   Proceedings of the XIV Brazilian Symposium on Multimedia and the Web}.
   [S.l.], 2008. p. 241--246.}
+
+\bibitem[Cybis 2003]{cybis2003engenharia}
+\abntrefinfo{Cybis}{CYBIS}{2003}
+{CYBIS, W. d.~A. Engenharia de usabilidade: uma abordagem ergon{\^o}mica.
+\textbf{Florian{\'o}polis: Labiutil}, 2003.}
 
 \bibitem[Dextra 2019]{dextra2013prototipacao}
 \abntrefinfo{Dextra}{DEXTRA}{2019}
@@ -201,6 +212,12 @@ ISBN 9788574525426. Dispon{\'\i}vel em:
 {SILVA, J. P. S.~d. Sasml: a uml based domain specific modeling language for
   self adaptive systems conceptual modeling.
 2018.}
+
+\bibitem[Silva, Barbosa e Adamatti 2016]{silva2016principios}
+\abntrefinfo{Silva, Barbosa e Adamatti}{SILVA}{2016}
+{SILVA, V.~M.; BARBOSA, R. d.~M.; ADAMATTI, D.~F. Princ{\'\i}pios de
+  usabilidade e a import{\^a}ncia do usu{\'a}rio no projeto de interfaces.
+\textbf{sistema}, v.~15, p.~18, 2016.}
 
 \bibitem[SoftByte 2019]{softbyte}
 \abntrefinfo{SoftByte}{SOFTBYTE}{2019}

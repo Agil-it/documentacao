@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.24)  5 NOV 2020 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.24)  5 NOV 2020 22:17
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -1720,14 +1720,19 @@ File: ./Figuras/cap-8/criterios-gerais.jpeg Graphic file (type jpg)
 <use ./Figuras/cap-8/criterios-gerais.jpeg>
 Package pdftex.def Info: ./Figuras/cap-8/criterios-gerais.jpeg  used on input l
 ine 40.
-(pdftex.def)             Requested size: 280.65065pt x 186.69894pt.
-
+(pdftex.def)             Requested size: 402.26213pt x 267.59929pt.
+ [59 <./Figuras/cap-8/criterio-geral-apresentacao.jpeg> <./Figuras/cap-8/criter
+ios-gerais.jpeg>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 46.
 
-) [59 <./Figuras/cap-8/criterio-geral-apresentacao.jpeg> <./Figuras/cap-8/crite
-rios-gerais.jpeg>] [60]
+
+Overfull \hbox (8.19783pt too wide) in paragraph at lines 47--68
+[][] 
+ []
+
+) [60]
 \openout2 = `consideracoesFinais.aux'.
 
  (consideracoesFinais.tex) [61
@@ -1783,7 +1788,7 @@ Here is how much of TeX's memory you used:
  34369 multiletter control sequences out of 15000+200000
  590465 words of font info for 83 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,13n,55p,6785b,3062s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,16n,55p,6785b,3062s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
 ps/lm/lm-ts1.enc}{C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
 ips/lm/lm-ec.enc}{C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
@@ -1793,7 +1798,7 @@ e1/public/lm/lmtt10.pfb><C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/urw/helvetic/uhvb8a.pfb><C:/Users/marci/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/marci/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Main.pdf (65 pages, 4532493 bytes).
+Output written on Main.pdf (65 pages, 4532307 bytes).
 PDF statistics:
  1751 PDF objects out of 2073 (max. 8388607)
  816 named destinations out of 1000 (max. 500000)

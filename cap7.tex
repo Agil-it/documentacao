@@ -1,26 +1,22 @@
 \chapter{Implementação}
 
-{\color{red} PROFESSORA, POR FAVOR VERIFICAR COMO PODEMOS ESCREVER OS NOMES DE REGRAS E NOME DE CLASSES, SE ELES VÃO FICAR ENTRE ASPAS OU COMO DEVEMOS FAZER }
-
-Para o desenvolvimento do projeto, houveram uma série de reuniões onde o objetivo era delimitar e estabelecer alguns requisitos para a implementação do projeto, que de suma relevância para o andamento e funcionamento dos setores a serem implantados.
-
-Para o desenvolvimento foi estabelecido uma média de 30 dias de implementação direta no desenvolvimento do projeto, considerando que a data prevista para a entrega final do projeto será em 2020/2.
+Nessa etapa, o sistema codificado a partir da descrição computacional das fases de projeto, como visto nos capítulos anteriores, conta com três aplicações: WEB, Mobile e Servidor. As aplicações foram desenvolvidas ao longo de três semestres no qual disponibilizou-se períodos de implementação e apresentação aos envolvidos, sendo estes a Faculdade de Tecnologia Senai e a Indústria Duas Rodas com o objetivo de alinhar o desenvolvimento e as expectativas do software em relação ao processo de manutenção executado atualmente.
 
 \section{Tecnologias}
 Para o desenvolvimento do sistemas, foram divididas em três aplicações: uma visando a parte WEB, outra visando dispositivos móveis com os sistemas Android e IOS e para efetuar a comunicação entre os sistemas e o banco dados, foi elaborado uma aplicação de servidor cujo valida as requisições e efetua a comunicação entre as aplicações visíveis e o banco de dados.
 
 \subsection{Aplicação WEB}
 
-Para o desenvolvimento foi utilizada as tecnologias pré requisitadas pela empresa Duas Rodas, sendo elas HTML5, SCSS e como complemento, utilizamos a biblioteca ReactJS.
+Para o desenvolvimento foi utilizada as tecnologias pré requisitadas pela empresa Duas Rodas, sendo elas HTML5\footnote{\url{https://html.spec.whatwg.org/}}, SASS\footnote{\url{https://sass-lang.com/}} e como complemento, utilizamos a biblioteca ReactJS\footnote{\url{https://reactjs.org/}}.
 
 {\textbf{HTML5} - É uma linguagem de marcação utilizada para desenvolvimento Web, esta nova versão traz consigo importantes mudanças quanto ao papel do HTML no mundo da Web, através de novas funcionalidades como semântica e acessibilidade.}
 
-{\textbf{SCSS} - É uma folha de estilo interpretada e compilada em Cascading style sheets, ao ser interpretado é criado blocos de códigos de regras CSS. Resumidamente é utilizada para fazer o Design do sistema, com cores personalizadas, etc.}
+{\textbf{SASS} - É uma folha de estilo interpretada e compilada em Cascading style sheets, ao ser interpretado é criado blocos de códigos de regras CSS. Resumidamente é utilizada para fazer o Design do sistema, com cores personalizadas, etc.}
 
 {\textbf{ReactJs} - O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.}
 
 \subsection{Aplicação Mobile}
-Utilizando as tecnologias Ionic 4 e TypeScript esta aplicação é desenvolvida paralelamente com as demais aplicações, tem como objetivo a mobilidade, facilidade de acesso e interação podendo ser utilizado em qualquer lugar dentro da empresa.
+Utilizando as tecnologias Ionic 4\footnote{\url{https://ionicframework.com/}} e TypeScript\footnote{\url{https://www.typescriptlang.org/}} esta aplicação é desenvolvida paralelamente com as demais aplicações, tem como objetivo a mobilidade, facilidade de acesso e interação podendo ser utilizado em qualquer lugar dentro da empresa.
 
 {\textbf{TypeScript} - TypeScript é um superconjunto de JavaScript desenvolvido pela Microsoft que adiciona tipagem e alguns outros recursos a linguagem. É utilizada somente pelos desenvolvedores, pois auxilia na construção do código fonte. Seu código é transpilado para JavaScript, no final das contas tudo escrito em TypeScript vira JavaScript.}
 
@@ -28,7 +24,7 @@ Utilizando as tecnologias Ionic 4 e TypeScript esta aplicação é desenvolvida 
 
 \subsection{Aplicação do Servidor}
 A aplicação do servidor é o canal centralizador das demais plataformas. Ela tem acesso único e exclusivo ao banco de dados. É responsável por todas as validações e executa regras de negócio.
-O servidor foi desenvolvido em Typescript e utiliza a TypeOrm para integração com o banco de dados, para a API utiliza o Express.
+O servidor foi desenvolvido em Typescript e utiliza a TypeOrm\footnote{\url{https://typeorm.io/}} para integração com o banco de dados, para a API utiliza o Express\footnote{\url{https://expressjs.com/}}.
 
 {\textbf{TypeOrm} - TypeOrm é uma ORM para Typescript, utiliza injeção de dependências para modelar as classes e transformar em tabelas.}
 
@@ -41,10 +37,10 @@ Nesta etapa será apresentado alguns trechos dos códigos implementados para ilu
 
 \subsection{WEB}
 \subsubsection{Componentes}
-A plataforma web da Agil.It tem como padrão componentizar os elementos exibidos no front-end, para isso, utiliza-se a biblioteca React-md, com componentes acessíveis por propriedades (parâmetros) e totalmente personalizáveis. Os estilos podem ser configurados tanto em tempo de compilação quanto em tempo de execução pelas variáveis SCSS configuráveis e pelo uso de CSS.
-A biblioteca deve ser instalada no projeto e importada no código fonte conforme é mostrado a seguir.
+A plataforma web da Agil.It tem como padrão componentizar os elementos exibidos no \textit{front-end}, para isso, utiliza-se a biblioteca \textit{React-md}, com componentes acessíveis por propriedades (parâmetros) e totalmente personalizáveis. Os estilos podem ser configurados tanto em tempo de compilação quanto em tempo de execução pelas variáveis SASS configuráveis e pelo uso de CSS.
+A biblioteca deve ser instalada no projeto e importada no código fonte conforme é mostrado no código \ref{react-md-components}.
 
-\begin{lstlisting}[language=JavaScript, caption={Importando o componente de Ícone do react-md}]
+\begin{lstlisting}[language=JavaScript, caption={Importando o componente de Ícone do react-md}, label={react-md-components}]
 import React, { PureComponent } from 'react';
 import { FontIcon } from 'react-md';
 
@@ -75,12 +71,13 @@ export class C_Icon extends React.Component {
 \end{lstlisting}
 
 \subsubsection{Cookies}
-Ao efetuar o login na plataforma, as informações do usuário, exceto sua senha, são identificadas através da biblioteca `universal-cookie', essas informações são manipuladas para ocultar telas de determinados usuários de acordo com o seu perfil ou exibir alguma tela adicional de controle e análise, caso o perfil logado seja de um administrador. Outro exemplo seria impedir/permitir que tal usuário possa executar determinada ação ocultando elementos na tela de acordo com seu perfil.
+Ao efetuar o login na plataforma, as informações do usuário, exceto sua senha, são armazenadas nos \textit{cookies} através da biblioteca \textit{universal-cookie} e são manipuladas para ocultar telas de determinados usuários de acordo com o seu perfil ou exibir alguma tela adicional de controle e análise, caso o perfil logado seja de um administrador. Outro exemplo seria impedir/permitir que tal usuário possa executar determinada ação ocultando elementos na tela de acordo com seu perfil.
 Com isso, o controle de informações e ações que o sistema oferece se torna muito mais fácil.
 
-Após cada requisição feita ao servidor, o mesmo retorna um novo token renovado e então atualiza o token e usuário do cookie.
+Após cada requisição feita ao servidor, o mesmo retorna um novo \textit{token} renovado e então atualiza-se o token e usuário do \textit{cookie}.
+Conforme demonstrado no código \ref{storage-cookie-data}
 
-\begin{lstlisting}[language=JavaScript, caption={Gravar dados no cookie}]
+\begin{lstlisting}[language=JavaScript, caption={Gravar dados no cookie}, label={storage-cookie-data}]
 setToken(token) {
 	const user = JWTHelper.decomposeJwt(token)
 
@@ -89,9 +86,9 @@ setToken(token) {
 }
 \end{lstlisting}
 
-Para recuperar os valores do cookies basta instanciar os cookies e utilizar o método get.
+Para recuperar os valores dos \textit{cookies} basta instanciar o \textit{universal-cookies} e utilizar o método \textit{get}. Para remover o dado basta utilizar o método \textit{remove}, de acordo com o código \ref{universal-cookie-methods}.
 
-\begin{lstlisting}[language=JavaScript, caption={Recuperar dados do cookie}]
+\begin{lstlisting}[language=JavaScript, caption={Recuperar dados do cookie}, label={universal-cookie-methods}]
 class App extends Component {
 	constructor() {
 		super()
@@ -103,24 +100,20 @@ class App extends Component {
 			user: this.cookies.get('user'),
 		};
 	};
-}
-\end{lstlisting}
-
-Para remover um dados, basta utilizar o método remove.
-
-\begin{lstlisting}[language=JavaScript, caption={Recuperar dados do cookie}]
-onLogout() {
-	this.cookies.remove('token');
-	this.setState({ token: undefined })
+	
+	onLogout() {
+		this.cookies.remove('token');
+		this.setState({ token: undefined })
+	}
 }
 \end{lstlisting}
 
 \subsubsection{Helpers}
-Com o objetivo de agilizar o desenvolvimento do projeto, foram implementadas diversas classes de ``Ajuda'' como ``DateHelper.js'', ``MaintenanceOrderHelpers.js'', ``SearchModel.js''.
+Com o objetivo de agilizar o desenvolvimento do projeto, foram implementadas diversas classes de ajuda como \textit{DateHelper.js}, \textit{MaintenanceOrderHelpers.js}, \textit{SearchModel.js}.
 
-DateHelper é responsável por manipular e retornar as datas no formato desejado, possui funções que podem ser chamadas em qualquer classe para auxiliar o time de desenvolvimento no ganho de tempo. Como trabalhar com data é trabalhoso, segue um exemplo de como deixar um pouco mais simples.
+\textit{DateHelper} é responsável por manipular e retornar as datas no formato desejado, possui funções que podem ser chamadas em qualquer classe para auxiliar o time de desenvolvimento no ganho de tempo. Como trabalhar com data é trabalhoso, segue um exemplo de como deixar um pouco mais simples, como pode-se ver no código \ref{date-helper}.
 
-\begin{lstlisting}[language=JavaScript, caption={Função que formata a data em dia/mês/ano - horas/minutos}]
+\begin{lstlisting}[language=JavaScript, caption={Função que formata a data em dia/mês/ano - horas/minutos}, label={date-helper}]
 static formatDateTime(inputDate) {
 	var date = this.getDate(inputDate);
 	
@@ -134,40 +127,20 @@ static formatDateTime(inputDate) {
 }
 \end{lstlisting}
 
-Executando a função em um componente.
+A \textit{MaintenanceOrderHelper} é responsável por auxiliar na manipulação dos dados referentes as ordens de manutenção, possui funções que fazem a tradução de algumas propriedades dos objetos que são salvos em inglês no servidor.
 
-\begin{lstlisting}[language=JavaScript, caption={Utilizando a função de formatação de data hora}]
-<div style={{ margin: 10, position: "absolute", right: 0 }}>
-	<C_ToolTip
-		position="left" 
-		tooltip={
-			<div>                          
-				<div>Aberto em:</div>
-				<div> {DateHelper.formatDateTime(order.openedDate)} </div>
-			</div>
-		}
-	>
-	<C_Icon
-		style={{cursor:"pointer", fontSize: 30, color:"#3177e8"}}
-		icon="access_time"
-	/>
-	</C_ToolTip>
-</div>
+Código \ref{maintenance-order-helper-translate-props} exemplifica a utilização da função de tradução de propriedades da ordem na classe de Ordem de Manutenção.
+
+\begin{lstlisting}[language=JavaScript, caption={Utilizando a tradução de propriedades da ordem de manutenção}, label={maintenance-order-helper-translate-props}]
+<span>{HelperOM.translate("status", order.orderStatus)}</span>
+<span>{HelperOM.translate("color", order.orderStatus)}</span>
+<span>{HelperOM.translate("layout", order.orderLayout)}</span>
+<span>{HelperOM.translate("priority", order.priority)}</span>
 \end{lstlisting}
 
+Código \ref{maintenance-order-helper-translate-method} demonstra a função que traduz as propriedades da Ordem.
 
-
-A ``MaintenanceOrderHelper'' é responsável por auxiliar na manipulação dos dados referentes as ordens de manutenção, possui funções que fazem a tradução de algumas propriedades dos objetos que são salvos em inglês no servidor.
-
-Utilizando a função de tradução do status da Ordem na classe de Ordem de Manutenção.
-
-\begin{lstlisting}[language=JavaScript, caption={Utilizando a tradução de termos da ordem de manutenção}]
-<span style={{ fontSize: 18, marginLeft: 5 }}>{HelperOM.translate("status", order.orderStatus)}</span>
-\end{lstlisting}
-
-Função que traduz o status da Ordem.
-
-\begin{lstlisting}[language=JavaScript, caption={Função de tradução}]
+\begin{lstlisting}[language=JavaScript, caption={Função de tradução}, label={maintenance-order-helper-translate-method}]
 static translate(prop, value) {
 	let props;
 	
@@ -178,6 +151,32 @@ static translate(prop, value) {
 	else return value;
 	
 	return props[value];
+}
+
+static getLayoutType() {
+	return {
+		default: 'Corretiva | Preventiva',
+		route: 'ROTA',
+		list: 'LISTA',
+	}
+}
+
+static getColorPriority() {
+	return {
+		low: "#03a140",
+		medium: "#3177e8",
+		high: "#ffd300",
+		urgent: "red",
+	}
+}
+
+static getPriority() {
+	return {
+		low: "Baixa",
+		medium: "Média",
+		high: "Alta",
+		urgent: "Urgente",
+	}
 }
 
 static getStatus() {
@@ -196,26 +195,12 @@ static getStatus() {
 }
 \end{lstlisting}
 
-Ainda no ``MaintenanceOrderHelper'' existem funções que ordenam as ordens por prioridade e data de abertura na tela de monitoramento.
-
-Utilizando a função na classe Dashboard ao dar um get da lista de ordens.
-
-\begin{lstlisting}[language=JavaScript, caption={Ordenando pedidos após a consulta no servidor}]
-const response = await this.provider.getList(sendData);
-let orderList = [];
-
-if (response.success) {
-	orderList = response.data;
-}
-
-const sortedOrderList = HelperOM.sortOrders(orderList);
-this.setState({ orders: sortedOrderList , showLoading: false });
-\end{lstlisting}
-
-Função que irá fazer a ordenação da lista de ordens de manutenção. A ordenação avalia 2 campos: prioridade e data de abertura.
+Ainda no \textit{MaintenanceOrderHelper} existem funções que ordenam as OM por prioridade e data de abertura na tela de monitoramento.
 As ordens serão ordenadas das urgentes às com baixa prioridade e como um segundo fator será a data de abertura, sendo as mais antigas mostradas primeiro.
 
-\begin{lstlisting}[language=JavaScript, caption={Funções responsáveis pela ordenação}]
+Código \ref{maintenance-order-helper-sort} mostra a lógica utilizada para a ordenação.
+
+\begin{lstlisting}[language=JavaScript, caption={Funções responsáveis pela ordenação}, label={maintenance-order-helper-sort}]
 static sortOrders(list) {
 	var ordenatedPriority = this.ordenatedPriority();
 	
@@ -242,11 +227,13 @@ static ordenatedPriority() {
 }
 \end{lstlisting}
 
-O ``SearchModel.js'' contém funções pré-configuradas das colunas que serão exibidas nas telas de crud afim de uma melhor visualização e organização dos dados exibidos.
-A configuração é composta por um \textit{array} de objetos que possui três propriedades: name, property e defaultValue.
-A propriedade name será o cabeçalho da coluna do GRID, property é a propriedade da listagem que será renderizado na coluna e defaultValue é o valor que será apresentado caso não haja dados para a property na listagem.
+O \textit{SearchModel.js} contém funções pré-configuradas das colunas que serão exibidas nas telas de crud afim de uma melhor visualização e organização dos dados exibidos.
+A configuração é composta por um \textit{array} de objetos que possui três propriedades: \textit{name}, \textit{property} e \textit{defaultValue}.
+A propriedade \textit{name} será o cabeçalho da coluna da tabela, \textit{property} é a propriedade da listagem que será renderizado na coluna e \textit{defaultValue} é o valor que será apresentado caso não haja dados para a \textit{property} na listagem.
 
-\begin{lstlisting}[language=JavaScript, caption={Definição da configuração para consulta de dados}]
+Código \ref{search-model-data-config} mostra a definição da configuração do \textit{SearchModel}.
+
+\begin{lstlisting}[language=JavaScript, caption={Definição da configuração para consulta de dados}, label={search-model-data-config}]
 const machineTypeColumns = () => [
 	{
 		name: "ID",
@@ -279,9 +266,9 @@ const equipmentColumns = () => [
 ];
 \end{lstlisting}
 
-Utilizando as funções na classe Machine, cadastro de Equipamentos.
+O código \ref{search-model-equipment} mostra a utilização das funções de busca na classe de cadastro de equipamentos.
 
-\begin{lstlisting}[language=JavaScript, caption={Tela para cadastro de equipamento}]
+\begin{lstlisting}[language=JavaScript, caption={Tela para cadastro de equipamento}, label={search-model-equipment}]
 class CreateMachine extends Component {
 	
 	constructor(props) {
@@ -289,10 +276,10 @@ class CreateMachine extends Component {
 		
 		this.state = {
 			visible: true,
-			autocomplete: '',
+			equipmentId: '',
 			machineType: '',
 			fields: {},
-			list: [],
+			equipmentList: [],
 			machineTypeList: [],
 			equipmentColumns: equipmentColumns(),
 			machineTypeColumns: machineTypeColumns(),
@@ -301,24 +288,23 @@ class CreateMachine extends Component {
 }
 \end{lstlisting}
 
-Ao obter as colunas em um State, os dados são enviados ao nosso componente de ``C{\_}AutoComplete'' que possui um ícone de lupa onde o usuário pode clicar para visualizar todos os equipamentos cadastrados.
+Ao obter as colunas em um State, os dados são enviados ao nosso componente \textit{C{\_}AutoComplete} que possui um ícone de lupa onde o usuário pode clicar para visualizar todos os equipamentos cadastrados, conforme visto no código \ref{search-model-auto-complete}.
 
-\begin{lstlisting}[language=JavaScript, caption={Componente C\_AutoComplete}]
+\begin{lstlisting}[language=JavaScript, caption={Utilizando o componente C\_AutoComplete}, label={search-model-auto-complete}]
 	<C_AutoComplete
 		id="id"
 		name="id"
-		value={this.state.autocomplete}
+		value={this.state.equipmentId}
 		label={"Equipamento"}
 		rightIcon={"search"}
-		list={this.state.list}
-		onChange={this.onChange}
+		list={this.state.equipmentList}
 		searchColumns={this.state.equipmentColumns}
 	/>
 \end{lstlisting}
 
-Função dentro do componente ``C{\_}AutoComplete'' que exibe a tabela de consulta de acordo com as colunas e lista de dados enviados por parâmetro.
+Código \ref{auto-complete-on-click-icon} mostra a função dentro do componente \textit{C{\_}AutoComplete} que exibe a tabela de consulta de acordo com as colunas e lista de dados enviados por parâmetro.
 
-\begin{lstlisting}[language=JavaScript, caption={Componente C\_AutoComplete}]
+\begin{lstlisting}[language=JavaScript, caption={Componente C\_AutoComplete: Função executada ao clicar na lupa}, label={auto-complete-on-click-icon}]
 	onClickIcon() {
 		if (!Array.isArray(this.props.searchColumns)) return;
 		
@@ -337,12 +323,11 @@ Função dentro do componente ``C{\_}AutoComplete'' que exibe a tabela de consul
 
 \subsection{Mobile}
 \subsubsection{Ações da Ordem de Manutenção}
-A estrutura da classe "AgilitActionUtils.ts" é feita com o intuíto de reutilizar códigos, sendo que  cada tipo de OM deve ser assinada da mesma forma que qualquer outra, mudando apenas seu atributo identificador, a seguir seguem algumas características importantes desta classe.
+A estrutura da classe \textit{AgilitActionUtils.ts} é feita com o intuito de reutilizar códigos, sendo que cada tipo de OM deve ser assinada da mesma forma que qualquer outra, mudando apenas seu atributo identificador, a seguir seguem algumas características importantes desta classe.
 
-A primeira característica desta classe é de forma centralizada realizar as ações de uma determinada OM, recebendo como parâmetro para qual OM deverá ser feita a ação e a ação propriamente dita.
+A primeira característica desta classe é de forma centralizada de realizar as ações de uma determinada OM, recebendo como parâmetro para qual OM deverá ser feita a ação e a ação propriamente dita, conforme mostra código \ref{order-actions}.
 
-
-\begin{lstlisting}[language=JavaScript, caption={Alterar situação da ordem de manutenção}]
+\begin{lstlisting}[language=JavaScript, caption={Alterar situação da ordem de manutenção}, label={order-actions}]
 public async changeStatus(orderID, orderStatus : AgilitOrderStatus){    
 	return this.restOrder.orderActions(orderID, orderStatus);
 }
@@ -364,9 +349,10 @@ public orderActions(orderID : number, agilitOrderStatus : AgilitOrderStatus){
 
 \end{lstlisting}
 
-Outra característica muito importante desta classe é realizar as assinaturas de uma determinada OM, sendo passada como parâmetro a OM respectivamente e a senha de assinatura. Ao realizar uma assinatura a classe irá realizar algumas validações da OM a fim de verificar se está de acordo para enviar ao servidor, com isso a promessa deve ser resolvida ou rejeitada.
+Outra característica muito importante desta classe é realizar as assinaturas de uma determinada OM, sendo passada como parâmetro a OM respectivamente e a senha de assinatura. Ao realizar uma assinatura a classe irá executar algumas validações da OM a fim de verificar se está de acordo para enviar ao servidor, com isso a promessa deve ser resolvida ou rejeitada.
+O código \ref{sign-order-mobile} demonstra a implementação.
 
-\begin{lstlisting}[language=JavaScript, caption={Assinar a ordem de manutenção}]
+\begin{lstlisting}[language=JavaScript, caption={Assinar a ordem de manutenção}, label={sign-order-mobile}]
 public async signOrder(order, assignaturePassword): Promise<any>{
 	return new Promise(async (resolve, reject) => {
 		this.resolvePromise = resolve;
@@ -404,9 +390,8 @@ public async signOrder(order, assignaturePassword): Promise<any>{
 }
 \end{lstlisting}
 
-Para que uma OM seja assinada com sucesso a classe deve conter as validações dos estados atuais da OM a ser
-assinada, por exemplo, se o usuário realizar a assinatura de uma OM com status cancelada esta implementação tem
-de validara a mesma.
+Para que uma OM seja assinada com sucesso a classe deve conter as validações dos estados atuais da OM a ser assinada, por exemplo, se o usuário realizar a assinatura de uma OM com status cancelada esta implementação tem de validara a mesma.
+Código \ref{order-validation} mostra a implementação de validação da ordem antes da assinatura.
 
 \begin{lstlisting}[language=JavaScript, caption={Validar estados da OM}]
 private validateOrder(order, password) : boolean{
@@ -435,9 +420,10 @@ private validateOrder(order, password) : boolean{
 \end{lstlisting}
 
 \subsubsection{Dados Armazenados no Local Storage}
-Algumas informações por exemplo como login, token de acesso devem ficar salvas em memória para posteriormente serem utilizadas novamente, com isso desenvolvemos a classe chamada "AgilitStorageUtils.ts" contendo regras, limpezas específicas dos dados e separação dos tipos dos dados que estão sendo armazenados e buscados.
+Algumas informações por exemplo como usuário e token de acesso devem ficar salvas em memória para posteriormente serem utilizadas novamente, com isso desenvolvemos a classe chamada \textit{AgilitStorageUtils.ts} contendo regras, limpezas específicas dos dados e separação dos tipos de dados que estão sendo armazenados e buscados.
 
-\begin{lstlisting}[language=JavaScript, caption={Tipos de dados armazenados}]
+O código \ref{AgilitStorageTypes} mostra os tipos de dados armazenados.
+\begin{lstlisting}[language=JavaScript, caption={Tipos de dados armazenados}, label={AgilitStorageTypes}]
 export enum AgilitStorageTypes{
 	USERDATA = 'user',
 	USERNAME = 'username',
@@ -446,34 +432,27 @@ export enum AgilitStorageTypes{
 }
 \end{lstlisting}
 
-Método responsável por fazer a limpeza de um dado específico da memória do navegador, conforme seu tipo.
+O código \ref{AgilitStorageTypes-actions} mostra as ações de limpeza, busca e gravação de dados.
 
-\begin{lstlisting}[language=JavaScript, caption={Limpeza específico de cada dado}]
-public static clearSpecificData(agilitStorageType : AgilitStorageTypes){
+\begin{lstlisting}[language=JavaScript, caption={Tipos de dados armazenados}, label={AgilitStorageTypes-actions}]
+
+// Remove de dados conforme o tipo especificado.
+public static clearSpecificData(agilitStorageType : AgilitStorageTypes) {
 	window.localStorage.removeItem(agilitStorageType);
 }
-\end{lstlisting}
 
-Buscando dados de um tipo específico armazenado na memória do navegador.
-
-\begin{lstlisting}[language=JavaScript, caption={Buscar em formato de STRING}]
-public static getData(agilitStorageType : AgilitStorageTypes){   
+// Buscando dados de um tipo específico armazenado na memória do navegador.
+public static getData(agilitStorageType : AgilitStorageTypes) {
 	return window.localStorage.getItem(agilitStorageType);
 }
-\end{lstlisting}
 
-Buscando dados de um tipo específico armazenado e convertendo para objeto.
-
-\begin{lstlisting}[language=JavaScript, caption={Buscar em formato JSON}]
-public static getDataJSON(agilitStorageType : AgilitStorageTypes){    
+// Buscando dados de um tipo específico armazenado e convertendo para objeto.
+public static getDataJSON(agilitStorageType : AgilitStorageTypes) {
 	return JSON.parse(window.localStorage.getItem(agilitStorageType));
 }
-\end{lstlisting}
 
-Este método faz uma verificação do tipo do dado que está sendo inserido na memória do navegador, o método aceita entradas de string e objeto, pois o mesmo normaliza para string automaticamente.
-
-\begin{lstlisting}[language=JavaScript, caption={Inserindo dados na memória do navegador}]
-public static setData(agilitStorageType : AgilitStorageTypes, data : Object|Array<any>|string){
+// Este método faz uma verificação do tipo do dado que está sendo inserido na memória do navegador.
+public static setData(agilitStorageType : AgilitStorageTypes, data : Object|Array<any>|string) {
 	if (AgilitUtils.isNullOrUndefined(data)){
 		return;
 	}
@@ -490,12 +469,12 @@ public static setData(agilitStorageType : AgilitStorageTypes, data : Object|Arra
 \end{lstlisting}
 
 \subsection{Servidor}
-\subsubsection{Mapeamento do Banco de Dados com TypeOrm}
+\subsubsection{Mapeamento do Banco de Dados com \textit{TypeOrm}}
 
-A TypeOrm trabalha com injeção de dependências, então em cada propriedade tem um \textit{decorator} que vai definir o mapeamento dela. Para gerar uma \textit{primary key} com auto increment, basta usar a injeção "PrimaryGeneratedColumn", para uma coluna simples, apenas "column", para data de criação do registro, "CreateDateColumn" e para data de atualização do registro "UpdateDateColumn".
-Com a TypeOrm é possível ter classes abstratas para abranger propriedades em comum no banco de dados, para tanto foi criado a classe baseClass que irá conter todos os campos em comum de todas as tabelas do banco de dados.
+A \textit{TypeOrm} trabalha com injeção de dependências, então em cada propriedade tem um \textit{decorator} que vai definir o mapeamento dela. Para gerar uma \textit{primary key} com auto increment, basta usar a injeção \textit{PrimaryGeneratedColumn}, para uma coluna simples, apenas \textit{column}, para data de criação do registro, \textit{CreateDateColumn} e para data de atualização do registro \textit{UpdateDateColumn}.
+Com a \textit{TypeOrm} é possível ter classes abstratas para abranger propriedades em comum no banco de dados, para tanto foi criado a classe \textit{baseClass} que irá conter todos os campos em comum de todas as tabelas do banco de dados, conforme mostrado no código \ref{typeorm-base-class}.
 
-\begin{lstlisting}[language=JavaScript, caption={BaseClass: Mapeamento de propriedades de tabelas do banco de dados}]
+\begin{lstlisting}[language=JavaScript, caption={BaseClass: Mapeamento de propriedades de tabelas do banco de dados}, label={typeorm-base-class}]
 export abstract class BaseClass {
 	
 	@PrimaryGeneratedColumn()
@@ -528,9 +507,9 @@ export abstract class BaseClass {
 }
 \end{lstlisting}
 
-Para facilitar as tabelas genéricas de CRUD, onde têm apenas os dados base e o campo de descrição, foi criado a classe abstrata crudClass.
+Para facilitar as tabelas genéricas de CRUD, onde têm apenas os dados base e o campo de descrição, foi criado a classe abstrata \textit{crudClass}, conforme mostrado no código \ref{typeorm-crud-class}.
 
-\begin{lstlisting}[language=JavaScript, caption={CrudClass: Mapeamento de propriedades para cruds genéricos}]
+\begin{lstlisting}[language=JavaScript, caption={CrudClass: Mapeamento de propriedades para cruds genéricos}, label={typeorm-crud-class}]
 export abstract class CrudClass extends BaseClass {
 
 	@Column({nullable: false})
@@ -545,9 +524,9 @@ export abstract class CrudClass extends BaseClass {
 }
 \end{lstlisting}
 
-E por fim, a aplicação de uma classe que irá gerar de fato uma tabela no banco de dados.
+E por fim, o código \ref{model-sector} mostra a aplicação de uma classe que irá gerar de fato uma tabela no banco de dados.
 
-\begin{lstlisting}[language=JavaScript, caption={Mapeamento de propriedades da tabela sector}]
+\begin{lstlisting}[language=JavaScript, caption={Mapeamento de propriedades da tabela sector}, label={model-sector}]
 @Entity('sector')
 export class Sector extends CrudClass {
 
@@ -558,11 +537,13 @@ export class Sector extends CrudClass {
 }
 \end{lstlisting}
 
-No primeiro parâmetro da injeção "Entity" definimos o nome da tabela, e como estendemos a classe do CrudClass que estende, subsequentemente da classe BaseClass a tabela terá todas as colunas definidas nas injeções de dependências.
+No primeiro parâmetro da injeção \textit{Entity} define-se o nome da tabela, e como a classe \textit{Sector} estende a classe \textit{CrudClass} que estende, subsequentemente a classe \textit{BaseClass} a tabela terá todas as colunas definidas nas injeções de dependências mostradas anteriormente.
 
-Para fazer relações entre as tabelas existem alguns \textit{decorators} específicos: "ManyToOne" para relações muito para um, "ManyToMany" para relações muitos para muitos, "OneToOne" para relações um para um e "OneToMany" para relações um para muitos.
+Para fazer relações entre as tabelas existem alguns \textit{decorators} específicos: \textit{ManyToOne} para relações muito para um, \textit{ManyToMany} para relações muitos para muitos, \textit{OneToOne} para relações um para um e \textit{OneToMany} para relações um para muitos.
 
-\begin{lstlisting}[language=JavaScript, caption={Mapeamento de propriedades da tabela área de installation\_area}]
+O código \ref{model-installation-area} mostra a definição da relação \textit{ManyToOne}.
+
+\begin{lstlisting}[language=JavaScript, caption={Mapeamento de propriedades da tabela área de installation\_area}, label={model-installation-area}]
 @Entity("installation_area")
 export class InstallationArea extends CrudClass {
 	
@@ -577,9 +558,9 @@ export class InstallationArea extends CrudClass {
 }
 \end{lstlisting}
 
-A TypeOrm tenta fazer a relação automaticamente pelo nome dos campos, porém, se for uma relação mais complexa é possível usar o \textit{decorator} "JoinColumn" para definir qual coluna se relaciona com qual coluna e explicitar em qual das tabelas deve ficar a \textit{foreign key}.
+A \textit{TypeOrm} tenta fazer a relação automaticamente pelo nome dos campos, porém, se for uma relação mais complexa é possível usar o \textit{decorator JoinColumn} para definir qual coluna se relaciona com qual coluna e explicitar em qual das tabelas deve ficar a \textit{foreign key}, conforme mostrado no código \ref{model-maintenance-worker}.
 
-\begin{lstlisting}[language=JavaScript, caption={Mapeamento de propriedades da tabela maintenance\_worker}]
+\begin{lstlisting}[language=JavaScript, caption={Mapeamento de propriedades da tabela maintenance\_worker}, label={model-maintenance-worker}]
 @Entity('maintenance_worker')
 export class MaintenanceWorker extends BaseClass {
 
@@ -607,86 +588,51 @@ export class MaintenanceWorker extends BaseClass {
 
 \subsubsection{Validação de Objetos com o Class Validator}
 
-Para validações de campos da tabela utilizamos outra biblioteca com injeção de dependências que funciona muito bem quando mesclada com a TypeOrm, o Class Validator.
-Com ele podemos utilizar, por exemplo o \textit{decorator} ``IsNotEmpty'' na propriedade ``description''. Esse \textit{decorator} irá validar se a propriedade está vazia ou não, caso esteja, irá retornar o erro ``Descrição: Campo obrigatório.'' conforme definição no próprio \textit{decorator}.
+Para validações de campos da tabela utiliza-se outra biblioteca com injeção de dependências que funciona muito bem quando mesclada com a \textit{TypeOrm}, o \textit{Class Validator}.
+Com ele pode-se utilizar, por exemplo o \textit{decorator IsNotEmpty} na propriedade \textit{description}. Esse \textit{decorator} irá validar se a propriedade está vazia ou não, caso esteja, irá retornar o erro \textit{Descrição: Campo obrigatório.} conforme definição no próprio \textit{decorator} visto no código \ref{class-validator-model}.
 
-\begin{lstlisting}[language=JavaScript, caption={Definição de validação de propriedades com o Class Validator}]
-@Column({ nullable: false })
+\begin{lstlisting}[language=JavaScript, caption={Definição de validação de propriedades com o Class Validator}, label={class-validator-model}]
 @IsNotEmpty({
 message:'Descrição: Campo Obrigatório.',
 })
 public description: string = '';
 \end{lstlisting}
 
-E para executar a validação conforme as injeções feitas, é preciso importar a função ``validate'' do class validator e executar passando uma instancia do objeto.
+E para executar a validação conforme as injeções feitas, é preciso importar a função \textit{validate} do \textit{class validator} e executar passando uma instancia do objeto.
 
 \begin{lstlisting}[language=JavaScript, caption={Validação de Objetos com o Class Validator}]
 async validate(entity: Entity) : Promise<any> {
 	const errors = await validate(entity);
 	
 	if (errors.length === 0) {
-		return undefined
+		return undefined;
 	}
 	
-	let errorList = []
+	let errorList = [];
 	
 	errors.forEach(error => {
-		let constraints = error.constraints
+		let constraints = error.constraints;
 		
 		for (const key in constraints) {
 			if (constraints.hasOwnProperty(key)) {
-				errorList.push(constraints[key])
+				errorList.push(constraints[key]);
 			}
 		}
 	});
 	
-	return errorList
+	return errorList;
 }
 \end{lstlisting}
 
-O retorno vem em forma de array e traz diversas informações a respeito dos erros ocorridos, no caso da API, é mostrado apenas a mensagem de erro em si, então a listagem é filtrada para mostrar apenas os erros.
-
-\subsubsection{TypeOrm: Query as Function}
-
-A TypeOrm traz algumas facilidades na interação com o banco de dados, uma delas é a possibilidade de montar query através de funções.
-
-A função ``all'' faz a busca de lista dos dados de uma tabela específica no banco de dados.
-
-\begin{lstlisting}[language=JavaScript, caption={TypeOrm: Obter lista de resgistro}]
-async all(request: Request, response: Response, next: NextFunction) {
-	
-	const where = {
-		deleted: false,
-		...this.getWhereConditions(request.params, request.query, this.getRepositoryEntity().create()),
-		...this.getCustomWheresList(),
-	}
-	
-	const { skip, take } = request.headers;
-	
-	return this.getRepositoryEntity().find(<any>{
-		relations: this.includes(),
-		where,
-		skip,
-		take,
-	});
-}
-\end{lstlisting}
-
-Já a função ``one'' busca somente os dados de um filtro específico.
-
-\begin{lstlisting}[language=JavaScript, caption={TypeOrm: Obter um registro}]
-async one(request: Request, response: Response, next: NextFunction) {
-	return this.get(request.params.id);
-}
-\end{lstlisting}
+O retorno vem em forma de \textit{array} e traz diversas informações a respeito dos erros ocorridos, no caso da API, é mostrado apenas a mensagem de erro em si, então a listagem é filtrada para mostrar apenas os erros.
 
 \subsubsection{API}
-Na API é utilizado o Express para gerenciar as requisições feitas pelo front, mobile e integração de sistemas externos.
-Foi adicionado os \textit{plugins} Cors para lidar com o CORS, BodyParser para converter JSON e o Helmet para segurança da aplicação.
+Na API é utilizado o \textit{Express} para gerenciar as requisições feitas pela aplicação web, mobile e integração de sistemas externos.
+Foi adicionado os \textit{plugins Cors} para lidar com o CORS, \textit{BodyParser} para converter JSON e o \textit{Helmet} para melhorar a segurança da aplicação.
 
-No script de inicialização do servidor é estabelecido conexão com o banco de dados, instanciado a aplicação Express e instalado seus \textit{plugins}, 
+No script de inicialização do servidor é estabelecido conexão com o banco de dados, instanciado a aplicação \textit{Express} e instalado seus \textit{plugins}, conforme visto no código \ref{script-inicial-servidor}
 
-\begin{lstlisting}[language=JavaScript, caption={Script de inicialização do servidor}]
+\begin{lstlisting}[language=JavaScript, caption={Script de inicialização do servidor}, label={script-inicial-servidor}]
 createConnection().then(async connection => {
 
 	// create express app
@@ -712,11 +658,11 @@ createConnection().then(async connection => {
 \end{lstlisting}
 
 O roteamento é composto por várias coleções de rotas, no qual cada coleção tem um conjunto de rotas que é composto pela url que a rota responderá, os métodos que aceitará e a função que será invocada.
-Por fim, o método ``registerRoute'' irá registrar a rota da coleção ao express.
-Esses métodos que as rotas respondem ficam no package controller que fazem a ponta entre receber a requisição, processar os dados recebidos e responder o que foi solicitado, seja cadastrar, atualizar, excluir ou consultar um ou mais registros.
-Da mesma forma que foi feita com os models, foi desenvolvido um ``CrudController'' que é uma classe que utiliza \textit{Generics} que para cada instancia recebe o valor da entidade do Crud e irá se adequar conforme o tipo fornecido. Essa classe também recebe no construtor o acesso ao repositório que será gravado, no caso, a tabela do banco de dados.
+Por fim, o método \textit{registerRoute} irá registrar a rota da coleção ao \textit{express}.
+Esses métodos que as rotas respondem ficam no \textit{package controller} que fazem a ponta entre receber a requisição, processar os dados recebidos e responder o que foi solicitado, seja cadastrar, atualizar, excluir ou consultar um ou mais registros.
+Da mesma forma que foi feita com os \textit{models}, foi desenvolvido \textit{CrudController}, uma classe que utiliza \textit{Generics} que para cada instancia recebe o valor da entidade do Crud e irá se adequar conforme o tipo fornecido. Essa classe também recebe no construtor o acesso ao repositório que será gravado, no caso, a tabela do banco de dados, conforme visto no código\ref{crud-controller}.
 
-\begin{lstlisting}[language=JavaScript, caption={CrudController}]
+\begin{lstlisting}[language=JavaScript, caption={CrudController}, label={crud-controller}]
 export class CrudController<Entity> {
 
 	private repositoryEntity : Repository<Entity>;
@@ -725,10 +671,11 @@ export class CrudController<Entity> {
 		this.repositoryEntity = repositoryEntity;
 	}
 \end{lstlisting}
-Todas as rotas são protegidas, com exceção da rota de login. Essa proteção é feita através de um \textit{middleware} colocado ao registrar a rota no express, esse \textit{middleware} vai capturar os cabeçalhos ``token'' para autenticação de sessão e ``authorization'' para usuários de integração, caso nenhum dos cabeçalhos seja fornecido a api irá retornar o status ``401 - Unauthorized''. Caso seja passado o cabeçalho ``authorization'' o \textit{middleware} irá verificar se o token é válido e se está na base de dados de usuários de integração. Se passado ``token'', o sistema irá decompor e validar o \textit{JWT} utilizando a biblioteca jsonwebtoken, Caso a validação do JWT informado falhe, seja por não estar com a assinatura válida da aplicação ou por ter expirado o tempo da utilização, retorna um erro para a API informando que o token não é válido. Caso a validação passe, o token é regerado com expiração renovada para 5 horas e é adicionado ao header da resposta. Lembrando que, o token pode ser obtido através da rota de Login.
 
+Todas as rotas são protegidas, com exceção da rota de login. Essa proteção é feita através de um \textit{middleware} colocado ao registrar a rota no \textit{express}, esse \textit{middleware} vai capturar os cabeçalhos \textit{token} para autenticação de sessão e \textit{authorization} para usuários de integração, caso nenhum dos cabeçalhos seja fornecido a API irá retornar o status ``401 - Unauthorized''. Caso seja passado o cabeçalho \textit{authorization} o \textit{middleware} irá verificar se o \textit{token} é válido e se está na base de dados de usuários de integração. Se passado \textit{token}, o sistema irá decompor e validar o \textit{token} utilizando a biblioteca \textit{jsonwebtoken}, Caso a validação do \textit{JWT} informado falhe, seja por não estar com a assinatura válida da aplicação ou por ter expirado o tempo da utilização, retorna um erro para a API informando que o \textit{token} não é válido. Caso a validação passe, o \textit{token} é regerado com expiração renovada para 5 horas e é adicionado ao cabeçalho da resposta. Lembrando que, o \textit{token} pode ser obtido através da rota de Login.
 
-\begin{lstlisting}[language=JavaScript, caption={Função para validação de autenticação da API}]
+O código \ref{middleware-check-jwt} demonstra a validação de usuário e \textit{token} feita pelo \textit{middleware} da API.
+\begin{lstlisting}[language=JavaScript, caption={Função para validação de autenticação da API}, label={middleware-check-jwt}]
 export const checkJwt = (request: Request, response: Response, next: NextFunction) => {
 	
 	const authorization = <string>request.headers["authorization"];
@@ -774,9 +721,10 @@ export const checkJwt = (request: Request, response: Response, next: NextFunctio
 
 \subsubsection{Estratégia de Exclusão de Dados}
 
-A estratégia para exclusão de dados adotado no projeto é não deletar os registros mas alterar a coluna ``deleted'' para true. Desta maneira é possível rapidamente desfazer uma exclusão errada e também não ocorrerá problemas com histórico caso as entidades sejam deletadas.
+A estratégia para exclusão de dados adotado no projeto é não deletar os registros mas alterar a coluna \textit{deleted} para \textit{true}. Desta maneira é possível rapidamente desfazer uma exclusão errada e também não ocorrerá problemas com histórico caso as entidades sejam deletadas.
 
-\begin{lstlisting}[language=JavaScript, caption={Método para exclusão de registro}]
+Código \ref{remove-entity} mostra lógica executada durante a ``exclusão'' de um registro.
+\begin{lstlisting}[language=JavaScript, caption={Método para exclusão de registro}, label={remove-entity}]
 async removeEntity(entity: Entity) {
 	entity["deleted"] = true;
 	

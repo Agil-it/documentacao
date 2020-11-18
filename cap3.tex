@@ -56,9 +56,9 @@ O Sistema contemplará 4 tipos de usuários, o administrador, o técnico de manu
 	
 	\item O usuário administrador será responsável pelos cadastros gerais, poderá consultar e finalizar ordens de manutenção.
 	
-	\item O técnico de manutenção terá a visão de ordens de manutenção pendentes para ele, podendo iniciar ou pausar alguma a qualquer momento. Depois de finalizada, poderá realizar a assinatura da ordem.
+	\item O técnico de manutenção terá a visão de ordens de manutenção pendentes para ele, podendo iniciar ou pausar alguma a qualquer momento. Após finalizada, poderá realizar a assinatura da ordem.
 	
-	\item O chefe de manutenção receberá requisições de ordens de manutenção feitas por operadores e irá cadastra-las. Poderá distribuir as ordens aos técnicos, realizar consultas gerais e assinar as ordens.
+	\item O chefe de manutenção receberá requisições de ordens de manutenção feitas por operadores e irá cadastrar ao sistema. Poderá distribuir as ordens aos técnicos, realizar consultas gerais e assinar as ordens.
 	
 	\item O operador, que poderá requisitar uma ordem de manutenção ao administrador, acompanhar as ordens solicitadas por ele e assinar a ordem após a conclusão.
 	
@@ -68,7 +68,7 @@ O Sistema contemplará 4 tipos de usuários, o administrador, o técnico de manu
 \subsection{Desenvolvedores do Sistema}
 % ---
 
-Por trás de todo o desenvolvimento do sistema Agil.It, existe uma equipe de três pessoas formada por Júlio Thomazelli que atua como desenvolvedor na Voce Pede Softwares para Bares e Restaurantes há aproximadamente um ano e meio, com experiência nas tecnologias Angular, Ionic, Object Pascal e Java. A equipe também conta com o desenvolvedor e líder do setor de tickets da startup Clinicorp Solutions, trabalha como fullstack utilizando Node.js no back-end , React.js no front-end e React-Native para dispositivos mobiles há dois anos. Fechando a equipe, a Agil.it possui como gerente de projeto Márcio Henrique Meier, desenvolvedor na empresa Adapcon Processamento de Dados que tem grande experiência com as linguagens de programação Caché, Vue.js e Node.js, vivencia a área há exatamente três anos.
+Por trás de todo o desenvolvimento do sistema Agil.It, existe uma equipe de três pessoas formada por Júlio Thomazelli que atua como desenvolvedor na Voce Pede Softwares para Bares e Restaurantes há aproximadamente um ano e meio, com experiência nas tecnologias Angular, Ionic, Object Pascal e Java. A equipe também conta com o desenvolvedor e líder do setor de tickets da startup Clinicorp Solutions, trabalha como fullstack utilizando Node.js no back-end , React.js no front-end e React-Native para dispositivos mobiles há dois anos. Fechando a equipe, a Agil.it possui como gerente de projeto Márcio Henrique Meier, desenvolvedor na empresa Adapcon Processamento de Dados com grande experiência com as linguagens de programação Caché, Vue.js e Node.js, vivencia a área há exatamente três anos.
 Os três desenvolvedores são formados como Técnico em Desenvolvimento de Software e acadêmicos do sexto semestre do Tecnólogo em Sistemas para Internet na faculdade Senai de Jaraguá do Sul.
 
 \begin{table}[H]
@@ -90,11 +90,11 @@ Os três desenvolvedores são formados como Técnico em Desenvolvimento de Softw
 % ---
 No contexto da Engenharia de Software as Regras de Negócios são tratadas como alguns Requisitos de Software, pois sem elas, o software não existiria. Regras de negócio são premissas e restrições aplicadas a uma operação comercial de uma empresa, que precisam ser atendidas para que o negócio funcione da maneira esperada \cite{crerie2008identificacao}.
 
-Segundo \cite{2001SilviaInes} Regras de negócios são mais do que declarações sobre campos de dados ou implementação do sistema, elas definem tarefas dos atores da organização, os serviços que a organização dispõem e os recursos necessários para apoiar os processos do negócio.
+Segundo \cite{2001SilviaInes} Regras de negócios são mais que declarações sobre campos de dados ou implementação do sistema, elas definem tarefas dos atores da organização, os serviços que a organização dispõem e os recursos necessários para apoiar os processos do negócio.
 
 Já \cite{1997kilovSimmonds} são mais enfáticos, para eles uma regra de negócio deve ser objetiva e definida em termos de notações matemáticas de proposições, mostrando que precisão é essencial quando formula-se as regras de negócio. Uma proposição é um fato ou estado observável de negócio envolvendo uma ou mais entidades pelo qual é possível afirmar ou negar a vericidade dessas entidades.
 
-Desta forma as regras de Negocio da empresa de Alimentos Duas Rodas seriam:
+Desta forma as regras de negócio da empresa de Alimentos Duas Rodas seriam:
 
 \begin{subalineas}
 	\item {Os administradores, líderes de manutenção e líderes de setor poderão criar ordens de manutenção};
@@ -102,7 +102,7 @@ Desta forma as regras de Negocio da empresa de Alimentos Duas Rodas seriam:
 	\item {Os cadastros só serão possíveis na versão web};
 	\item {Cada ordem de manutenção deve conter uma assinatura do técnico de manutenção, uma do operador ou líder de setor e uma do administrador};
 	\item {Cada ordem de manutenção só pode ser finalizada após ter as 3 assinaturas};
-	\item {Somente administradores terão acesso a tela de pendência de assinaturas};
+	\item {Somente administradores terão acesso à tela de pendência de assinaturas};
 	\item {Cada técnico de manutenção só pode ter uma ordem iniciada por vez};
 	\item {técnicos de manutenção podem pausar ordens de manutenção};
 	\item {técnicos de manutenção podem ter várias ordens pausadas ao mesmo tempo};

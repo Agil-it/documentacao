@@ -892,7 +892,13 @@
   	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimircampus} \\
   	\ABNTEXchapterfont\bfseries\large\MakeUppercase{\imprimirtipotrabalho \, \imprimircurso}
   	\end{tabular}
-  	   
+  	 
+    \vspace*{\fill}
+	 \begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.45]{./Figuras/logo_senai.jpg}
+	\end{center}
+	\end{figure}
     \vspace*{\fill}
     \begin{Spacing}{1.0}
     \ABNTEXchapterfont\large\MakeUppercase{\imprimirtitulo}

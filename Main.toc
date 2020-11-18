@@ -1,93 +1,89 @@
 \changetocdepth {3}
 \babel@toc {brazil}{}
-\contentsline {chapter}{\chapternumberline {1}Introdução}{8}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Problema}{8}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Objetivos Gerais}{9}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Objetivos Específicos}{9}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Justificativa}{9}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Método de Trabalho}{10}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Organização do Trabalho}{10}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Glossário}{10}{section.1.7}%
-\contentsline {chapter}{\chapternumberline {2}Fundamentação Teórica}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Sistemas Computacionais}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Computação Verde}{11}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Planejamento e Gerenciamento de Projetos de Software}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}UML - \textit {Unified Modeling Language}}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}SCRUM}{14}{section.2.5}%
-\contentsline {section}{\numberline {2.6}GIT}{14}{section.2.6}%
-\contentsline {section}{\numberline {2.7}ORM}{14}{section.2.7}%
-\contentsline {chapter}{\chapternumberline {3}Descrição Geral do Sistema}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Descrição do Problema}{15}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Cenário Atual}{15}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Cenário Com Agil.It}{16}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Principais Envolvidos e suas Características}{18}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Usuários do Sistema}{18}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Desenvolvedores do Sistema}{19}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Regras de Negócio}{19}{section.3.3}%
-\contentsline {chapter}{\chapternumberline {4}Pesquisa de Anterioridade}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Produttivo}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}SoftByte}{21}{section.4.2}%
-\contentsline {section}{\numberline {4.3}ProdWin}{21}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Diferenciais Agil.It}{21}{section.4.4}%
-\contentsline {chapter}{\chapternumberline {5}Requisitos do Sistema}{22}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Requisitos Funcionais}{22}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Cadastros}{22}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Consultas}{22}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Funcionalidades}{23}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Requisitos Não Funcionais}{23}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Funcionalidades}{23}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Fluxograma do Sistema Desenvolvido}{23}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Diagrama de Caso de Uso do Sistema }{24}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Entidade de Relacionamento do Banco de Dados}{25}{section.5.5}%
-\contentsline {chapter}{\chapternumberline {6}Planejamento do Sistema}{27}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Cronograma do Projeto}{27}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Análise de riscos}{28}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Diagrama de Causa e Efeito}{29}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}PMBOK}{31}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Estrutura Analítica do Projeto}{31}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Fluxo de Processos}{33}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}Protótipo}{35}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Aplicação WEB}{35}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Cadastro de Usuário}{36}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Monitor de Ordem de Manutenção: Cards}{37}{subsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.5.3}Checklist de Segurança}{38}{subsection.6.5.3}%
-\contentsline {section}{\numberline {6.6}Aplicação Mobile}{38}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Monitor}{39}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Central de Notificações}{40}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3}Ordem de Manutenção}{41}{subsection.6.6.3}%
-\contentsline {chapter}{\chapternumberline {7}Implementação}{42}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Tecnologias}{42}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Aplicação WEB}{42}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Aplicação Mobile}{42}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Aplicação do Servidor}{43}{subsection.7.1.3}%
-\contentsline {section}{\numberline {7.2}Códigos Desenvolvidos}{43}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}WEB}{43}{subsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.1.1}Componentes}{43}{subsubsection.7.2.1.1}%
-\contentsline {subsubsection}{\numberline {7.2.1.2}Cookies}{44}{subsubsection.7.2.1.2}%
-\contentsline {subsubsection}{\numberline {7.2.1.3}Helpers}{45}{subsubsection.7.2.1.3}%
-\contentsline {subsection}{\numberline {7.2.2}Mobile}{49}{subsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.2.1}Ações da Ordem de Manutenção}{49}{subsubsection.7.2.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2.2}Dados Armazenados no Local Storage}{51}{subsubsection.7.2.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Servidor}{52}{subsection.7.2.3}%
-\contentsline {subsubsection}{\numberline {7.2.3.1}Mapeamento do Banco de Dados com \textit {TypeOrm}}{52}{subsubsection.7.2.3.1}%
-\contentsline {subsubsection}{\numberline {7.2.3.2}Validação de Objetos com o Class Validator}{55}{subsubsection.7.2.3.2}%
-\contentsline {subsubsection}{\numberline {7.2.3.3}API}{56}{subsubsection.7.2.3.3}%
-\contentsline {subsubsection}{\numberline {7.2.3.4}Estratégia de Exclusão de Dados}{58}{subsubsection.7.2.3.4}%
-\contentsline {chapter}{\chapternumberline {8}Agil.It}{59}{chapter.8}%
-\contentsline {section}{\numberline {8.1}WEB}{59}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Cadastros do sistema}{59}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Dashboard}{61}{subsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.1.3}Análise de Pendências de Assinatura}{63}{subsection.8.1.3}%
-\contentsline {subsection}{\numberline {8.1.4}Ordem de Manutenção}{64}{subsection.8.1.4}%
-\contentsline {section}{\numberline {8.2}Mobile}{65}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Monitor de Ordens de Manutenção}{65}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Ordem de Manutenção Corretiva/Preventiva}{67}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Ordem de Manutenção Lista e Rota}{68}{subsection.8.2.3}%
-\contentsline {subsection}{\numberline {8.2.4}Operações da Ordem de Manutenção}{69}{subsection.8.2.4}%
-\contentsline {subsection}{\numberline {8.2.5}Apontamento}{70}{subsection.8.2.5}%
-\contentsline {subsection}{\numberline {8.2.6}Assinatura}{71}{subsection.8.2.6}%
-\contentsline {chapter}{\chapternumberline {9}Testes de Usabilidade}{72}{chapter.9}%
-\contentsline {subsection}{\numberline {9.0.1}Elaboração dos Testes Aplicados}{72}{subsection.9.0.1}%
-\contentsline {subsection}{\numberline {9.0.2}Discussão dos Resultados}{73}{subsection.9.0.2}%
-\contentsline {chapter}{\chapternumberline {10}Considerações e Trabalhos Futuros}{77}{chapter.10}%
-\contentsline {chapter}{REFER\^ENCIAS BIBLIOGR\'AFICAS}{78}{chapter*.47}%
+\contentsline {chapter}{\chapternumberline {1}Introdução}{10}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Problema}{10}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos Gerais}{11}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objetivos Específicos}{11}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Justificativa}{11}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Método de Trabalho}{12}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Organização do Trabalho}{12}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Glossário}{12}{section.1.7}%
+\contentsline {chapter}{\chapternumberline {2}Fundamentação Teórica}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Sistemas Computacionais}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Computação Verde}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Planejamento e Gerenciamento de Projetos de Software}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.4}UML - \textit {Unified Modeling Language}}{15}{section.2.4}%
+\contentsline {section}{\numberline {2.5}SCRUM}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.6}GIT}{17}{section.2.6}%
+\contentsline {section}{\numberline {2.7}ORM - \textit {Object-Relational Mapping}}{17}{section.2.7}%
+\contentsline {chapter}{\chapternumberline {3}Descrição Geral do Sistema}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Descrição do Problema}{18}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Cenário Atual}{18}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Cenário Com Agil.It}{19}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Principais Envolvidos e suas Características}{21}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Usuários do Sistema}{21}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Desenvolvedores do Sistema}{22}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Regras de Negócio}{22}{section.3.3}%
+\contentsline {chapter}{\chapternumberline {4}Pesquisa de Anterioridade}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Produttivo}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2}SoftByte}{24}{section.4.2}%
+\contentsline {section}{\numberline {4.3}ProdWin}{24}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Diferenciais Agil.It}{24}{section.4.4}%
+\contentsline {chapter}{\chapternumberline {5}Requisitos do Sistema}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Requisitos Funcionais}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Requisitos Não Funcionais}{26}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Fluxograma do Sistema Desenvolvido}{27}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Diagrama de Caso de Uso do Sistema}{28}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Modelo Entidade-Relacionamento do Banco de Dados}{29}{section.5.5}%
+\contentsline {chapter}{\chapternumberline {6}Planejamento do Sistema}{31}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Cronograma do Projeto}{31}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Análise de riscos}{32}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Diagrama de Causa e Efeito}{33}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}PMBOK}{36}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Estrutura Analítica do Projeto}{36}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Fluxo de Processos}{38}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Protótipo}{40}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Aplicação WEB}{40}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Cadastro de Usuário}{41}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Monitor de Ordem de Manutenção: Cards}{42}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}Checklist de Segurança}{43}{subsection.6.5.3}%
+\contentsline {section}{\numberline {6.6}Aplicação Mobile}{43}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Monitor}{44}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Central de Notificações}{45}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}Ordem de Manutenção}{46}{subsection.6.6.3}%
+\contentsline {chapter}{\chapternumberline {7}Implementação}{47}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Tecnologias}{47}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Aplicação WEB}{47}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Aplicação Mobile}{47}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Aplicação do Servidor}{48}{subsection.7.1.3}%
+\contentsline {section}{\numberline {7.2}Códigos Desenvolvidos}{48}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}WEB}{48}{subsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.1.1}Componentes}{48}{subsubsection.7.2.1.1}%
+\contentsline {subsubsection}{\numberline {7.2.1.2}Cookies}{49}{subsubsection.7.2.1.2}%
+\contentsline {subsubsection}{\numberline {7.2.1.3}Helpers}{50}{subsubsection.7.2.1.3}%
+\contentsline {subsection}{\numberline {7.2.2}Mobile}{54}{subsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.2.1}Ações da Ordem de Manutenção}{54}{subsubsection.7.2.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2.2}Dados Armazenados no Local Storage}{56}{subsubsection.7.2.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Servidor}{57}{subsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.3.1}Mapeamento do Banco de Dados com \textit {TypeOrm}}{57}{subsubsection.7.2.3.1}%
+\contentsline {subsubsection}{\numberline {7.2.3.2}Validação de Objetos com o Class Validator}{60}{subsubsection.7.2.3.2}%
+\contentsline {subsubsection}{\numberline {7.2.3.3}API}{61}{subsubsection.7.2.3.3}%
+\contentsline {subsubsection}{\numberline {7.2.3.4}Estratégia de Exclusão de Dados}{63}{subsubsection.7.2.3.4}%
+\contentsline {chapter}{\chapternumberline {8}Agil.It}{64}{chapter.8}%
+\contentsline {section}{\numberline {8.1}WEB}{64}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Cadastros do sistema}{64}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Dashboard}{66}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Análise de Pendências de Assinatura}{68}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Ordem de Manutenção}{69}{subsection.8.1.4}%
+\contentsline {section}{\numberline {8.2}Mobile}{70}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Monitor de Ordens de Manutenção}{70}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Ordem de Manutenção Corretiva/Preventiva}{72}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Ordem de Manutenção Lista e Rota}{73}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Operações da Ordem de Manutenção}{74}{subsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.2.5}Apontamento}{75}{subsection.8.2.5}%
+\contentsline {subsection}{\numberline {8.2.6}Assinatura}{76}{subsection.8.2.6}%
+\contentsline {chapter}{\chapternumberline {9}Testes de Usabilidade}{77}{chapter.9}%
+\contentsline {subsection}{\numberline {9.0.1}Elaboração dos Testes Aplicados}{77}{subsection.9.0.1}%
+\contentsline {subsection}{\numberline {9.0.2}Discussão dos Resultados}{78}{subsection.9.0.2}%
+\contentsline {chapter}{\chapternumberline {10}Considerações Finais}{82}{chapter.10}%
+\contentsline {chapter}{REFER\^ENCIAS BIBLIOGR\'AFICAS}{83}{chapter*.52}%

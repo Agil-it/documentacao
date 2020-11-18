@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.24)  10 NOV 2020 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.24)  18 NOV 2020 19:21
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -1022,24 +1022,6 @@ LaTeX Warning: You have requested package `./Data/jslistings',
                but the package provides `jslistings'.
 
 Package: jslistings 
-
-! LaTeX Error: Option clash for package xcolor.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \usepackage
-               {textcomp}
-The package xcolor has already been loaded with options:
-  [table,xcdraw]
-There has now been an attempt to load it with options
-  [pdftex]
-Adding the global options:
-  table,xcdraw,pdftex
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
 ("C:\Users\marci\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) ("C:\Users\marci\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty
@@ -1057,24 +1039,24 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 ))
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring ON on input line 72.
+Package hyperref Info: Link coloring ON on input line 73.
 
 ("C:\Users\marci\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -1092,13 +1074,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 72.
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 72.
+(lastpage)             ! on input line 73.
 
 ("C:\Users\marci\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
@@ -1208,14 +1190,19 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 9.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 9.
+<./Figuras/logo_senai.jpg, id=8, 594.72188pt x 165.61874pt>
+File: ./Figuras/logo_senai.jpg Graphic file (type jpg)
+<use ./Figuras/logo_senai.jpg>
+Package pdftex.def Info: ./Figuras/logo_senai.jpg  used on input line 9.
+(pdftex.def)             Requested size: 267.62238pt x 74.52774pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 9.
 [1
 
 
-{C:/Users/marci/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]pdfTeX warni
-ng (ext4): destination with the same identifier (name{page.1}) has been already
- used, duplicate ignored
+{C:/Users/marci/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figuras/l
+ogo_senai.jpg>]pdfTeX warning (ext4): destination with the same identifier (nam
+e{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.18 
@@ -1225,8 +1212,14 @@ l.18
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 16.41594pt on input line 126.
- (Main.lof
+(Font)              scaled to size 16.41594pt on input line 123.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 123.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 128.
+ [2] [3
+
+] (Main.lof
 Overfull \hbox (5.5788pt too wide) detected at line 24
 \T1/phv/m/n/12 Figura 6.10  -- 
  []
@@ -1281,7 +1274,9 @@ Overfull \hbox (5.5788pt too wide) detected at line 45
 \T1/phv/m/n/12 Figura 8.15  -- 
  []
 
-[2]) [3]) [4
+[4
+
+]) [5]) [6
 
 
 
@@ -1290,9 +1285,9 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 11.39996pt on input line 15.
- [5
+ [7
 
-] [6]) [7]
+] [8]) [9]
 \openout2 = `cap1.aux'.
 
  (cap1.tex
@@ -1308,244 +1303,245 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 3.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 6.64998pt on input line 3.
- [8
+ [10
 
 
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
-5.
+2.
 
 ("C:\Users\marci\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1phv.fd"
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 25.
+(Font)              scaled to size 11.39996pt on input line 22.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 43.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 43.
-[9]) [10]
+(Font)              scaled to size 9.49997pt on input line 40.
+[11]) [12]
 \openout2 = `cap2.aux'.
 
- (cap2.tex [11
+ (cap2.tex [13
 
 
 
-] [12]
-<./Figuras/planejamento_projeto.png, id=382, 615.0478pt x 461.47406pt>
+] [14]
+<./Figuras/planejamento_projeto.png, id=385, 615.0478pt x 461.47406pt>
 File: ./Figuras/planejamento_projeto.png Graphic file (type png)
 <use ./Figuras/planejamento_projeto.png>
 Package pdftex.def Info: ./Figuras/planejamento_projeto.png  used on input line
- 49.
+ 51.
 (pdftex.def)             Requested size: 276.76895pt x 207.66139pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 57.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 13.67995pt on input line 57.
-<./Figuras/Exemplo_UML.png, id=394, 1099.10625pt x 680.5425pt>
+(Font)              scaled to size 13.67995pt on input line 60.
+ [15 <./Figuras/planejamento_projeto.png>]
+<./Figuras/Exemplo_UML.png, id=406, 1099.10625pt x 680.5425pt>
 File: ./Figuras/Exemplo_UML.png Graphic file (type png)
 <use ./Figuras/Exemplo_UML.png>
-Package pdftex.def Info: ./Figuras/Exemplo_UML.png  used on input line 67.
+Package pdftex.def Info: ./Figuras/Exemplo_UML.png  used on input line 70.
 (pdftex.def)             Requested size: 494.59325pt x 306.24129pt.
 
-Overfull \hbox (10.89638pt too wide) in paragraph at lines 67--68
+Overfull \hbox (10.89638pt too wide) in paragraph at lines 70--71
  [] 
  []
 
-) [13 <./Figuras/planejamento_projeto.png>] [14 <./Figuras/Exemplo_UML.png>]
+[16 <./Figuras/Exemplo_UML.png>]) [17]
 \openout2 = `cap3.aux'.
 
-
-(cap3.tex [15
+ (cap3.tex [18
 
 
 
 ]
-<./Figuras/cenario-atual1.png, id=416, 537.50812pt x 665.48625pt>
+<./Figuras/cenario-atual1.png, id=461, 537.50812pt x 665.48625pt>
 File: ./Figuras/cenario-atual1.png Graphic file (type png)
 <use ./Figuras/cenario-atual1.png>
 Package pdftex.def Info: ./Figuras/cenario-atual1.png  used on input line 28.
 (pdftex.def)             Requested size: 403.1301pt x 499.11346pt.
- [16 <./Figuras/cenario-atual1.png>]
-<./Figuras/cenario-agilit1.png, id=422, 637.63219pt x 670.75594pt>
+ [19 <./Figuras/cenario-atual1.png>]
+<./Figuras/cenario-agilit1.png, id=467, 637.63219pt x 670.75594pt>
 File: ./Figuras/cenario-agilit1.png Graphic file (type png)
 <use ./Figuras/cenario-agilit1.png>
 Package pdftex.def Info: ./Figuras/cenario-agilit1.png  used on input line 40.
 (pdftex.def)             Requested size: 446.3395pt x 469.52594pt.
- [17] [18 <./Figuras/cenario-agilit1.png>] [19]) [20]
+ [20] [21 <./Figuras/cenario-agilit1.png>] [22]) [23]
 \openout2 = `cap4.aux'.
 
- (cap4.tex) [21
+ (cap4.tex)
+[24
 
 
 
 ]
 \openout2 = `cap5.aux'.
 
- (cap5.tex [22
+ (cap5.tex [25
 
 
 
-] [23]
-<./Figuras/fluxo-sistema.png, id=520, 769.87625pt x 885.3075pt>
+] [26]
+<./Figuras/fluxo-sistema.png, id=557, 769.87625pt x 885.3075pt>
 File: ./Figuras/fluxo-sistema.png Graphic file (type png)
 <use ./Figuras/fluxo-sistema.png>
-Package pdftex.def Info: ./Figuras/fluxo-sistema.png  used on input line 68.
+Package pdftex.def Info: ./Figuras/fluxo-sistema.png  used on input line 74.
 (pdftex.def)             Requested size: 423.43324pt x 486.92062pt.
- [24 <./Figuras/fluxo-sistema.png>]
-<./Figuras/caso-uso.png, id=532, 866.48718pt x 509.65407pt>
+ [27] [28 <./Figuras/fluxo-sistema.png>]
+<./Figuras/caso-uso.png, id=577, 866.48718pt x 509.65407pt>
 File: ./Figuras/caso-uso.png Graphic file (type png)
 <use ./Figuras/caso-uso.png>
-Package pdftex.def Info: ./Figuras/caso-uso.png  used on input line 88.
+Package pdftex.def Info: ./Figuras/caso-uso.png  used on input line 94.
 (pdftex.def)             Requested size: 493.90282pt x 290.50583pt.
 
-Overfull \hbox (10.20595pt too wide) in paragraph at lines 88--89
+Overfull \hbox (10.20595pt too wide) in paragraph at lines 94--95
  [] 
  []
 
-[25 <./Figuras/caso-uso.png>]
-<./Figuras/er3.png, id=543, 716.6775pt x 736.25063pt>
+[29 <./Figuras/caso-uso.png>]
+<./Figuras/er3.png, id=592, 716.6775pt x 736.25063pt>
 File: ./Figuras/er3.png Graphic file (type png)
 <use ./Figuras/er3.png>
-Package pdftex.def Info: ./Figuras/er3.png  used on input line 108.
+Package pdftex.def Info: ./Figuras/er3.png  used on input line 111.
 (pdftex.def)             Requested size: 501.67084pt x 515.37192pt.
 
-Overfull \hbox (17.97397pt too wide) in paragraph at lines 108--109
+Overfull \hbox (17.97397pt too wide) in paragraph at lines 111--112
  [] 
  []
 
-) [26 <./Figuras/er3.png>]
+) [30 <./Figuras/er3.png>]
 \openout2 = `cap6.aux'.
 
  (cap6.tex
-<./Figuras/cronograma-3-semestre.png, id=549, 513.41812pt x 156.585pt>
+<./Figuras/cronograma-3-semestre.png, id=601, 513.41812pt x 156.585pt>
 File: ./Figuras/cronograma-3-semestre.png Graphic file (type png)
 <use ./Figuras/cronograma-3-semestre.png>
 Package pdftex.def Info: ./Figuras/cronograma-3-semestre.png  used on input lin
 e 16.
 (pdftex.def)             Requested size: 462.07202pt x 140.92519pt.
-<./Figuras/cronograma-4-semestre.png, id=550, 513.41812pt x 155.07938pt>
+<./Figuras/cronograma-4-semestre.png, id=602, 513.41812pt x 155.07938pt>
 File: ./Figuras/cronograma-4-semestre.png Graphic file (type png)
 <use ./Figuras/cronograma-4-semestre.png>
 Package pdftex.def Info: ./Figuras/cronograma-4-semestre.png  used on input lin
 e 24.
 (pdftex.def)             Requested size: 462.07202pt x 139.57013pt.
- [27
+ [31
 
 
 
  <./Figuras/cronograma-3-semestre.png>]
-<./Figuras/cronograma-5-semestre.png, id=556, 987.69pt x 351.56343pt>
+<./Figuras/cronograma-5-semestre.png, id=608, 987.69pt x 351.56343pt>
 File: ./Figuras/cronograma-5-semestre.png Graphic file (type png)
 <use ./Figuras/cronograma-5-semestre.png>
 Package pdftex.def Info: ./Figuras/cronograma-5-semestre.png  used on input lin
 e 32.
 (pdftex.def)             Requested size: 464.21437pt x 165.23483pt.
-<./Figuras/cronograma-6-semestre.png, id=557, 898.85812pt x 132.495pt>
+<./Figuras/cronograma-6-semestre.png, id=609, 898.85812pt x 132.495pt>
 File: ./Figuras/cronograma-6-semestre.png Graphic file (type png)
 <use ./Figuras/cronograma-6-semestre.png>
 Package pdftex.def Info: ./Figuras/cronograma-6-semestre.png  used on input lin
 e 39.
 (pdftex.def)             Requested size: 467.40892pt x 68.89778pt.
-[28 <./Figuras/cronograma-4-semestre.png> <./Figuras/cronograma-5-semestre.png>
- <./Figuras/cronograma-6-semestre.png>] [29]
-<./Figuras/Diagrama causa e efeito.jpeg, id=577, 922.44624pt x 498.86375pt>
+[32 <./Figuras/cronograma-4-semestre.png> <./Figuras/cronograma-5-semestre.png>
+ <./Figuras/cronograma-6-semestre.png>] [33] [34]
+<./Figuras/Diagrama causa e efeito.jpeg, id=642, 922.44624pt x 498.86375pt>
 File: ./Figuras/Diagrama causa e efeito.jpeg Graphic file (type jpg)
 <use ./Figuras/Diagrama causa e efeito.jpeg>
 Package pdftex.def Info: ./Figuras/Diagrama causa e efeito.jpeg  used on input 
-line 111.
+line 112.
 (pdftex.def)             Requested size: 737.958pt x 399.09154pt.
- [30 <./Figuras/Diagrama causa e efeito.jpeg>] [31
+ [35 <./Figuras/Diagrama causa e efeito.jpeg>] [36
 
 
 ]
-<./Figuras/EAP.png, id=602, 1919.17pt x 778.91pt>
+<./Figuras/EAP.png, id=667, 1919.17pt x 778.91pt>
 File: ./Figuras/EAP.png Graphic file (type png)
 <use ./Figuras/EAP.png>
-Package pdftex.def Info: ./Figuras/EAP.png  used on input line 145.
+Package pdftex.def Info: ./Figuras/EAP.png  used on input line 144.
 (pdftex.def)             Requested size: 729.29219pt x 295.98888pt.
- [32
+ [37
 
  <./Figuras/EAP.png>]
-<./Figuras/fluxo-processos.png, id=611, 369.38pt x 277.035pt>
+<./Figuras/fluxo-processos.png, id=676, 369.38pt x 277.035pt>
 File: ./Figuras/fluxo-processos.png Graphic file (type png)
 <use ./Figuras/fluxo-processos.png>
-Package pdftex.def Info: ./Figuras/fluxo-processos.png  used on input line 164.
+Package pdftex.def Info: ./Figuras/fluxo-processos.png  used on input line 163.
 
 (pdftex.def)             Requested size: 369.37909pt x 277.03432pt.
-<./Figuras/fluxo-processos-eap.png, id=616, 2162.0775pt x 2490.30376pt>
+<./Figuras/fluxo-processos-eap.png, id=681, 2162.0775pt x 2490.30376pt>
 File: ./Figuras/fluxo-processos-eap.png Graphic file (type png)
 <use ./Figuras/fluxo-processos-eap.png>
 Package pdftex.def Info: ./Figuras/fluxo-processos-eap.png  used on input line 
-176.
+175.
 (pdftex.def)             Requested size: 518.90921pt x 597.68512pt.
 
-Overfull \hbox (35.21234pt too wide) in paragraph at lines 176--177
+Overfull \hbox (35.21234pt too wide) in paragraph at lines 175--176
  [] 
  []
 
-[33
+[38
 
- <./Figuras/fluxo-processos.png>] [34 <./Figuras/fluxo-processos-eap.png>]
-<./Figuras/web/cad-user.png, id=633, 703.87968pt x 639.13782pt>
+ <./Figuras/fluxo-processos.png>] [39 <./Figuras/fluxo-processos-eap.png>]
+<./Figuras/web/cad-user.png, id=698, 703.87968pt x 639.13782pt>
 File: ./Figuras/web/cad-user.png Graphic file (type png)
 <use ./Figuras/web/cad-user.png>
-Package pdftex.def Info: ./Figuras/web/cad-user.png  used on input line 208.
+Package pdftex.def Info: ./Figuras/web/cad-user.png  used on input line 207.
 (pdftex.def)             Requested size: 492.71242pt x 447.39342pt.
 
-Overfull \hbox (9.01555pt too wide) in paragraph at lines 208--209
+Overfull \hbox (9.01555pt too wide) in paragraph at lines 207--208
  [] 
  []
 
-[35]
-<./Figuras/web/monitor-om-card.png, id=642, 1083.29718pt x 646.66594pt>
+[40]
+<./Figuras/web/monitor-om-card.png, id=707, 1083.29718pt x 646.66594pt>
 File: ./Figuras/web/monitor-om-card.png Graphic file (type png)
 <use ./Figuras/web/monitor-om-card.png>
 Package pdftex.def Info: ./Figuras/web/monitor-om-card.png  used on input line 
-220.
+219.
 (pdftex.def)             Requested size: 487.47923pt x 290.99698pt.
 
-Overfull \hbox (3.78236pt too wide) in paragraph at lines 220--221
+Overfull \hbox (3.78236pt too wide) in paragraph at lines 219--220
  [] 
  []
 
-[36 <./Figuras/web/cad-user.png>]
-<./Figuras/web/check-list.png, id=650, 1154.81438pt x 648.17157pt>
+[41 <./Figuras/web/cad-user.png>]
+<./Figuras/web/check-list.png, id=714, 1154.81438pt x 648.17157pt>
 File: ./Figuras/web/check-list.png Graphic file (type png)
 <use ./Figuras/web/check-list.png>
-Package pdftex.def Info: ./Figuras/web/check-list.png  used on input line 232.
+Package pdftex.def Info: ./Figuras/web/check-list.png  used on input line 231.
 (pdftex.def)             Requested size: 519.66167pt x 291.6745pt.
 
-Overfull \hbox (35.9648pt too wide) in paragraph at lines 232--233
+Overfull \hbox (35.9648pt too wide) in paragraph at lines 231--232
  [] 
  []
 
-[37 <./Figuras/web/monitor-om-card.png>]
-<./Figuras/mobile/monitor.png, id=657, 595.47469pt x 581.92406pt>
+[42 <./Figuras/web/monitor-om-card.png>]
+<./Figuras/mobile/monitor.png, id=722, 595.47469pt x 581.92406pt>
 File: ./Figuras/mobile/monitor.png Graphic file (type png)
 <use ./Figuras/mobile/monitor.png>
-Package pdftex.def Info: ./Figuras/mobile/monitor.png  used on input line 247.
+Package pdftex.def Info: ./Figuras/mobile/monitor.png  used on input line 246.
 (pdftex.def)             Requested size: 446.6049pt x 436.44197pt.
- [38 <./Figuras/web/check-list.png>]
-<./Figuras/mobile/notificacao.png, id=664, 270.25969pt x 584.1825pt>
+ [43 <./Figuras/web/check-list.png>]
+<./Figuras/mobile/notificacao.png, id=729, 270.25969pt x 584.1825pt>
 File: ./Figuras/mobile/notificacao.png Graphic file (type png)
 <use ./Figuras/mobile/notificacao.png>
 Package pdftex.def Info: ./Figuras/mobile/notificacao.png  used on input line 2
-59.
+58.
 (pdftex.def)             Requested size: 216.20804pt x 467.34662pt.
 
-[39 <./Figuras/mobile/monitor.png>]
-<./Figuras/mobile/om.png, id=671, 659.46375pt x 581.92406pt>
+[44 <./Figuras/mobile/monitor.png>]
+<./Figuras/mobile/om.png, id=736, 659.46375pt x 581.92406pt>
 File: ./Figuras/mobile/om.png Graphic file (type png)
 <use ./Figuras/mobile/om.png>
-Package pdftex.def Info: ./Figuras/mobile/om.png  used on input line 271.
+Package pdftex.def Info: ./Figuras/mobile/om.png  used on input line 270.
 (pdftex.def)             Requested size: 461.62148pt x 407.34407pt.
- [40 <./Figuras/mobile/notificacao.png>])
-[41 <./Figuras/mobile/om.png>]
+ [45 <./Figuras/mobile/notificacao.png>])
+[46 <./Figuras/mobile/om.png>]
 \openout2 = `cap7.aux'.
 
- (cap7.tex [42
+ (cap7.tex [47
 
 
 
@@ -1570,7 +1566,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line
 ("C:\Users\marci\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmtt.fd"
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[43]
+[48]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 80--80
 [][] 
  []
@@ -1580,7 +1576,7 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 91--91
 [][] 
  []
 
-[44]
+[49]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 116--116
 [][] 
  []
@@ -1590,12 +1586,12 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 134--134
 [][] 
  []
 
-[45]
+[50]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 143--143
 [][] 
  []
 
-[46]
+[51]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 203--203
 [][] 
  []
@@ -1605,7 +1601,7 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 236--236
 [][] 
  []
 
-[47]
+[52]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 271--271
 [][] 
  []
@@ -1621,7 +1617,7 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 293--293
 [][] 
  []
 
-[48]
+[53]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 307--307
 [][] 
  []
@@ -1631,14 +1627,14 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 330--330
 [][] 
  []
 
-[49]
+[54]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 355--355
 [][] 
  []
 
-[50]
+[55]
 
-LaTeX Warning: Reference `order-validation' on page 51 undefined on input line 
+LaTeX Warning: Reference `order-validation' on page 56 undefined on input line 
 394.
 
 
@@ -1651,12 +1647,12 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 426--426
 [][] 
  []
 
-[51]
+[56]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 437--437
 [][] 
  []
 
-[52]
+[57]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 477--477
 [][] 
  []
@@ -1666,7 +1662,7 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 512--512
 [][] 
  []
 
-[53]
+[58]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 529--529
 [][] 
  []
@@ -1681,7 +1677,7 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 563--563
 [][] 
  []
 
-[54]
+[59]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 594--594
 [][] 
  []
@@ -1691,12 +1687,12 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 603--603
 [][] 
  []
 
-[55]
+[60]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 635--635
 [][] 
  []
 
-[56]
+[61]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 665--665
 [][] 
  []
@@ -1706,250 +1702,232 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 678--678
 [][] 
  []
 
-[57]
+[62]
 Overfull \hbox (17.0pt too wide) in paragraph at lines 727--727
 [][] 
  []
 
-) [58]
+) [63]
 \openout2 = `cap8.aux'.
 
  (cap8.tex
-<./Figuras/agil.it/web-cadastros.png, id=1337, 1138.2525pt x 852.18375pt>
+<./Figuras/agil.it/web-cadastros.png, id=1402, 1138.2525pt x 852.18375pt>
 File: ./Figuras/agil.it/web-cadastros.png Graphic file (type png)
 <use ./Figuras/agil.it/web-cadastros.png>
 Package pdftex.def Info: ./Figuras/agil.it/web-cadastros.png  used on input lin
 e 13.
 (pdftex.def)             Requested size: 455.29294pt x 340.86745pt.
-<./Figuras/agil.it/web-cadastro-equipamento.png, id=1339, 1193.20781pt x 608.27
+<./Figuras/agil.it/web-cadastro-equipamento.png, id=1404, 1193.20781pt x 608.27
 25pt>
 File: ./Figuras/agil.it/web-cadastro-equipamento.png Graphic file (type png)
 <use ./Figuras/agil.it/web-cadastro-equipamento.png>
 Package pdftex.def Info: ./Figuras/agil.it/web-cadastro-equipamento.png  used o
 n input line 23.
 (pdftex.def)             Requested size: 477.27467pt x 243.30469pt.
- [59
+ [64
 
 
 
  <./Figuras/agil.it/web-cadastros.png>]
-<./Figuras/agil.it/web-search-table.png, id=1347, 962.09438pt x 527.72156pt>
+<./Figuras/agil.it/web-search-table.png, id=1412, 962.09438pt x 527.72156pt>
 File: ./Figuras/agil.it/web-search-table.png Graphic file (type png)
 <use ./Figuras/agil.it/web-search-table.png>
 Package pdftex.def Info: ./Figuras/agil.it/web-search-table.png  used on input 
 line 36.
 (pdftex.def)             Requested size: 481.046pt x 263.86014pt.
- [60 <./Figuras/agil.it/web-cadastro-equipamento.png>]
-<./Figuras/agil.it/web-monitor-lista.png, id=1356, 1394.96156pt x 603.75563pt>
+ [65 <./Figuras/agil.it/web-cadastro-equipamento.png>]
+<./Figuras/agil.it/web-monitor-lista.png, id=1420, 1394.96156pt x 603.75563pt>
 File: ./Figuras/agil.it/web-monitor-lista.png Graphic file (type png)
 <use ./Figuras/agil.it/web-monitor-lista.png>
 Package pdftex.def Info: ./Figuras/agil.it/web-monitor-lista.png  used on input
  line 48.
 (pdftex.def)             Requested size: 474.28067pt x 205.27419pt.
- [61 <./Figuras/agil.it/web-search-table.png>]
-<./Figuras/agil.it/web-monitor-cards.png, id=1362, 1367.8603pt x 694.09312pt>
+ [66 <./Figuras/agil.it/web-search-table.png>]
+<./Figuras/agil.it/web-monitor-cards.png, id=1427, 1367.8603pt x 694.09312pt>
 File: ./Figuras/agil.it/web-monitor-cards.png Graphic file (type png)
 <use ./Figuras/agil.it/web-monitor-cards.png>
 Package pdftex.def Info: ./Figuras/agil.it/web-monitor-cards.png  used on input
  line 56.
 (pdftex.def)             Requested size: 465.06636pt x 235.98854pt.
-<./Figuras/agil.it/web-pendencias.png, id=1363, 1395.71437pt x 588.69937pt>
+<./Figuras/agil.it/web-pendencias.png, id=1428, 1395.71437pt x 588.69937pt>
 File: ./Figuras/agil.it/web-pendencias.png Graphic file (type png)
 <use ./Figuras/agil.it/web-pendencias.png>
 Package pdftex.def Info: ./Figuras/agil.it/web-pendencias.png  used on input li
 ne 66.
 (pdftex.def)             Requested size: 474.5366pt x 200.15514pt.
- [62 <./Figuras/agil.it/web-monitor-lista.png> <./Figuras/agil.it/web-monitor-c
+ [67 <./Figuras/agil.it/web-monitor-lista.png> <./Figuras/agil.it/web-monitor-c
 ards.png>]
-<./Figuras/agil.it/web-om.png, id=1371, 1373.13pt x 704.6325pt>
+<./Figuras/agil.it/web-om.png, id=1436, 1373.13pt x 704.6325pt>
 File: ./Figuras/agil.it/web-om.png Graphic file (type png)
 <use ./Figuras/agil.it/web-om.png>
 Package pdftex.def Info: ./Figuras/agil.it/web-om.png  used on input line 79.
 (pdftex.def)             Requested size: 466.85803pt x 239.57188pt.
- [63 <./Figuras/agil.it/web-pendencias.png>]
-<./Figuras/agil.it/web-assinatura.png, id=1379, 1374.63562pt x 395.97937pt>
+ [68 <./Figuras/agil.it/web-pendencias.png>]
+<./Figuras/agil.it/web-assinatura.png, id=1444, 1374.63562pt x 395.97937pt>
 File: ./Figuras/agil.it/web-assinatura.png Graphic file (type png)
 <use ./Figuras/agil.it/web-assinatura.png>
 Package pdftex.def Info: ./Figuras/agil.it/web-assinatura.png  used on input li
 ne 89.
 (pdftex.def)             Requested size: 439.8924pt x 126.71599pt.
- [64 <./Figuras/agil.it/web-om.png> <./Figuras/agil.it/web-assinatura.png>]
-<./Figuras/agil.it/mobile-monitor.jpg, id=1386, 784.6113pt x 786.2976pt>
+ [69 <./Figuras/agil.it/web-om.png> <./Figuras/agil.it/web-assinatura.png>]
+<./Figuras/agil.it/mobile-monitor.jpg, id=1451, 784.6113pt x 786.2976pt>
 File: ./Figuras/agil.it/mobile-monitor.jpg Graphic file (type jpg)
 <use ./Figuras/agil.it/mobile-monitor.jpg>
 Package pdftex.def Info: ./Figuras/agil.it/mobile-monitor.jpg  used on input li
 ne 101.
 (pdftex.def)             Requested size: 431.53755pt x 432.46503pt.
-<./Figuras/agil.it/mobile-monitor-filtro.png, id=1389, 1414.28375pt x 2872.7325
+<./Figuras/agil.it/mobile-monitor-filtro.png, id=1454, 1414.28375pt x 2872.7325
 pt>
 File: ./Figuras/agil.it/mobile-monitor-filtro.png Graphic file (type png)
 <use ./Figuras/agil.it/mobile-monitor-filtro.png>
 Package pdftex.def Info: ./Figuras/agil.it/mobile-monitor-filtro.png  used on i
 nput line 112.
 (pdftex.def)             Requested size: 282.85175pt x 574.53633pt.
- [65 <./Figuras/agil.it/mobile-monitor.jpg>] [66 <./Figuras/agil.it/mobile-moni
+ [70 <./Figuras/agil.it/mobile-monitor.jpg>] [71 <./Figuras/agil.it/mobile-moni
 tor-filtro.png>]
-<./Figuras/agil.it/mobile-om-preventiva.jpg, id=1400, 784.6113pt x 786.2976pt>
+<./Figuras/agil.it/mobile-om-preventiva.jpg, id=1464, 784.6113pt x 786.2976pt>
 File: ./Figuras/agil.it/mobile-om-preventiva.jpg Graphic file (type jpg)
 <use ./Figuras/agil.it/mobile-om-preventiva.jpg>
 Package pdftex.def Info: ./Figuras/agil.it/mobile-om-preventiva.jpg  used on in
 put line 123.
 (pdftex.def)             Requested size: 431.53755pt x 432.46503pt.
-<./Figuras/agil.it/mobile-om-rota.jpg, id=1402, 784.6113pt x 786.2976pt>
+<./Figuras/agil.it/mobile-om-rota.jpg, id=1466, 784.6113pt x 786.2976pt>
 File: ./Figuras/agil.it/mobile-om-rota.jpg Graphic file (type jpg)
 <use ./Figuras/agil.it/mobile-om-rota.jpg>
 Package pdftex.def Info: ./Figuras/agil.it/mobile-om-rota.jpg  used on input li
 ne 135.
 (pdftex.def)             Requested size: 431.53755pt x 432.46503pt.
- [67 <./Figuras/agil.it/mobile-om-preventiva.jpg>]
-<./Figuras/agil.it/mobile-om-operacao.jpg, id=1408, 784.6113pt x 786.2976pt>
+ [72 <./Figuras/agil.it/mobile-om-preventiva.jpg>]
+<./Figuras/agil.it/mobile-om-operacao.jpg, id=1473, 784.6113pt x 786.2976pt>
 File: ./Figuras/agil.it/mobile-om-operacao.jpg Graphic file (type jpg)
 <use ./Figuras/agil.it/mobile-om-operacao.jpg>
 Package pdftex.def Info: ./Figuras/agil.it/mobile-om-operacao.jpg  used on inpu
 t line 148.
 (pdftex.def)             Requested size: 431.53755pt x 432.46503pt.
- [68 <./Figuras/agil.it/mobile-om-rota.jpg>]
-<./Figuras/agil.it/mobile-om-apontamento.jpg, id=1414, 784.6113pt x 786.2976pt>
+ [73 <./Figuras/agil.it/mobile-om-rota.jpg>]
+<./Figuras/agil.it/mobile-om-apontamento.jpg, id=1479, 784.6113pt x 786.2976pt>
 
 File: ./Figuras/agil.it/mobile-om-apontamento.jpg Graphic file (type jpg)
 <use ./Figuras/agil.it/mobile-om-apontamento.jpg>
 Package pdftex.def Info: ./Figuras/agil.it/mobile-om-apontamento.jpg  used on i
 nput line 162.
 (pdftex.def)             Requested size: 431.53755pt x 432.46503pt.
- [69 <./Figuras/agil.it/mobile-om-operacao.jpg>]
-<./Figuras/agil.it/mobile-om-assinatura.jpg, id=1420, 784.6113pt x 786.2976pt>
+ [74 <./Figuras/agil.it/mobile-om-operacao.jpg>]
+<./Figuras/agil.it/mobile-om-assinatura.jpg, id=1485, 784.6113pt x 786.2976pt>
 File: ./Figuras/agil.it/mobile-om-assinatura.jpg Graphic file (type jpg)
 <use ./Figuras/agil.it/mobile-om-assinatura.jpg>
 Package pdftex.def Info: ./Figuras/agil.it/mobile-om-assinatura.jpg  used on in
 put line 174.
 (pdftex.def)             Requested size: 431.53755pt x 432.46503pt.
- [70 <./Figuras/agil.it/mobile-om-apontamento.jpg>]) [71 <./Figuras/agil.it/mob
+ [75 <./Figuras/agil.it/mobile-om-apontamento.jpg>]) [76 <./Figuras/agil.it/mob
 ile-om-assinatura.jpg>]
 \openout2 = `cap9.aux'.
 
 
-(cap9.tex
-
-LaTeX Warning: Citation `gonccalves2009usabilidade' on page 72 undefined on inp
-ut line 3.
-
-
-LaTeX Warning: Citation `gonccalves2009usabilidade' on page 72 undefined on inp
-ut line 5.
-
-
-LaTeX Warning: Citation `johnson2001cultura' on page 72 undefined on input line
- 7.
-
-[72
+(cap9.tex [77
 
 
 
-] [73]
-<./Figuras/cap-testes/criterio-geral-apresentacao.jpeg, id=1453, 843.15pt x 382
+] [78]
+<./Figuras/cap-testes/criterio-geral-apresentacao.jpeg, id=1526, 843.15pt x 382
 .42876pt>
 File: ./Figuras/cap-testes/criterio-geral-apresentacao.jpeg Graphic file (type 
 jpg)
 <use ./Figuras/cap-testes/criterio-geral-apresentacao.jpeg>
 Package pdftex.def Info: ./Figuras/cap-testes/criterio-geral-apresentacao.jpeg 
- used on input line 27.
+ used on input line 29.
 (pdftex.def)             Requested size: 758.82799pt x 344.1827pt.
 
-Overfull \hbox (13.36577pt too wide) in paragraph at lines 27--28
+Overfull \hbox (13.36577pt too wide) in paragraph at lines 29--30
  [] 
  []
 
-[74
+[79
 
  <./Figuras/cap-testes/criterio-geral-apresentacao.jpeg>]
-<./Figuras/cap-testes/criterios-gerais.jpeg, id=1459, 467.7475pt x 311.1625pt>
+<./Figuras/cap-testes/criterios-gerais.jpeg, id=1532, 467.7475pt x 311.1625pt>
 File: ./Figuras/cap-testes/criterios-gerais.jpeg Graphic file (type jpg)
 <use ./Figuras/cap-testes/criterios-gerais.jpeg>
 Package pdftex.def Info: ./Figuras/cap-testes/criterios-gerais.jpeg  used on in
-put line 37.
+put line 39.
 (pdftex.def)             Requested size: 402.26213pt x 267.59929pt.
 
-Overfull \hbox (8.19783pt too wide) in paragraph at lines 45--66
+Overfull \hbox (8.19783pt too wide) in paragraph at lines 47--68
 [][] 
  []
 
-) [75
+) [80
 
- <./Figuras/cap-testes/criterios-gerais.jpeg>] [76]
+ <./Figuras/cap-testes/criterios-gerais.jpeg>] [81]
 \openout2 = `consideracoesFinais.aux'.
 
 
-(consideracoesFinais.tex) [77
+(consideracoesFinais.tex) [82
 
 
 
 ] (Main.bbl
 bibitemlist
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
 []\T1/phv/m/n/12 DEXTRA. \T1/phv/b/n/12 Pro-to-ti-pa-ção e sua im-por-tân-cia n
 o de-sen-vol-vi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
 \T1/phv/b/n/12 mento de soft-ware\T1/phv/m/n/12 . 2019. Dis-po-ní-vel em: [][]$
 <[]https : / / dextra . com . br / pt /
  []
 
-[78
+[83
 
 
-]
+] [84]
 LaTeX Font Info:    Font shape `TS1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 206.
- [79]) 
+(Font)              scaled to size 11.39996pt on input line 291.
+ [85]) 
 AED: lastpage setting LastPage
-[80]
+[86]
 \tf@lof=\write4
 \openout4 = `Main.lof'.
 
 \tf@toc=\write5
 \openout5 = `Main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (Main.aux (pretextual.aux) (cap1.aux) (cap2.aux) (cap3.aux) (cap4.aux)
 (cap5.aux) (cap6.aux) (cap7.aux) (cap8.aux) (cap9.aux) (consideracoesFinais.aux
 ))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 178.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 183.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
- )
-(\end occurred inside a group at level 2)
-
-### simple group (level 2) entered at line 60 ({)
-### simple group (level 1) entered at line 44 ({)
-### bottom level 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
+ ) 
 Here is how much of TeX's memory you used:
- 20527 strings out of 481556
- 323204 string characters out of 2913869
- 894107 words of memory out of 3000000
- 34393 multiletter control sequences out of 15000+200000
- 593481 words of font info for 85 fonts, out of 3000000 for 9000
+ 20619 strings out of 481556
+ 325721 string characters out of 2913869
+ 897449 words of memory out of 3000000
+ 34472 multiletter control sequences out of 15000+200000
+ 599101 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,16n,55p,6785b,3070s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
-ps/lm/lm-ts1.enc}{C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
-ips/lm/lm-ec.enc}{C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
-ips/base/8r.enc}<C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmtk10.pfb><C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmtt10.pfb><C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/urw/helvetic/uhvb8a.pfb><C:/Users/marci/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/marci/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Main.pdf (81 pages, 9752761 bytes).
+ 49i,16n,55p,6785b,2921s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.e
+nc}{C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
+nc}{C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
+c}<C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtk1
+0.pfb><C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
+mtt10.pfb><C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/hel
+vetic/uhvb8a.pfb><C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/helvetic/uhvr8a.pfb><C:/Users/marci/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Main.pdf (87 pages, 9808171 bytes).
 PDF statistics:
- 1985 PDF objects out of 2073 (max. 8388607)
- 842 named destinations out of 1000 (max. 500000)
- 971 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2060 PDF objects out of 2073 (max. 8388607)
+ 850 named destinations out of 1000 (max. 500000)
+ 960 words of extra memory for PDF output out of 10000 (max. 10000000)
 

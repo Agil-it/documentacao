@@ -3,7 +3,7 @@
 Nessa etapa, o sistema codificado a partir da descrição computacional das fases de projeto, como visto nos capítulos anteriores, conta com três aplicações: WEB, Mobile e Servidor. As aplicações foram desenvolvidas ao longo de três semestres no qual disponibilizou-se períodos de implementação e apresentação aos envolvidos, sendo estes a Faculdade de Tecnologia Senai e a Indústria Duas Rodas com o objetivo de alinhar o desenvolvimento e as expectativas do software em relação ao processo de manutenção executado atualmente.
 
 \section{Tecnologias}
-Para o desenvolvimento do sistemas, foram divididas em três aplicações: uma visando a parte WEB, outra visando dispositivos móveis com os sistemas Android e IOS e para efetuar a comunicação entre os sistemas e o banco dados, foi elaborado uma aplicação de servidor cujo valida as requisições e efetua a comunicação entre as aplicações visíveis e o banco de dados.
+Para o desenvolvimento do sistema, foram divididas em três aplicações: uma visando a parte WEB, outra visando dispositivos móveis com os sistemas Android e IOS e para efetuar a comunicação entre os sistemas e o banco dados, foi elaborado uma aplicação de servidor cujo valida as requisições e efetua a comunicação entre as aplicações visíveis e o banco de dados.
 
 \subsection{Aplicação WEB}
 
@@ -420,7 +420,7 @@ private validateOrder(order, password) : boolean{
 \end{lstlisting}
 
 \subsubsection{Dados Armazenados no Local Storage}
-Algumas informações por exemplo como usuário e token de acesso devem ficar salvas em memória para posteriormente serem utilizadas novamente, com isso desenvolvemos a classe chamada \textit{AgilitStorageUtils.ts} contendo regras, limpezas específicas dos dados e separação dos tipos de dados que estão sendo armazenados e buscados.
+Algumas informações, por exemplo, usuário e token de acesso devem ficar salvas em memória para posteriormente serem utilizadas novamente, com isso desenvolvemos a classe chamada \textit{AgilitStorageUtils.ts} contendo regras, limpezas específicas dos dados e separação dos tipos de dados que estão sendo armazenados e buscados.
 
 O código \ref{AgilitStorageTypes} mostra os tipos de dados armazenados.
 \begin{lstlisting}[language=JavaScript, caption={Tipos de dados armazenados}, label={AgilitStorageTypes}]
@@ -558,7 +558,7 @@ export class InstallationArea extends CrudClass {
 }
 \end{lstlisting}
 
-A \textit{TypeOrm} tenta fazer a relação automaticamente pelo nome dos campos, porém, se for uma relação mais complexa é possível usar o \textit{decorator JoinColumn} para definir qual coluna se relaciona com qual coluna e explicitar em qual das tabelas deve ficar a \textit{foreign key}, conforme mostrado no código \ref{model-maintenance-worker}.
+A \textit{TypeOrm} tenta fazer a relação automaticamente pelo nome dos campos, porém, se for uma relação mais complexa é possível usar o \textit{decorator JoinColumn} para definir qual coluna da tabela A se relaciona com qual coluna da tabela B e explicitar em qual das tabelas deve ficar a \textit{foreign key}, conforme mostrado no código \ref{model-maintenance-worker}.
 
 \begin{lstlisting}[language=JavaScript, caption={Mapeamento de propriedades da tabela maintenance\_worker}, label={model-maintenance-worker}]
 @Entity('maintenance_worker')
@@ -672,7 +672,7 @@ export class CrudController<Entity> {
 	}
 \end{lstlisting}
 
-Todas as rotas são protegidas, com exceção da rota de login. Essa proteção é feita através de um \textit{middleware} colocado ao registrar a rota no \textit{express}, esse \textit{middleware} vai capturar os cabeçalhos \textit{token} para autenticação de sessão e \textit{authorization} para usuários de integração, caso nenhum dos cabeçalhos seja fornecido a API irá retornar o status ``401 - Unauthorized''. Caso seja passado o cabeçalho \textit{authorization} o \textit{middleware} irá verificar se o \textit{token} é válido e se está na base de dados de usuários de integração. Se passado \textit{token}, o sistema irá decompor e validar o \textit{token} utilizando a biblioteca \textit{jsonwebtoken}, Caso a validação do \textit{JWT} informado falhe, seja por não estar com a assinatura válida da aplicação ou por ter expirado o tempo da utilização, retorna um erro para a API informando que o \textit{token} não é válido. Caso a validação passe, o \textit{token} é regerado com expiração renovada para 5 horas e é adicionado ao cabeçalho da resposta. Lembrando que, o \textit{token} pode ser obtido através da rota de Login.
+Todas as rotas são protegidas, com exceção da rota de login. Essa proteção é feita através de um \textit{middleware} colocado ao registrar a rota no \textit{express}, esse \textit{middleware} vai capturar os cabeçalhos \textit{token} para autenticação de sessão e \textit{authorization} para usuários de integração, caso nenhum dos cabeçalhos seja fornecido a API irá retornar o status ``401 - Unauthorized''. Caso seja passado o cabeçalho \textit{authorization} o \textit{middleware} irá verificar se o \textit{token} é válido e se está na base de dados de usuários de integração. Se passado \textit{token}, o sistema irá decompor e validar o \textit{token} utilizando a biblioteca \textit{jsonwebtoken}, caso a validação do \textit{JWT} informado falhe, seja por não estar com a assinatura válida da aplicação ou por ter expirado o tempo da utilização, retorna um erro para a API informando que o \textit{token} não é válido. Caso a validação passe, o \textit{token} é regerado com expiração renovada para 5 horas e é adicionado ao cabeçalho da resposta. Lembrando que, o \textit{token} pode ser obtido através da rota de Login.
 
 O código \ref{middleware-check-jwt} demonstra a validação de usuário e \textit{token} feita pelo \textit{middleware} da API.
 \begin{lstlisting}[language=JavaScript, caption={Função para validação de autenticação da API}, label={middleware-check-jwt}]
@@ -721,7 +721,7 @@ export const checkJwt = (request: Request, response: Response, next: NextFunctio
 
 \subsubsection{Estratégia de Exclusão de Dados}
 
-A estratégia para exclusão de dados adotado no projeto é não deletar os registros mas alterar a coluna \textit{deleted} para \textit{true}. Desta maneira é possível rapidamente desfazer uma exclusão errada e também não ocorrerá problemas com histórico caso as entidades sejam deletadas.
+A estratégia para exclusão de dados adotado no projeto é não deletar os registros, mas alterar a coluna \textit{deleted} para \textit{true}. Desta maneira é possível rapidamente desfazer uma exclusão errada e também não ocorrerá problemas com histórico caso as entidades sejam deletadas.
 
 Código \ref{remove-entity} mostra lógica executada durante a ``exclusão'' de um registro.
 \begin{lstlisting}[language=JavaScript, caption={Método para exclusão de registro}, label={remove-entity}]

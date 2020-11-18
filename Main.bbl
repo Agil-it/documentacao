@@ -45,10 +45,28 @@ ISBN 9788532656100. Dispon{\'\i}vel em:
   Proceedings of the XIV Brazilian Symposium on Multimedia and the Web}.
   [S.l.], 2008. p. 241--246.}
 
+\bibitem[Cruz 2013]{cruz2013scrum}
+\abntrefinfo{Cruz}{CRUZ}{2013}
+{CRUZ, F. \textbf{Scrum e PMBOK unidos no Gerenciamento de Projetos}. [S.l.]:
+  Brasport, 2013.}
+
+\bibitem[Cunha 2018]{cunha2018entendendo}
+\abntrefinfo{Cunha}{CUNHA}{2018}
+{CUNHA, M.~B. Entendendo o uso do git em equipes de desenvolvimento de
+  software.
+2018.}
+
 \bibitem[Cybis 2003]{cybis2003engenharia}
 \abntrefinfo{Cybis}{CYBIS}{2003}
 {CYBIS, W. d.~A. Engenharia de usabilidade: uma abordagem ergon{\^o}mica.
 \textbf{Florian{\'o}polis: Labiutil}, 2003.}
+
+\bibitem[Dantas, Cordula e Ara{\'u}jo 2016]{dantas2016analise}
+\abntrefinfo{Dantas, Cordula e Ara{\'u}jo}{DANTAS}{2016}
+{DANTAS, C.~M.; CORDULA, F.~R.; ARA{\'U}JO, W.~J. An{\'a}lise da
+  representa{\c{c}}{\~a}o da informa{\c{c}}{\~a}o em modelos entidade
+  relacionamento com base em metadados.
+\textbf{Archeion Online, Jo{\~a}o Pessoa}, v.~4, n.~1, p. 40--63, 2016.}
 
 \bibitem[Dextra 2019]{dextra2013prototipacao}
 \abntrefinfo{Dextra}{DEXTRA}{2019}
@@ -56,6 +74,18 @@ ISBN 9788532656100. Dispon{\'\i}vel em:
   software}. 2019.
 Dispon{\'\i}vel em:
   \url{https://dextra.com.br/pt/prototipacao-e-sua-importancia-no-desenvolvimento-de-software/}.}
+
+\bibitem[Fayyaz e Munir 2014]{fayyaz2014performance}
+\abntrefinfo{Fayyaz e Munir}{FAYYAZ; MUNIR}{2014}
+{FAYYAZ, A.~R.; MUNIR, M. \textbf{Performance Evaluation of PHP Frameworks
+  (CakePHP and CodeIgniter) in relation to the Object-Relational Mapping, with
+  respect to Load Testing}. 2014.}
+
+\bibitem[Filho 2017]{ribeiro2017definiccao}
+\abntrefinfo{Filho}{FILHO}{2017}
+{FILHO, J. R. Defini{\c{c}}{\~a}o e implanta{\c{c}}{\~a}o de kpis para auxiliar
+  a gest{\~a}o de uma empresa de softwares.
+Universidade Federal de Uberl{\^a}ndia, 2017.}
 
 \bibitem[Filho 2003]{de2003engenharia}
 \abntrefinfo{Filho}{FILHO}{2003}
@@ -75,6 +105,14 @@ Universidade Federal de S{\~a}o Carlos, 2018.}
 \bibitem[Gasques 2002]{pejeronimo2002}
 \abntrefinfo{Gasques}{GASQUES}{2002}
 {GASQUES, J. \textbf{O desafio do dízimo}. [S.l.: s.n.], 2002.}
+
+\bibitem[Gon{\c{c}}alves 2009]{gonccalves2009usabilidade}
+\abntrefinfo{Gon{\c{c}}alves}{GON{\c{C}}ALVES}{2009}
+{GON{\c{C}}ALVES, M.~K. Usabilidade de software: estudo de
+  recomenda{\c{c}}{\~o}es b{\'a}sicas para verifica{\c{c}}{\~a}o do n{\'\i}vel
+  de conhecimento dos alunos dos cursos de design gr{\'a}fico e sistemas de
+  informa{\c{c}}{\~a}o da unesp/bauru.
+Universidade Estadual Paulista (UNESP), 2009.}
 
 \bibitem[Haufe 2001]{Maria_Isabel_2001}
 \abntrefinfo{Haufe}{HAUFE}{2001}
@@ -96,6 +134,13 @@ Universidade Federal de S{\~a}o Carlos, 2018.}
 ISBN 9781628255270. Dispon{\'\i}vel em:
   \url{https://books.google.com.br/books?id=fOlfDwAAQBAJ}.}
 
+\bibitem[Johnson 2001]{johnson2001cultura}
+\abntrefinfo{Johnson}{JOHNSON}{2001}
+{JOHNSON, S. \textbf{Cultura da Interface: Como o computador transforma nossa
+  maneira de criar e comunicar}. Zahar, 2001.  (Interface).
+ISBN 9788537810613. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=-9sAwQEACAAJ}.}
+
 \bibitem[Kerzner 2017]{kerzner2017}
 \abntrefinfo{Kerzner}{KERZNER}{2017}
 {KERZNER, H. \textbf{Project Management: A Systems Approach to Planning,
@@ -110,6 +155,13 @@ ISBN 9781119165378. Dispon{\'\i}vel em:
   Berlin, Heidelberg: Springer Berlin Heidelberg, 1998. p. 188--194.
 ISBN 978-3-540-69687-2.}
 
+\bibitem[Konnorate, Iankoski, Andrade e Moreira 2019]{konnorate2019importancia}
+\abntrefinfo{Konnorate, Iankoski, Andrade e Moreira}{KONNORATE}{2019}
+{KONNORATE, G.~C. et al. A importancia do controle de vers{\~o}es no
+  desenvolvimento de software.
+\textbf{Semin{\'a}rio De Tecnologia Gest{\~a}o E Educa{\c{c}}{\~a}o}, v.~1,
+  n.~2, p.~1--4, 2019.}
+
 \bibitem[Martins 2007]{cordeiro2007}
 \abntrefinfo{Martins}{MARTINS}{2007}
 {MARTINS, J. C.~C. \textbf{Técnicas para gerenciamento de projetos de
@@ -118,6 +170,13 @@ ISBN 978-3-540-69687-2.}
 \bibitem[MATTIOLI 2020]{MATTIOLI2020}
 \abntrefinfo{MATTIOLI}{MATTIOLI}{2020}
 {MATTIOLI, A. \textbf{Sistemas computacionais.} [S.l.]: Editora Pearson, 2020.}
+
+\bibitem[Michalsky 2012]{michalsky2012componentes}
+\abntrefinfo{Michalsky}{MICHALSKY}{2012}
+{MICHALSKY, S. Componentes de software no desenvolvimento de
+  aplica{\c{c}}{\~o}es colaborativas para web: Evolu{\c{c}}{\~a}o da plataforma
+  groupware workbench.
+\textbf{IME-USP. S{\~a}o Paulo}, 2012.}
 
 \bibitem[Moura 2018]{Ralf_Teresa_Erica2018}
 \abntrefinfo{Moura}{MOURA}{2018}
@@ -132,6 +191,20 @@ ISBN 978-3-540-69687-2.}
   um Instituto Federal de Educa{\c{c}}{\~a}o, Ci{\^e}ncia e Tecnologia}.
 85~p. Monografia (Mestrado) --- Universidade Federal de Pernambuco, Pernanbuco,
   2017.}
+
+\bibitem[Naz{\'a}rio, Guerra, Bonif{\'a}cio e Pinto 2019]{nazario2019detecting}
+\abntrefinfo{Naz{\'a}rio, Guerra, Bonif{\'a}cio e Pinto}{NAZ{\'A}RIO}{2019}
+{NAZ{\'A}RIO, M. F.~C. et al. Detecting and reporting object-relational mapping
+  problems: An industrial report. In:  IEEE. \textbf{2019 ACM/IEEE
+  International Symposium on Empirical Software Engineering and Measurement
+  (ESEM)}. [S.l.], 2019. p.~1--6.}
+
+\bibitem[Noguera 2018]{noguera2018extensao}
+\abntrefinfo{Noguera}{NOGUERA}{2018}
+{NOGUERA, V. E.~R. et al. Extens{\~a}o de uma {\'a}lgebra er para
+  execu{\c{c}}{\~a}o de consultas em bancos de dados nosql orientados a
+  documentos.
+Universidade Federal de S{\~a}o Carlos, 2018.}
 
 \bibitem[P{\'a}dua 2001]{2001SilviaInes}
 \abntrefinfo{P{\'a}dua}{P{\'A}DUA}{2001}
@@ -200,12 +273,31 @@ Dispon{\'\i}vel em:
   gest{\~a}o do conhecimento.
 2006.}
 
+\bibitem[Sabbagh 2014]{sabbagh2014scrum}
+\abntrefinfo{Sabbagh}{SABBAGH}{2014}
+{SABBAGH, R. \textbf{Scrum: Gest{\~a}o {\'a}gil para projetos de sucesso}.
+  [S.l.]: Editora Casa do C{\'o}digo, 2014.}
+
+\bibitem[Santos e Balancieri 2017]{santos2017planos}
+\abntrefinfo{Santos e Balancieri}{SANTOS; BALANCIERI}{2017}
+{SANTOS, M.~A. dos; BALANCIERI, R. Planos de a{\c{c}}{\~a}o para melhoria do
+  processo de produ{\c{c}}{\~a}o de software com desenvolvimento
+  distribu{\'\i}do.
+\textbf{Trabalhos de Conclus{\~a}o de Curso do DEP}, 2017.}
+
 \bibitem[Schmitz e Alencar 2012]{schmitzanalise}
 \abntrefinfo{Schmitz e Alencar}{SCHMITZ; ALENCAR}{2012}
 {SCHMITZ, E.; ALENCAR, A. \textbf{An{\'a}lise de Risco em Ger{\^e}ncia de
   Projetos - 3{\textordfeminine} Edi{\c{c}}{\~a}o}. BRASPORT, 2012.
 ISBN 9788574525426. Dispon{\'\i}vel em:
   \url{https://books.google.com.br/books?id=ubZ7YHtWZ08C}.}
+
+\bibitem[Selner 1999]{selner1999analise}
+\abntrefinfo{Selner}{SELNER}{1999}
+{SELNER, C. et al. An{\'a}lise de requisitos para sistemas de
+  informa{\c{c}}{\~o}es, utilizando as ferramentas da qualidade e processos de
+  software.
+Florian{\'o}polis, SC, 1999.}
 
 \bibitem[Silva 2018]{silva2018sasml}
 \abntrefinfo{Silva}{SILVA}{2018}
@@ -233,11 +325,34 @@ Dispon{\'\i}vel em: \url{http://softbyte.com.br}.}
 ISBN 9788577807642. Dispon{\'\i}vel em:
   \url{https://books.google.com.br/books?id=d8uCfC46hwsC}.}
 
+\bibitem[Sommerville 2011]{sommerville2011software}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2011}
+{SOMMERVILLE, I. \textbf{Software Engineering}. Pearson Education, 2011.
+ISBN 9780133001495. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=fSYrAAAAQBAJ}.}
+
+\bibitem[Souza, Monteiro e Almeida 2017]{souzagerenciamento}
+\abntrefinfo{Souza, Monteiro e Almeida}{SOUZA}{2017}
+{SOUZA, A. R.~R.; MONTEIRO, L.~A.; ALMEIDA, W. H.~C. Gerenciamento de projetos
+  {\'a}gil na pr{\'a}tica: Processos e ferramentas para apoio a gest{\~a}o.
+2017.}
+
+\bibitem[Souza 2017]{souza2017desenvolvimento}
+\abntrefinfo{Souza}{SOUZA}{2017}
+{SOUZA, L. F.~d. et al. Desenvolvimento de sistema de informa{\c{c}}{\~a}o para
+  monitoramento da esclerose m{\'u}ltipla.
+Universidade Federal da Para{\'\i}ba, 2017.}
+
 \bibitem[STAIR 2008]{STAIR2008}
 \abntrefinfo{STAIR}{STAIR}{2008}
 {STAIR, R.~M. Princ{\'i}pios de sistemas de informa{\c{c}}{\~a}o: uma abordagem
   gerencial.
 2008.}
+
+\bibitem[Sutherland 2016]{sutherland2016scrum}
+\abntrefinfo{Sutherland}{SUTHERLAND}{2016}
+{SUTHERLAND, J. \textbf{Scrum: a arte de fazer o dobro do trabalho na metade do
+  tempo}. [S.l.]: Leya, 2016.}
 
 \bibitem[Toronto 2005]{IIBA2005}
 \abntrefinfo{Toronto}{TORONTO}{2005}

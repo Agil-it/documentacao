@@ -20,7 +20,7 @@ Utilizando as tecnologias Ionic 4\footnote{\url{https://ionicframework.com/}} e 
 
 {\textbf{TypeScript} - TypeScript é um superconjunto de JavaScript desenvolvido pela Microsoft que adiciona tipagem e alguns outros recursos a linguagem. É utilizada somente pelos desenvolvedores, pois auxilia na construção do código fonte. Seu código é transpilado para JavaScript, no final das contas tudo escrito em TypeScript vira JavaScript.}
 
-{\textbf{Ionic 4} - O Ionic é um framework open source para desenvolvimento de aplicativos móveis multiplataforma.}
+{\textbf{Ionic 4} - O Ionic é um \textit{framework} de código aberto para desenvolvimento de aplicativos móveis multiplataforma.}
 
 \subsection{Aplicação do Servidor}
 A aplicação do servidor é o canal centralizador das demais plataformas. Ela tem acesso único e exclusivo ao banco de dados. É responsável por todas as validações e executa regras de negócio.
@@ -74,7 +74,7 @@ export class C_Icon extends React.Component {
 Ao efetuar o login na plataforma, as informações do usuário, exceto sua senha, são armazenadas nos \textit{cookies} através da biblioteca \textit{universal-cookie} e são manipuladas para ocultar telas de determinados usuários de acordo com o seu perfil ou exibir alguma tela adicional de controle e análise, caso o perfil logado seja de um administrador. Outro exemplo seria impedir/permitir que tal usuário possa executar determinada ação ocultando elementos na tela de acordo com seu perfil.
 Com isso, o controle de informações e ações que o sistema oferece se torna muito mais fácil.
 
-Após cada requisição feita ao servidor, o mesmo retorna um novo \textit{token} renovado e então atualiza-se o token e usuário do \textit{cookie}.
+Após cada requisição feita ao servidor, o mesmo retorna um novo \textit{token} renovado e então atualiza-se o \textit{token} e usuário do \textit{cookie}.
 Conforme demonstrado no código \ref{storage-cookie-data}
 
 \begin{lstlisting}[language=JavaScript, caption={Gravar dados no cookie}, label={storage-cookie-data}]
@@ -109,9 +109,9 @@ class App extends Component {
 \end{lstlisting}
 
 \subsubsection{Helpers}
-Com o objetivo de agilizar o desenvolvimento do projeto, foram implementadas diversas classes de ajuda como \textit{DateHelper.js}, \textit{MaintenanceOrderHelpers.js}, \textit{SearchModel.js}.
+Com o objetivo de agilizar o desenvolvimento do projeto, foram implementadas diversas classes de ajuda como \textit{DateHelper}, \textit{MaintenanceOrderHelpers} e \textit{SearchModel}.
 
-\textit{DateHelper} é responsável por manipular e retornar as datas no formato desejado, possui funções que podem ser chamadas em qualquer classe para auxiliar o time de desenvolvimento no ganho de tempo. Como trabalhar com data é trabalhoso, segue um exemplo de como deixar um pouco mais simples, como pode-se ver no código \ref{date-helper}.
+\textit{DateHelper} é responsável por manipular e retornar as datas no formato desejado, possui funções que podem ser chamadas em qualquer classe para auxiliar o time de desenvolvimento no ganho de tempo. Como manipular datas é trabalhoso, segue um exemplo de como deixar um pouco mais simples, como pode-se ver no código \ref{date-helper}.
 
 \begin{lstlisting}[language=JavaScript, caption={Função que formata a data em dia/mês/ano - horas/minutos}, label={date-helper}]
 static formatDateTime(inputDate) {
@@ -227,7 +227,7 @@ static ordenatedPriority() {
 }
 \end{lstlisting}
 
-O \textit{SearchModel.js} contém funções pré-configuradas das colunas que serão exibidas nas telas de crud afim de uma melhor visualização e organização dos dados exibidos.
+O \textit{SearchModel} contém funções pré-configuradas das colunas que serão exibidas nas telas de CRUD afim de uma melhor visualização e organização dos dados exibidos.
 A configuração é composta por um \textit{array} de objetos que possui três propriedades: \textit{name}, \textit{property} e \textit{defaultValue}.
 A propriedade \textit{name} será o cabeçalho da coluna da tabela, \textit{property} é a propriedade da listagem que será renderizado na coluna e \textit{defaultValue} é o valor que será apresentado caso não haja dados para a \textit{property} na listagem.
 
@@ -288,7 +288,7 @@ class CreateMachine extends Component {
 }
 \end{lstlisting}
 
-Ao obter as colunas em um State, os dados são enviados ao nosso componente \textit{C{\_}AutoComplete} que possui um ícone de lupa onde o usuário pode clicar para visualizar todos os equipamentos cadastrados, conforme visto no código \ref{search-model-auto-complete}.
+Ao obter as colunas em um \textit{state}, os dados são enviados ao componente \textit{C{\_}AutoComplete} que possui um ícone de lupa no qual o usuário pode clicar para visualizar todos os equipamentos cadastrados, conforme visto no código \ref{search-model-auto-complete}.
 
 \begin{lstlisting}[language=JavaScript, caption={Utilizando o componente C\_AutoComplete}, label={search-model-auto-complete}]
 	<C_AutoComplete
@@ -323,9 +323,9 @@ Código \ref{auto-complete-on-click-icon} mostra a função dentro do componente
 
 \subsection{Mobile}
 \subsubsection{Ações da Ordem de Manutenção}
-A estrutura da classe \textit{AgilitActionUtils.ts} é feita com o intuito de reutilizar códigos, sendo que cada tipo de OM deve ser assinada da mesma forma que qualquer outra, mudando apenas seu atributo identificador, a seguir seguem algumas características importantes desta classe.
+A estrutura da classe \textit{AgilitActionUtils} é feita com o intuito de reutilizar códigos, sendo que cada tipo de OM deve ser assinada da mesma forma que qualquer outra, mudando apenas seu atributo identificador, a seguir seguem algumas características importantes desta classe.
 
-A primeira característica desta classe é de forma centralizada de realizar as ações de uma determinada OM, recebendo como parâmetro para qual OM deverá ser feita a ação e a ação propriamente dita, conforme mostra código \ref{order-actions}.
+A primeira característica desta classe é realizar as ações de uma determinada OM de forma centralizada, recebendo como parâmetro para qual OM deverá ser feita a ação e a ação propriamente dita, conforme mostra código \ref{order-actions}.
 
 \begin{lstlisting}[language=JavaScript, caption={Alterar situação da ordem de manutenção}, label={order-actions}]
 public async changeStatus(orderID, orderStatus : AgilitOrderStatus){    
@@ -390,10 +390,10 @@ public async signOrder(order, assignaturePassword): Promise<any>{
 }
 \end{lstlisting}
 
-Para que uma OM seja assinada com sucesso a classe deve conter as validações dos estados atuais da OM a ser assinada, por exemplo, se o usuário realizar a assinatura de uma OM com status cancelada esta implementação tem de validara a mesma.
+Para que uma OM seja assinada com sucesso a classe deve conter as validações dos estados atuais da OM a ser assinada, por exemplo, se o usuário realizar a assinatura de uma OM com status cancelada esta implementação tem de validar a mesma.
 Código \ref{order-validation} mostra a implementação de validação da ordem antes da assinatura.
 
-\begin{lstlisting}[language=JavaScript, caption={Validar estados da OM}]
+\begin{lstlisting}[language=JavaScript, caption={Validar estados da OM}, label={order-validation}]
 private validateOrder(order, password) : boolean{
 	if (password != AgilitStorageUtils.getData(AgilitStorageTypes.PASSWORD)){
 		this.rejectPromise('Senha incorreta!');
@@ -420,7 +420,7 @@ private validateOrder(order, password) : boolean{
 \end{lstlisting}
 
 \subsubsection{Dados Armazenados no Local Storage}
-Algumas informações, por exemplo, usuário e token de acesso devem ficar salvas em memória para posteriormente serem utilizadas novamente, com isso desenvolvemos a classe chamada \textit{AgilitStorageUtils.ts} contendo regras, limpezas específicas dos dados e separação dos tipos de dados que estão sendo armazenados e buscados.
+Algumas informações, por exemplo, usuário e token de acesso devem ficar salvas em memória para posteriormente serem utilizadas novamente, com isso desenvolvemos a classe chamada \textit{AgilitStorageUtils} contendo regras, limpezas específicas dos dados e separação dos tipos de dados que estão sendo armazenados e buscados.
 
 O código \ref{AgilitStorageTypes} mostra os tipos de dados armazenados.
 \begin{lstlisting}[language=JavaScript, caption={Tipos de dados armazenados}, label={AgilitStorageTypes}]
@@ -509,7 +509,7 @@ export abstract class BaseClass {
 
 Para facilitar as tabelas genéricas de CRUD, onde têm apenas os dados base e o campo de descrição, foi criado a classe abstrata \textit{crudClass}, conforme mostrado no código \ref{typeorm-crud-class}.
 
-\begin{lstlisting}[language=JavaScript, caption={CrudClass: Mapeamento de propriedades para cruds genéricos}, label={typeorm-crud-class}]
+\begin{lstlisting}[language=JavaScript, caption={CrudClass: Mapeamento de propriedades para CRUDs genéricos}, label={typeorm-crud-class}]
 export abstract class CrudClass extends BaseClass {
 
 	@Column({nullable: false})
@@ -539,7 +539,7 @@ export class Sector extends CrudClass {
 
 No primeiro parâmetro da injeção \textit{Entity} define-se o nome da tabela, e como a classe \textit{Sector} estende a classe \textit{CrudClass} que estende, subsequentemente a classe \textit{BaseClass} a tabela terá todas as colunas definidas nas injeções de dependências mostradas anteriormente.
 
-Para fazer relações entre as tabelas existem alguns \textit{decorators} específicos: \textit{ManyToOne} para relações muito para um, \textit{ManyToMany} para relações muitos para muitos, \textit{OneToOne} para relações um para um e \textit{OneToMany} para relações um para muitos.
+Para fazer relações entre as tabelas existem alguns \textit{decorators} específicos: \textit{ManyToOne} para relações muitos para um, \textit{ManyToMany} para relações muitos para muitos, \textit{OneToOne} para relações um para um e \textit{OneToMany} para relações um para muitos.
 
 O código \ref{model-installation-area} mostra a definição da relação \textit{ManyToOne}.
 
@@ -660,7 +660,7 @@ createConnection().then(async connection => {
 O roteamento é composto por várias coleções de rotas, no qual cada coleção tem um conjunto de rotas que é composto pela url que a rota responderá, os métodos que aceitará e a função que será invocada.
 Por fim, o método \textit{registerRoute} irá registrar a rota da coleção ao \textit{express}.
 Esses métodos que as rotas respondem ficam no \textit{package controller} que fazem a ponta entre receber a requisição, processar os dados recebidos e responder o que foi solicitado, seja cadastrar, atualizar, excluir ou consultar um ou mais registros.
-Da mesma forma que foi feita com os \textit{models}, foi desenvolvido \textit{CrudController}, uma classe que utiliza \textit{Generics} que para cada instancia recebe o valor da entidade do Crud e irá se adequar conforme o tipo fornecido. Essa classe também recebe no construtor o acesso ao repositório que será gravado, no caso, a tabela do banco de dados, conforme visto no código\ref{crud-controller}.
+Da mesma forma que foi feita com os \textit{models}, foi desenvolvido \textit{CrudController}, uma classe que utiliza \textit{Generics} que para cada instancia recebe o valor da entidade do CRUD e irá se adequar conforme o tipo fornecido. Essa classe também recebe no construtor o acesso ao repositório que será gravado, no caso, a tabela do banco de dados, conforme visto no código\ref{crud-controller}.
 
 \begin{lstlisting}[language=JavaScript, caption={CrudController}, label={crud-controller}]
 export class CrudController<Entity> {
@@ -672,7 +672,7 @@ export class CrudController<Entity> {
 	}
 \end{lstlisting}
 
-Todas as rotas são protegidas, com exceção da rota de login. Essa proteção é feita através de um \textit{middleware} colocado ao registrar a rota no \textit{express}, esse \textit{middleware} vai capturar os cabeçalhos \textit{token} para autenticação de sessão e \textit{authorization} para usuários de integração, caso nenhum dos cabeçalhos seja fornecido a API irá retornar o status ``401 - Unauthorized''. Caso seja passado o cabeçalho \textit{authorization} o \textit{middleware} irá verificar se o \textit{token} é válido e se está na base de dados de usuários de integração. Se passado \textit{token}, o sistema irá decompor e validar o \textit{token} utilizando a biblioteca \textit{jsonwebtoken}, caso a validação do \textit{JWT} informado falhe, seja por não estar com a assinatura válida da aplicação ou por ter expirado o tempo da utilização, retorna um erro para a API informando que o \textit{token} não é válido. Caso a validação passe, o \textit{token} é regerado com expiração renovada para 5 horas e é adicionado ao cabeçalho da resposta. Lembrando que, o \textit{token} pode ser obtido através da rota de Login.
+Todas as rotas são protegidas, com exceção da rota de login. Essa proteção é feita através de um \textit{middleware} colocado ao registrar a rota no \textit{express}, esse \textit{middleware} vai capturar os cabeçalhos \textit{token} para autenticação de sessão e \textit{authorization} para usuários de integração, caso nenhum dos cabeçalhos seja fornecido a API irá retornar o status ``401 - Unauthorized''. Caso seja passado o cabeçalho \textit{authorization} o \textit{middleware} irá verificar se chave informada é válida e se está na base de dados de usuários de integração. Se passado \textit{token}, o sistema irá decompor e validar o \textit{token} utilizando a biblioteca \textit{jsonwebtoken}, caso a validação do \textit{JWT} informado falhe, seja por não estar com a assinatura válida da aplicação ou por ter expirado o tempo da utilização, retorna um erro para a API informando que o \textit{token} não é válido. Caso a validação passe, o \textit{token} é regerado com expiração renovada para 5 horas e é adicionado ao cabeçalho da resposta. Lembrando que, o \textit{token} pode ser obtido pela primeira vez através da rota de Login.
 
 O código \ref{middleware-check-jwt} demonstra a validação de usuário e \textit{token} feita pelo \textit{middleware} da API.
 \begin{lstlisting}[language=JavaScript, caption={Função para validação de autenticação da API}, label={middleware-check-jwt}]
